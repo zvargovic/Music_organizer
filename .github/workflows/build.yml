@@ -1,4 +1,4 @@
-name: Build Multi-Arch Docker Image
+name: Build Essentia Docker Image (amd64)
 
 on:
   push:
@@ -15,6 +15,8 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v3
 
+      # QEMU ti više realno ne treba jer radimo samo amd64,
+      # ali može i ostati, neće smetati. Ostavio sam ga radi jednostavnosti.
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
@@ -27,11 +29,11 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push multi-arch image
+      - name: Build and push Essentia image (amd64)
         uses: docker/build-push-action@v5
         with:
           context: ./docker
-          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          platforms: linux/amd64
           push: true
           tags: |
             khlm/zmusic-base:dev
