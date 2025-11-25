@@ -29,7 +29,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # === ESSENTIA: build iz source-a, full + Python bindings + modeli ===
-RUN git clone --depth 1 https://github.com/MTG/essentia.git /tmp/essentia && \
+RUN git clone --depth 1 https://github.com/MTG/essentia /tmp/essentia && \
     cd /tmp/essentia && \
     mkdir build && cd build && \
     cmake .. \
