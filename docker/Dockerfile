@@ -1,10 +1,11 @@
 # ČISTI MULTI-ARCH DEBIAN BASE IMAGE
 FROM debian:12-slim
 
-# Bez interaktivnih dialoga
-ENV DEBIAN_FRONTEND=noninteractive
-ENV PIP_NO_CACHE_DIR=1
-ENV PYTHONUNBUFFERED=1
+# Bez interaktivnih dialoga + dozvoli pipu da dira system packages
+ENV DEBIAN_FRONTEND=noninteractive \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_BREAK_SYSTEM_PACKAGES=1
 
 # OS paketi (Python, ffmpeg, git, curl...)
 RUN apt-get update && \
@@ -16,9 +17,9 @@ RUN apt-get update && \
         ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Pip upgrade + spotDL
-RUN pip3 install --upgrade pip && \
-    pip3 install spotdl
+# Pip upgrade + spotDL (sad radi jer je PIP_BREAK_SYSTEM_PACKAGES=1)
+RUN python3 -m pip install --upgrade pip && \
+    python3 -m pip install spotdl
 
 # Non-root user i radni direktorij
 RUN useradd -m appuser
