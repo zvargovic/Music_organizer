@@ -15,7 +15,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       - name: Build Docker image (amd64)
         run: |
           cd docker
           docker build --platform=linux/amd64 -t z-music-dev .
+
+      - name: Save image to tar
+        run: |
+          docker save z-music-dev -o z-music-dev.tar
+
+      - name: Upload image artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: z-music-dev-image
+          path: z-music-dev.tar
+          retention-days: 7
