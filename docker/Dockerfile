@@ -1,6 +1,6 @@
-FROM mtgupf/essentia:latest
+FROM mtgupf/essentia-extractor:latest
 
-# Tools
+# System tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ffmpeg \
     git \
@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Python deps
-RUN pip install --no-cache-dir \
+RUN pip3 install --no-cache-dir \
     torch \
     musicnn \
     librosa \
