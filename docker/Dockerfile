@@ -95,11 +95,7 @@ RUN ./waf configure \
         --with-python \
         --with-examples \
         --with-vamp \
-        --with-avcodec=no \
-        --with-avformat=no \
-        --with-swresample=no \
-        --with-avdevice=no \
-        --with-videotools=no \
+        --lightweight=libav \
     && ./waf \
     && ./waf install \
     && ldconfig
