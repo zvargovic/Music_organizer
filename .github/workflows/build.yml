@@ -1,10 +1,10 @@
-name: Build Essentia Docker Image (amd64)
+name: Build Debian Docker image (Essentia + MusicNN)
 
 on:
   push:
     paths:
-      - 'docker/**'
-      - '.github/workflows/build.yml'
+      - 'docker/Dockerfile'
+      - '.github/workflows/build-docker.yml'
   workflow_dispatch:
 
 jobs:
@@ -12,29 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      # QEMU ti više realno ne treba jer radimo samo amd64,
-      # ali može i ostati, neće smetati. Ostavio sam ga radi jednostavnosti.
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      - name: Build and push Essentia image (amd64)
-        uses: docker/build-push-action@v5
-        with:
-          context: ./docker
-          platforms: linux/amd64
-          push: true
-          tags: |
-            khlm/zmusic-base:dev
-            khlm/zmusic-base:latest
+      - name: Build Docker image (amd64)
+        run: |
+          cd docker
+          docker build --platform=linux/amd64 -t z-music-dev .
