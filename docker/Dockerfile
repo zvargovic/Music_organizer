@@ -1,6 +1,15 @@
-FROM mtgupf/essentia-extractor:latest
+# =====================================================================
+# Z-MUSIC-ORGANIZER – Essentia + musicnn + Torch (bazirano na MTG imageu)
+# =====================================================================
 
-# System tools
+FROM ghcr.io/mtg/essentia:ubuntu20.04-v2.1_beta5
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    LC_ALL=C.UTF-8 \
+    LANG=C.UTF-8 \
+    PYTHONUNBUFFERED=1
+
+# 1) System tools (po potrebi ćeš ovdje dodavati još)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ffmpeg \
     git \
@@ -8,8 +17,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
-# Python deps
-RUN pip3 install --no-cache-dir \
+# 2) Python paketi: Torch CPU + musicnn + znanstveni stack
+RUN python3 -m pip install --no-cache-dir \
     torch \
     musicnn \
     librosa \
@@ -18,6 +27,7 @@ RUN pip3 install --no-cache-dir \
     pandas \
     matplotlib
 
+# 3) Radni direktorij
 WORKDIR /workspace
 
 CMD ["/bin/bash"]
