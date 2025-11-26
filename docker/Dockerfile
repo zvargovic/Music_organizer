@@ -29,6 +29,7 @@ RUN apt-get update \
         python3-numpy \
         python3-yaml \
         python3-six \
+        python-is-python3 \
         # math / lapack / blas
         liblapack-dev \
         libblas-dev \
