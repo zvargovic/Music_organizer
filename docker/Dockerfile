@@ -43,9 +43,6 @@ RUN pip install --no-cache-dir \
     && pip install --no-cache-dir \
         musicnn
 
-# ---------------------------------------------------------------------------
-# 4) Self-test
-# ---------------------------------------------------------------------------
 RUN python3 - << 'EOF'
 import essentia
 import torch
