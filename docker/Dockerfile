@@ -93,9 +93,13 @@ WORKDIR /opt/essentia
 RUN ./waf configure \
         --mode=release \
         --with-python \
-        --with-cpptests \
         --with-examples \
         --with-vamp \
+        --with-avcodec=no \
+        --with-avformat=no \
+        --with-swresample=no \
+        --with-avdevice=no \
+        --with-videotools=no \
     && ./waf \
     && ./waf install \
     && ldconfig
