@@ -3,7 +3,7 @@
 # Debian + Miniconda + Essentia (prebuilt) + musicnn
 # ============================================================================
 
-FROM continuumio/miniconda3:24.5.0
+FROM continuumio/miniconda3:4.12.0
 
 ENV DEBIAN_FRONTEND=noninteractive \
     LC_ALL=C.UTF-8 \
