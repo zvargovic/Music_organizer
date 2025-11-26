@@ -65,16 +65,20 @@ RUN apt-get update \
 # ---------------------------------------------------------------------
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
+# Moderni znanstveni stack + librosa
 RUN pip install --no-cache-dir \
         numpy \
         scipy \
         pandas \
         matplotlib \
-        librosa \
-    && pip install --no-cache-dir \
-        --index-url https://download.pytorch.org/whl/cpu torch \
-    && pip install --no-cache-dir \
-        musicnn
+        librosa
+
+# Torch CPU iz službenog repoa
+RUN pip install --no-cache-dir \
+        --index-url https://download.pytorch.org/whl/cpu torch
+
+# musicnn bez provjere njegovih zastarjelih dependencija (numpy<1.17)
+RUN pip install --no-cache-dir --no-deps musicnn
 
 # ---------------------------------------------------------------------
 # 3) Essentia build (full, s Python bindingima)
