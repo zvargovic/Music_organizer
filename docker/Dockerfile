@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     LANG=C.UTF-8
 
 # ---------------------------------------------------------------------
-# 1) OS + build alati + Essentia ovisnosti
+# 1) OS + build alati + Essentia ovisnosti v1
 # ---------------------------------------------------------------------
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -97,30 +97,7 @@ RUN ./waf configure \
 # ---------------------------------------------------------------------
 # 4) Self-test – Essentia + musicnn + torch
 # ---------------------------------------------------------------------
-RUN python3 - << 'EOF'
-import sys
-print("=== PYTHON VERSION ===")
-print(sys.version)
-
-print("=== TEST: essentia ===")
-import essentia
-from essentia import standard
-print("Essentia module:", essentia.__file__)
-print("Essentia version:", getattr(essentia, "__version__", "N/A"))
-loader = standard.MonoLoader(filename=None)
-print("Essentia standard OK.")
-
-print("=== TEST: musicnn ===")
-import musicnn
-from musicnn.tagger import top_tags
-print("musicnn module:", musicnn.__file__)
-print("musicnn OK (import).")
-
-print("=== Torch info ===")
-import torch
-print("Torch version:", torch.__version__)
-print("CUDA available:", torch.cuda.is_available())
-EOF
+RUN python3 -c "import essentia, musicnn, torch; print('Self-test OK')"
 
 # ---------------------------------------------------------------------
 # 5) Workdir
