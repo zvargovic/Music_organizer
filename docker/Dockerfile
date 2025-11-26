@@ -1,5 +1,5 @@
 # =====================================================================
-# Z-MUSIC-ORGANIZER – Essentia + musicnn + Torch (bazirano na MTG imageu)
+# Z-MUSIC-ORGANIZER – Essentia + musicnn + Torch (MTG base image)
 # =====================================================================
 
 FROM ghcr.io/mtg/essentia:ubuntu20.04-v2.1_beta5
@@ -9,8 +9,11 @@ ENV DEBIAN_FRONTEND=noninteractive \
     LANG=C.UTF-8 \
     PYTHONUNBUFFERED=1
 
-# 1) System tools (po potrebi ćeš ovdje dodavati još)
+# 1) System tools + pip
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3-pip \
+    python3-setuptools \
+    python3-wheel \
     ffmpeg \
     git \
     curl \
@@ -18,7 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # 2) Python paketi: Torch CPU + musicnn + znanstveni stack
-RUN python3 -m pip install --no-cache-dir \
+RUN pip3 install --no-cache-dir \
     torch \
     musicnn \
     librosa \
