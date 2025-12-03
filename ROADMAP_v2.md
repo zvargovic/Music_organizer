@@ -9,11 +9,11 @@ Sve stavke su podijeljene po verzijama i modulima.
 # ✅ v1.0.0 — Osnovni Pipeline (MVP)
 
 ## 1. Baza i konfiguracija
-- [ ] db_creator.py — kreiranje / brisanje / info baze
-- [ ] config.py — kreiranje i validacija config.json
+- [x] db_creator.py — kreiranje / info / drop / clear (03.12.2025 — DONE)
+- [x] config.py — centralne putanje za bazu i projekt (03.12.2025 — DONE)
 
 ## 2. Spotify autentikacija
-- [ ] spotify_oauth.py — login, refresh, info
+- [x] spotify_oauth.py — interaktivni wizard + login + token info (03.12.2025 — DONE)
 
 ## 3. Match modul
 - [ ] match.py — pronalaženje Spotify ID-a + meta_s JSON
@@ -67,5 +67,9 @@ Sve stavke su podijeljene po verzijama i modulima.
 
 # 📘 PROGRESS LOG
 
-## 2025-??-??  
-(ovdje se upisuju datumi i što je označeno kao DONE)
+## 2025-12-03
+- Završeno: DB Creator modul (create/info/drop/clear)
+- Završeno: config.py implementacija
+- Dodano: spotify_oauth.py (OAuth wizard, token cache, info komanda)
+- Proširen config.py za spotify_oauth.py
+- Roadmap ažuriran
