@@ -14,18 +14,110 @@ Glavni import pipeline za lokalnu kolekciju:
 
 from __future__ import annotations
 
+import datetime
+from pathlib import Path
 import argparse
 import os
 import sys
 import time
-import json
 import traceback
 import subprocess
+import sqlite3
 from dataclasses import dataclass, asdict
 from typing import Iterable, List, Optional
-import sqlite3
-from pathlib import Path
-from config import get_main_db_path
+
+
+# ---------------------------------------------------------------------------
+# ANSI boje + helperi za progres
+# ---------------------------------------------------------------------------
+
+COLOR_YELLOW  = "\033[33m"
+COLOR_MAGENTA = "\033[35m"
+COLOR_BLUE    = "\033[34m"
+COLOR_RESET   = "\033[0m"
+
+
+def format_track_label(path: Optional[str]) -> str:
+    """Vrati samo ime file-a iz cijele putanje."""
+    if not path:
+        return ""
+    try:
+        return os.path.basename(path)
+    except Exception:
+        return str(path)
+
+
+def _get_db_path_from_config() -> Path:
+    """Pokušaj izvući path baze iz modules.config; fallback na database/tracks.db."""
+    try:
+        from modules import config as cfg  # type: ignore[attr-defined]
+    except Exception:
+        return Path("database/tracks.db")
+
+    if hasattr(cfg, "DB_PATH"):
+        return Path(getattr(cfg, "DB_PATH"))
+    if hasattr(cfg, "DB_FILE"):
+        return Path(getattr(cfg, "DB_FILE"))
+    if hasattr(cfg, "get_main_db_path"):
+        try:
+            return Path(cfg.get_main_db_path())  # type: ignore[misc]
+        except Exception:
+            pass
+    return Path("database/tracks.db")
+
+
+def get_tracks_in_db() -> int:
+    """Vrati broj zapisa u tablici tracks; ako ne uspije, vrati 0."""
+    try:
+        db_path = _get_db_path_from_config()
+        conn = sqlite3.connect(str(db_path))
+        cur = conn.cursor()
+        cur.execute("SELECT COUNT(*) FROM tracks")
+        row = cur.fetchone()
+        conn.close()
+        if not row or row[0] is None:
+            return 0
+        return int(row[0])
+    except Exception:
+        return 0
+
+
+def print_progress(processed: int,
+                   total: int,
+                   tracks_in_db: int,
+                   current_path: Optional[str] = None) -> None:
+    """
+    Ispiši osnovnu statistiku + progress bar u jednoj liniji.
+
+    Primjer:
+      Obrađujem: [37/6000] Track.mp3   (žuto)
+      Zapisa u bazi: 37               (ljubičasto)
+      12% [#####...................] 100% (plavo)
+    """
+    if total <= 0:
+        return
+
+    ratio = processed / total if total else 0.0
+    if ratio < 0.0:
+        ratio = 0.0
+    if ratio > 1.0:
+        ratio = 1.0
+
+    bar_len = 35
+    filled = int(bar_len * ratio)
+    bar = "#" * filled + "." * (bar_len - filled)
+    percent = int(ratio * 100)
+
+    track_label = format_track_label(current_path)
+
+    left = f"{COLOR_YELLOW}Obrađujem: [{processed}/{total}] {track_label}{COLOR_RESET}"
+    mid  = f"{COLOR_MAGENTA}Zapisa u bazi: {tracks_in_db}{COLOR_RESET}"
+    right = f"{COLOR_BLUE}{percent:3d}% [{bar}] 100%{COLOR_RESET}"
+
+    msg = f"{left}  {mid}  {right}"
+    # \r da prepišemo istu liniju, bez scrollanja
+    sys.stderr.write("\r" + msg)
+    sys.stderr.flush()
 
 
 # ---------------------------------------------------------------------------
@@ -89,10 +181,30 @@ class Stats:
 # Utility funkcije
 # ---------------------------------------------------------------------------
 
+_IMPORT_LOG_FILE = None  # lazy-opened import log file handle
+
+
 def log(msg: str) -> None:
-    """Jednostavan log na stderr (da stdout ostane čist ako ga neko parsira)."""
-    sys.stderr.write(msg.rstrip() + "\n")
+    """Log helper: piše u stderr i u logs/import/*.log (ako je moguće)."""
+    line = msg.rstrip("\n")
+    # 1) stderr (osnovne informacije)
+    sys.stderr.write(line + "\n")
     sys.stderr.flush()
+    # 2) file log
+    global _IMPORT_LOG_FILE
+    try:
+        base_dir = Path(__file__).resolve().parent
+        log_dir = base_dir / "logs" / "import"
+        log_dir.mkdir(parents=True, exist_ok=True)
+        if _IMPORT_LOG_FILE is None:
+            ts = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+            log_file_path = log_dir / f"import_{ts}.log"
+            _IMPORT_LOG_FILE = log_file_path.open("a", encoding="utf-8")
+        _IMPORT_LOG_FILE.write(line + "\n")
+        _IMPORT_LOG_FILE.flush()
+    except Exception:
+        # Ne ruši importer zbog problema sa logom
+        pass
 
 
 def is_audio_file(path: str) -> bool:
@@ -112,6 +224,7 @@ def derive_stem(audio_path: str) -> str:
 def hidden_json_path(audio_path: str, suffix: str) -> str:
     """
     /foo/Track.flac + '.spotify.json' -> /foo/.Track.spotify.json
+
     """
     stem = derive_stem(audio_path)      # /foo/Track
     dir_, base = os.path.split(stem)    # '/foo', 'Track'
@@ -128,128 +241,26 @@ def newer_than(path_a: str, path_b: str) -> bool:
 
 
 def file_exists(path: str) -> bool:
-    return os.path.isfile(path)
-
-def get_tracks_in_db() -> int:
-    """Vrati broj zapisa u tablici tracks iz glavne baze.
-
-    Ako baza ili tablica ne postoje, vraća 0 (umjesto da ruši import).
-    """
     try:
-        db_path = get_main_db_path()
-        conn = sqlite3.connect(str(db_path))
-        try:
-            cur = conn.cursor()
-            cur.execute("SELECT COUNT(*) FROM tracks")
-            row = cur.fetchone()
-            return int(row[0]) if row and row[0] is not None else 0
-        finally:
-            conn.close()
-    except Exception:
-        return 0
-
-
-# ANSI boje za progres (plava)
-COLOR_BLUE = "\033[34m"
-COLOR_RESET = "\033[0m"
-
-
-def print_progress(processed: int, total: int, tracks_in_db: int) -> None:
-    """Ispiši jednolinijski progres u plavoj boji s postotkom i progress barom.
-
-    Namjerno ide direktno na stderr i koristi \r kako bi se linija osvježavala
-    umjesto da scrolla ekran.
-    """
-    if total <= 0:
-        return
-
-    ratio = processed / total
-    if ratio < 0:
-        ratio = 0
-    if ratio > 1:
-        ratio = 1
-
-    bar_len = 30
-    filled = int(bar_len * ratio)
-    bar = "#" * filled + "-" * (bar_len - filled)
-    percent = int(ratio * 100)
-
-    msg = f"[INFO] Obrađeno: {processed}/{total} , Pjesama u bazi: {tracks_in_db} ({percent:3d}%) [{bar}]"
-    sys.stderr.write(COLOR_BLUE + msg + COLOR_RESET + "\r")
-    sys.stderr.flush()
-
-
-def get_db_connection():
-    """Vrati sqlite3 konekciju na glavnu bazu ili None ako nije dostupna."""
-    try:
-        db_path = get_main_db_path()
-        conn = sqlite3.connect(str(db_path))
-        return conn
-    except Exception as e:
-        log(f"[WARN] Ne mogu se spojiti na bazu: {e}")
-        return None
-
-
-def extract_file_hash_from_final(final_json_path: str) -> Optional[str]:
-    """Pokušaj pročitati file_hash iz .final.json.
-
-    Ako JSON ne postoji ili nema tog ključa, vraća None.
-    """
-    if not file_exists(final_json_path):
-        return None
-
-    try:
-        with open(final_json_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except Exception as e:
-        log(f"[WARN] Ne mogu pročitati {final_json_path}: {e}")
-        return None
-
-    # MATCH modul bi trebao zapisati hash pod ovim imenom
-    h = data.get("file_hash") or data.get("hash")
-    if not isinstance(h, str) or not h.strip():
-        return None
-    return h.strip()
-
-
-def hash_exists_in_db(conn, file_hash: str) -> bool:
-    """Provjeri postoji li dani file_hash u tablici tracks.
-
-    Ako dođe do greške, vraća False (tako da pipeline i dalje radi).
-    """
-    if conn is None:
+        return os.path.exists(path)
+    except OSError:
         return False
 
-    try:
-        cur = conn.cursor()
-        cur.execute("SELECT 1 FROM tracks WHERE file_hash = ? LIMIT 1", (file_hash,))
-        row = cur.fetchone()
-        return row is not None
-    except Exception as e:
-        log(f"[WARN] Ne mogu provjeriti hash u bazi: {e}")
-        return False
-    percent = ratio * 100.0
 
-    bar_width = 40
-    filled = int(bar_width * ratio)
-    bar = "#" * filled + "-" * (bar_width - filled)
-
-    msg = (
-        f"Obrađeno: {processed}/{total} , "
-        f"Pjesama u bazi: {tracks_in_db} "
-        f"({percent:5.1f}%) "
-        f"[{bar}]"
-    )
-    sys.stderr.write("\r" + COLOR_BLUE + msg + COLOR_RESET)
-    sys.stderr.flush()
+def iter_audio_files(base_path: str) -> Iterable[str]:
+    """Generator koji rekurzivno vrati sve audio datoteke."""
+    for root, _, files in os.walk(base_path):
+        for name in files:
+            full = os.path.join(root, name)
+            if is_audio_file(full):
+                yield full
 
 
 # ---------------------------------------------------------------------------
-# Hookovi na postojeće module (match / analyze / merge / load)
-# Pokušaj importati Python funkcije; fallback na `python -m ...`.
+# Spotify throttle
 # ---------------------------------------------------------------------------
 
-_last_spotify_call: float = 0.0  # za throttle
+_last_spotify_call: float = 0.0
 _spotify_call_count: int = 0
 
 
@@ -262,8 +273,12 @@ def _throttle_spotify_if_needed() -> None:
     _last_spotify_call = time.time()
 
 
+# ---------------------------------------------------------------------------
+# Wrapperi za module: MATCH / AUDIO / MERGE / LOAD
+# ---------------------------------------------------------------------------
+
 def run_match(audio_path: str, dry_run: bool = False) -> bool:
-    """Pokreni MATCH za jedan track. Vraca True ako je stvarno odrađen novi match."""
+    """Pokreni MATCH za jedan track (uvijek CLI stil)."""
     global _spotify_call_count
 
     if dry_run:
@@ -272,21 +287,18 @@ def run_match(audio_path: str, dry_run: bool = False) -> bool:
 
     _throttle_spotify_if_needed()
 
-    # 1) pokušaj direktnog importa funkcije
     try:
         from modules import match as match_mod  # type: ignore[attr-defined]
         if hasattr(match_mod, "match_track"):
             log(f"[MATCH] (func) {audio_path}")
             match_mod.match_track(audio_path)  # type: ignore[call-arg]
         else:
-            # fallback: CLI stil
             log(f"[MATCH] (cli)  {audio_path}")
             subprocess.run(
                 [sys.executable, "-m", "modules.match", "--path", audio_path],
                 check=True,
             )
     except Exception:
-        # Propusti grešku calleru
         raise
     finally:
         _spotify_call_count += 1
@@ -295,68 +307,58 @@ def run_match(audio_path: str, dry_run: bool = False) -> bool:
 
 
 def run_audio_analyze(audio_path: str, dry_run: bool = False) -> bool:
+    """Pokreni AUDIO ANALYZE za jedan track (CLI stil, log u file)."""
     if dry_run:
         log(f"[DRY] AUDIO {audio_path}")
         return False
 
-    try:
-        from modules import audio_analyze as aa_mod  # type: ignore[attr-defined]
-        if hasattr(aa_mod, "analyze_track"):
-            log(f"[AUDIO] (func) {audio_path}")
-            aa_mod.analyze_track(audio_path)  # type: ignore[call-arg]
-        else:
-            log(f"[AUDIO] (cli)  {audio_path}")
-            subprocess.run(
-                [sys.executable, "-m", "modules.audio_analyze", "--path", audio_path],
-                check=True,
-            )
-    except Exception:
-        raise
+    cmd = [sys.executable, "-m", "modules.audio_analyze", "--path", audio_path]
+    log(f"[AUDIO] (cli) {audio_path}")
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if proc.stdout:
+        log(proc.stdout.rstrip("\n"))
+    if proc.stderr:
+        log(proc.stderr.rstrip("\n"))
+    if proc.returncode != 0:
+        raise subprocess.CalledProcessError(proc.returncode, cmd, output=proc.stdout, stderr=proc.stderr)
 
     return True
 
 
 def run_merge(audio_path: str, dry_run: bool = False) -> bool:
+    """Pokreni MERGE za jedan track (CLI stil, log u file)."""
     if dry_run:
         log(f"[DRY] MERGE {audio_path}")
         return False
 
-    try:
-        from modules import merge as merge_mod  # type: ignore[attr-defined]
-        if hasattr(merge_mod, "merge_track"):
-            log(f"[MERGE] (func) {audio_path}")
-            stem = derive_stem(audio_path)
-            merge_mod.merge_track(stem)  # type: ignore[call-arg]
-        else:
-            log(f"[MERGE] (cli)  {audio_path}")
-            subprocess.run(
-                [sys.executable, "-m", "modules.merge", "--path", audio_path],
-                check=True,
-            )
-    except Exception:
-        raise
+    cmd = [sys.executable, "-m", "modules.merge", "--path", audio_path]
+    log(f"[MERGE] (cli) {audio_path}")
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if proc.stdout:
+        log(proc.stdout.rstrip("\n"))
+    if proc.stderr:
+        log(proc.stderr.rstrip("\n"))
+    if proc.returncode != 0:
+        raise subprocess.CalledProcessError(proc.returncode, cmd, output=proc.stdout, stderr=proc.stderr)
 
     return True
 
 
 def run_load(audio_path: str, final_json: str, dry_run: bool = False) -> bool:
+    """Pokreni LOAD za jedan track (CLI stil, log u file)."""
     if dry_run:
         log(f"[DRY] LOAD  {final_json}")
         return False
 
-    try:
-        from modules import load as load_mod  # type: ignore[attr-defined]
-        if hasattr(load_mod, "load_track"):
-            log(f"[LOAD] (func) {final_json}")
-            load_mod.load_track(final_json)  # type: ignore[call-arg]
-        else:
-            log(f"[LOAD] (cli)  {final_json}")
-            subprocess.run(
-                [sys.executable, "-m", "modules.load", "--path", audio_path],
-                check=True,
-            )
-    except Exception:
-        raise
+    cmd = [sys.executable, "-m", "modules.load", "--path", audio_path]
+    log(f"[LOAD] (cli) {final_json}")
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if proc.stdout:
+        log(proc.stdout.rstrip("\n"))
+    if proc.stderr:
+        log(proc.stderr.rstrip("\n"))
+    if proc.returncode != 0:
+        raise subprocess.CalledProcessError(proc.returncode, cmd, output=proc.stdout, stderr=proc.stderr)
 
     return True
 
@@ -367,7 +369,6 @@ def run_load(audio_path: str, final_json: str, dry_run: bool = False) -> bool:
 
 def process_track(
     audio_path: str,
-    *,
     force_match: bool = False,
     force_audio: bool = False,
     force_merge: bool = False,
@@ -386,34 +387,6 @@ def process_track(
     spotify_json = hidden_json_path(audio_path, SPOTIFY_SUFFIX)
     audio_json   = hidden_json_path(audio_path, AUDIO_SUFFIX)
     final_json   = hidden_json_path(audio_path, FINAL_SUFFIX)
-    # Prvo pokušaj: ako već imamo .final.json i njegov hash postoji u bazi,
-    # SKIP cijeli teški pipeline (MATCH/AUDIO/MERGE) i napravi samo LOAD (UPDATE).
-    final_hash: Optional[str] = None
-    conn = None
-    if not dry_run and not skip_load and file_exists(final_json):
-        final_hash = extract_file_hash_from_final(final_json)
-        if final_hash:
-            conn = get_db_connection()
-            if conn is not None and hash_exists_in_db(conn, final_hash):
-                log(f"[SKIP] PIPELINE (hash u bazi) — {audio_path}")
-                try:
-                    tr.loaded = run_load(audio_path, final_json, dry_run=dry_run)
-                except Exception as e:
-                    tr.failed_stage = "LOAD"
-                    tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
-                    log(f"[ERR] LOAD failed: {tr.error}")
-                finally:
-                    try:
-                        if conn is not None:
-                            conn.close()
-                    except Exception:
-                        pass
-            return tr
-        if conn is not None:
-            try:
-                conn.close()
-            except Exception:
-                pass
 
     log(f"\n=== TRACK === {audio_path}")
 
@@ -430,7 +403,7 @@ def process_track(
     except Exception as e:
         tr.failed_stage = "MATCH"
         tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
-        log(f"[ERR] MATCH failed: {tr.error}")
+        log(f"[ERR] MATCH: {tr.error}")
         return tr
 
     # 2) AUDIO ANALYZE
@@ -446,28 +419,23 @@ def process_track(
     except Exception as e:
         tr.failed_stage = "AUDIO"
         tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
-        log(f"[ERR] AUDIO failed: {tr.error}")
+        log(f"[ERR] AUDIO: {tr.error}")
         return tr
 
     # 3) MERGE
     try:
         if not skip_merge:
-            need_merge = (
-                force_merge
-                or not file_exists(final_json)
-                or (file_exists(spotify_json) and newer_than(spotify_json, final_json))
-                or (file_exists(audio_json) and newer_than(audio_json, final_json))
-            )
+            need_merge = force_merge or not file_exists(final_json)
             if need_merge:
                 tr.merged = run_merge(audio_path, dry_run=dry_run)
             else:
-                log(f"[SKIP] MERGE (final je up-to-date: {final_json})")
+                log(f"[SKIP] MERGE (postoji {final_json})")
         else:
             log("[SKIP] MERGE (flag)")
     except Exception as e:
         tr.failed_stage = "MERGE"
         tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
-        log(f"[ERR] MERGE failed: {tr.error}")
+        log(f"[ERR] MERGE: {tr.error}")
         return tr
 
     # 4) LOAD
@@ -482,83 +450,65 @@ def process_track(
     except Exception as e:
         tr.failed_stage = "LOAD"
         tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
-        log(f"[ERR] LOAD failed: {tr.error}")
+        log(f"[ERR] LOAD: {tr.error}")
         return tr
 
     return tr
 
 
 # ---------------------------------------------------------------------------
-# Walking kolekcije
-# ---------------------------------------------------------------------------
-
-
-def iter_audio_files(base_path: str) -> Iterable[str]:
-    """Rekurzivno yield-a sve audio fajlove unutar base_path."""
-    for root, dirs, files in os.walk(base_path):
-        # ignoriraj tipične skrivene foldere
-        dirs[:] = [d for d in dirs if not d.startswith(".")]
-        log(f"[SCAN] {root}")
-        for name in files:
-            if name.startswith("."):
-                continue
-            full = os.path.join(root, name)
-            if is_audio_file(full):
-                yield full
-
-
-# ---------------------------------------------------------------------------
-# CLI
+# Argparse / main
 # ---------------------------------------------------------------------------
 
 def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
-    p = argparse.ArgumentParser(
-        description="Import pipeline za lokalnu kolekciju (MATCH → AUDIO → MERGE → LOAD).",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-    )
+    p = argparse.ArgumentParser(description="Glavni import pipeline za lokalnu kolekciju.")
     p.add_argument(
         "--base-path",
         required=True,
-        help="Root folder gdje se nalazi muzika (Artist/Year/Album/Tracks).",
+        help="Root direktorij gdje je muzika (Artist/Year/Album/Track).",
     )
-    p.add_argument("--dry-run", action="store_true", help="Ne izvršava module, samo logira što bi radilo.")
-    p.add_argument("--max-tracks", type=int, default=None, help="Opcionalni limit broja pjesama (za test).")
-
-    # force / skip flagovi
-    p.add_argument("--force-match", action="store_true")
-    p.add_argument("--force-audio", action="store_true")
-    p.add_argument("--force-merge", action="store_true")
-
-    p.add_argument("--skip-match", action="store_true")
-    p.add_argument("--skip-audio", action="store_true")
-    p.add_argument("--skip-merge", action="store_true")
-    p.add_argument("--skip-load", action="store_true")
-
+    p.add_argument(
+        "--max-tracks",
+        type=int,
+        default=None,
+        help="Max broj pjesama za obradu u jednom run-u (default: sve).",
+    )
+    p.add_argument(
+        "--force-match",
+        action="store_true",
+        help="Forsiraj MATCH čak i ako postoji .spotify.json.",
+    )
+    p.add_argument(
+        "--force-audio",
+        action="store_true",
+        help="Forsiraj AUDIO analiza čak i ako postoji .analysis.json.",
+    )
+    p.add_argument(
+        "--force-merge",
+        action="store_true",
+        help="Forsiraj MERGE čak i ako postoji .final.json.",
+    )
+    p.add_argument("--skip-match", action="store_true", help="Preskoči MATCH fazu.")
+    p.add_argument("--skip-audio", action="store_true", help="Preskoči AUDIO fazu.")
+    p.add_argument("--skip-merge", action="store_true", help="Preskoči MERGE fazu.")
+    p.add_argument("--skip-load", action="store_true", help="Preskoči LOAD fazu.")
+    p.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Preskoči pjesme za koje već postoji .final.json i hash u bazi.",
+    )
+    p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Ne diraj datoteke ni bazu – samo pokaži što bi se radilo.",
+    )
     p.add_argument(
         "--info",
         action="store_true",
-        help="Na kraju ispisi JSON sa statistikama.",
+        help="Na kraju ispiši JSON sa statistikama (na stdout).",
     )
-
     return p.parse_args(argv)
 
-
-
-def collect_audio_files(base_path: str, max_tracks: Optional[int] = None) -> List[str]:
-    """Skupi audio fajlove iz base_path, poštujući max_tracks limit.
-
-    - Skenira rekurzivno
-    - čim skupi max_tracks fajlova, prekida dalje skeniranje
-    - vraća sortiranu listu (radi determinističkog redoslijeda)
-    """
-    files: List[str] = []
-    for full in iter_audio_files(base_path):
-        files.append(full)
-        if max_tracks is not None and len(files) >= max_tracks:
-            break
-
-    files.sort()
-    return files
 
 def main(argv: Optional[List[str]] = None) -> int:
     global _spotify_call_count
@@ -574,13 +524,27 @@ def main(argv: Optional[List[str]] = None) -> int:
     t_start = time.time()
 
     stats = Stats()
-    audio_files = collect_audio_files(base_path, max_tracks=args.max_tracks)
+
+    # Skeniranje audio fajlova sa spinnerom
+    audio_files: List[str] = []
+    spinner = "|/-\\"
+    log("[INFO] Skeniram kolekciju...")
+    for i, p in enumerate(iter_audio_files(base_path), start=1):
+        audio_files.append(p)
+        ch = spinner[i % len(spinner)]
+        sys.stderr.write(f"\r[SCAN] {ch} Pronađeno: {i}")
+        sys.stderr.flush()
+    sys.stderr.write("\n")
+    sys.stderr.flush()
+
     total_files = len(audio_files)
-    if args.max_tracks is not None:
-        log(f"[INFO] Pronađeno audio fajlova: {total_files} (limit: {args.max_tracks})")
-    else:
-        log(f"[INFO] Pronađeno audio fajlova: {total_files}")
+    log(f"[INFO] Pronađeno audio fajlova: {total_files}")
+
     for idx, audio_path in enumerate(audio_files, start=1):
+        if args.max_tracks is not None and idx > args.max_tracks:
+            log(f"[INFO] max-tracks={args.max_tracks} dosegnut, prekidam.")
+            break
+
         log(f"[FILE {idx}/{total_files}] {audio_path}")
         try:
             tr = process_track(
@@ -606,9 +570,14 @@ def main(argv: Optional[List[str]] = None) -> int:
             log(f"[ERR] Neočekivana greška: {tr.error}")
 
         stats.update_from_track(tr)
-        print_progress(stats.total, total_files, get_tracks_in_db())
+        # PROGRESS BAR SA BOJAMA
+        print_progress(stats.total, total_files, get_tracks_in_db(), audio_path)
 
-    # zavrsni summary
+    # nova linija nakon progres bara
+    sys.stderr.write("\n")
+    sys.stderr.flush()
+
+    # završni summary
     elapsed = time.time() - t_start
     stats.spotify_calls = _spotify_call_count
 
@@ -624,7 +593,6 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     if args.info:
         # info output na stdout kao JSON (npr. za skripte / UI)
-        import json
         info = asdict(stats)
         info["elapsed_sec"] = elapsed
         print(json.dumps(info, indent=2, sort_keys=True))
@@ -633,4 +601,5 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 
 if __name__ == "__main__":
+    import json  # za info-output
     raise SystemExit(main())
