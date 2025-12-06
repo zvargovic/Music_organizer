@@ -102,6 +102,74 @@ python -m modules.spotify_oauth info
 
 ---
 
+---
+
+### 🔹 **match.py**
+
+Per-track Spotify lookup na temelju lokalnog fajla (tagovi + trajanje) i zapis skrivenog `.spotify.json` uz audio.
+
+#### Match jedne pjesme
+```bash
+python -m modules.match --path "/put/do/Artist/Album/01 - Track.flac"
+```
+
+#### Match s detaljnijim ispisom
+```bash
+python -m modules.match --path "/put/do/Artist/Album/01 - Track.flac" --verbose
+```
+
+
+### 🔹 **audio_analyze.py**
+
+Analiza audio datoteke (CLAP + Librosa, jazz-focused features) i zapis vidljivog `.analysis.json` uz audio.
+
+#### Analiza jedne pjesme
+```bash
+python -m modules.audio_analyze --path "/put/do/Artist/Album/01 - Track.flac"
+```
+
+#### Info mod (sažetak + tablica bez ponovnog računanja)
+```bash
+python -m modules.audio_analyze --path "/put/do/Artist/Album/01 - Track.flac" --info
+```
+
+
+### 🔹 **merge.py**
+
+Spajanje `.spotify.json` + `.analysis.json` u skriveni `.final.json` (zajednički `hash_sha256` identitet).
+
+#### Merge jedne pjesme
+```bash
+python -m modules.merge --path "/put/do/Artist/Album/01 - Track.flac"
+```
+
+#### Merge s detaljnijim ispisom
+```bash
+python -m modules.merge --path "/put/do/Artist/Album/01 - Track.flac" --verbose
+```
+
+
+### 🔹 **load.py**
+
+Učitavanje finalnog JSON-a (`.final.json`) u tablicu `tracks`. Automatski nalazi `.final.json` na temelju audio fajla,
+mapira `hash_sha256` → `file_hash`, određuje `file_path`, te puni sve dostupne stupce (file/meta/spotify/features/...).
+
+#### Dry-run (bez upisa, samo simulacija + pregled polja)
+```bash
+python -m modules.load --path "/put/do/Artist/Album/01 - Track.flac" --dry-run --verbose
+```
+
+#### Stvarni upis u bazu
+```bash
+python -m modules.load --path "/put/do/Artist/Album/01 - Track.flac" --verbose
+```
+
+#### Upis u custom bazu (ako ne koristiš default iz config.py)
+```bash
+python -m modules.load --path "/put/do/Artist/Album/01 - Track.flac" --db "/put/do/neke_drugacije_baze.db"
+```
+
+
 ## Ovdje će se dodavati komande za sve buduće module:
 - scanner.py
 - match.py

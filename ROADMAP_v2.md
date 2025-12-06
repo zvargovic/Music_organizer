@@ -1,10 +1,6 @@
 # ROADMAP v2 — Z-Music Organizer
-
-Ovaj dokument je *jedini* koji se koristi za označavanje napretka (DONE).
-
+Ovaj dokument je *jedini* koji se koristi za označavanje napretka (DONE).  
 Sve stavke su podijeljene po verzijama i modulima.
-
----
 
 # ✅ v1.0.0 — Osnovni Pipeline (MVP)
 
@@ -16,38 +12,97 @@ Sve stavke su podijeljene po verzijama i modulima.
 - [x] spotify_oauth.py — interaktivni wizard + login + token info (03.12.2025 — DONE)
 
 ## 3. Match modul
-- [ ] match.py — pronalaženje Spotify ID-a + meta_s JSON
+- [x] match.py — per-track Spotify lookup (`--path`) + skriveni `.stem.spotify.json` + `hash_sha256` identitet (04.12.2025 — DONE)
 
 ## 4. Analiza audio datoteka
-- [ ] analyze_track.py — Essentia + Librosa + CLAP + FAZA2 featurei
+- [x] audio_analyze.py — CLAP + Librosa analiza (global + segment embedding), jazz-focused žanrovi/mood/instrumenti, `.analysis.json`, `--info` tablica, per-track sažetak (04.12.2025 — DONE)
+- [x] AUDIO_ANALYSIS_MODULE.md — dokumentacija audio analize i JSON strukture (04.12.2025 — DONE)
 
 ## 5. Merge modul
-- [ ] merge.py — spajanje meta_s + audio → final JSON
+- [x] merge.py — per-track spajanje skrivenog `.spotify.json` + vidljivog `.analysis.json` → skriveni `.final.json` (04.12.2025 — DONE)
 
 ## 6. Load modul
-- [ ] load.py — upis final JSON-a u bazu
+- [x] load.py — per-track upis `.final.json` u bazu (`tracks` tablica), automatski mapping hash/path + flatten na sve dostupne stupce (05.12.2025 — DONE)
 
-## 7. Import music pipeline
-- [ ] import_music.py — puni bazu iz lokalne kolekcije, idempotentno
+# 7. Import music pipeline — IMPLEMENTIRANO
+STATUS: DONE
 
----
+## 7.1. Cilj
+Automatski prolaz kroz cijelu lokalnu kolekciju.  
+Per-track pipeline:
+MATCH → AUDIO ANALYZE → MERGE → LOAD
+Pipeline mora biti idempotentan, automatiziran, rate-limit safe i stabilan.
+
+## 7.2. Idempotentnost
+MATCH:
+- samo ako ne postoji `.stem.spotify.json` ili `--force-match`
+
+AUDIO:
+- samo ako ne postoji `.stem.audio.json` ili `--force-audio`
+
+MERGE:
+- ako `.final.json` ne postoji ili je stariji od ulaza ili `--force-merge`
+
+LOAD:
+- uvijek kada `.final.json` postoji (INSERT OR REPLACE)
+
+## 7.3. Spotify Rate Limit Zaštita
+- minimalni razmak: 1–5 s
+- 429 → sleep(60), nakon 5x prekini
+- svaki track ionako traje ≥ 5 s → prirodni throttle
+
+## 7.4. Struktura import_music.py
+ARGPARSE:
+--base-path  
+--dry-run  
+--max-tracks  
+--force-match --force-audio --force-merge  
+--skip-match --skip-audio --skip-merge --skip-load  
+--info  
+
+HELPER FUNKCIJE:
+is_audio_file(path)  
+derive_stem(path)  
+newer_than(a,b)  
+Stats klasa  
+log(...)  
+
+HOOKOVI NA CORE MODULE:
+modules.match.match_track(path)  
+modules.audio_analyze.analyze_track(path)  
+modules.merge.merge_track(stem_base)  
+modules.load.load_track(final_json_path)  
+
+## 7.5. Glavna petlja
+1. Rekurzivni scan `--base-path`
+2. Filtriranje audio ekstenzija
+3. Sortiranje
+4. process_track(audio_path)
+5. Summary:
+
+[STATS]
+Total tracks:  
+Matched:  
+Analyzed:  
+Merged:  
+Loaded:  
+Failed:  
+Spotify calls:  
+
+## 7.6. Očekivani rezultat
+- Import brz, efikasan i deterministički
+- Re-run radi samo na promjenama
+- Spotify API nikad nije flooded
+- Baza reflektira `.final.json`
 
 # 🚀 v1.1.0 — Hardening i stabilnost
-- [ ] JSON log format (standardiziran)
-- [ ] Retry mehanizam kroz sve module
-- [ ] Error kategorije (match / analysis / merge / load)
+- [ ] JSON log format
+- [ ] Retry mehanizam
+- [ ] Error kategorije po fazama
 
----
-
-# 🔍 v1.2.0 — Seed pipeline (generiranje + procesiranje)
-
-## 1. Generiranje queue-a
-- [ ] seed_generate.py — Spotify recommendations → queue JSON
-
-## 2. Procesiranje queue-a
+# 🔍 v1.2.0 — Seed pipeline
+- [ ] seed_generate.py — recommendations → queue JSON
 - [ ] seed_process.py — skidanje → match → analiza → merge → load
-
----
 
 # 🎵 v1.3.0 — Napredna analiza (FAZA 2)
 - [ ] beat_density
@@ -56,20 +111,19 @@ Sve stavke su podijeljene po verzijama i modulima.
 - [ ] instrument detection improvements
 - [ ] genre/mood refinements
 
----
-
 # 🖥 v2.0.0 — User-facing sloj
-- [ ] REST API server (lokalni)
-- [ ] Web UI za pretraživanje baze
+- [ ] REST API
+- [ ] Web UI
 - [ ] Playlist builder
-
----
 
 # 📘 PROGRESS LOG
 
 ## 2025-12-03
-- Završeno: DB Creator modul (create/info/drop/clear)
-- Završeno: config.py implementacija
-- Dodano: spotify_oauth.py (OAuth wizard, token cache, info komanda)
-- Proširen config.py za spotify_oauth.py
-- Roadmap ažuriran
+- DB Creator, config, OAuth — DONE  
+## 2025-12-04
+- Match, AudioAnalyze, Merge — DONE  
+## 2025-12-05
+- Load — DONE  
+- Dodan Import Pipeline u roadmap 
+- Import završen
+ 

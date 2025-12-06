@@ -1,84 +1,101 @@
-#!/usr/bin/env python3
 """
-config.py
+Global configuration for Z-Music Organizer.
 
-Centralno mjesto za sve putanje i osnovne postavke Z-Music Organizer projekta.
+Ovaj config.py sadrži sve funkcije koje moduli trenutačno očekuju:
+- get_main_db_path            → modules.load
+- get_spotify_credentials_path → modules.spotify_oauth, modules.match
+- get_spotify_token_path      → modules.spotify_oauth
+- get_match_log_dir           → modules.match
+- get_hidden_json_path        → modules.spotify_oauth (i po potrebi drugi)
 """
+
+from __future__ import annotations
 
 from pathlib import Path
+import os
 
+# -------------------------------------------------------------------------
+# OSNOVNE PUTANJE
+# -------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------------
-# Projekt root
-# ---------------------------------------------------------------------------
+# Root projekta (gdje je ovaj config.py)
+PROJECT_ROOT = Path(__file__).resolve().parent
 
-def get_project_root() -> Path:
-    """
-    Vraća root projekta (folder gdje se nalazi ovaj config.py).
-    Pretpostavka: config.py je direktno u rootu git repozitorija.
-    """
-    return Path(__file__).resolve().parent
-
-
-# ---------------------------------------------------------------------------
-# SQLite baza
-# ---------------------------------------------------------------------------
-
-def get_database_dir() -> Path:
-    """
-    Vraća direktorij gdje se nalazi glavna SQLite baza.
-    Default: <project_root>/database
-    """
-    return get_project_root() / "database"
+# Baza ide u PROJECT_ROOT/database/tracks.db
+DATABASE_DIR = PROJECT_ROOT / "database"
+DATABASE_DIR.mkdir(parents=True, exist_ok=True)
+MAIN_DB_PATH = DATABASE_DIR / "tracks.db"
 
 
 def get_main_db_path() -> Path:
     """
-    Vraća putanju do glavne SQLite baze.
-    Default: <project_root>/database/tracks.db
-
-    Ako direktorij ne postoji, kreira ga.
+    Vrati apsolutni path do glavne SQLite baze.
+    load.py očekuje Path objekt, ne string.
     """
-    db_dir = get_database_dir()
-    db_dir.mkdir(parents=True, exist_ok=True)
-    return db_dir / "tracks.db"
-# ---------------------------------------------------------------------
-# Hidden direktorij za interne JSON-ove (tokeni, cache, itd.)
-# ---------------------------------------------------------------------
+    return MAIN_DB_PATH
 
-def get_hidden_dir() -> str:
+
+# -------------------------------------------------------------------------
+# SPOTIFY CONFIG (credentials + token)
+# -------------------------------------------------------------------------
+
+def get_spotify_credentials_path() -> str:
     """
-    Vraća putanju do skrivenog direktorija za interne JSON-ove.
-    Primjer: /Users/khlm/ML/.hidden
+    Vraća istu putanju koju spotify_oauth već koristi
+    za cred file (hidden dot fajl u rootu).
 
-    Ako direktorij ne postoji, kreira ga.
+    Koriste:
+    - modules.spotify_oauth (posredno preko get_hidden_json_path)
+    - modules.match.build_spotify_client()
     """
-    root = Path(get_project_root())
-    hidden = root / ".hidden"
-    hidden.mkdir(exist_ok=True)
-    return str(hidden)
+    return get_hidden_json_path("spotify_credentials.json")
 
+
+def get_spotify_token_path() -> str:
+    """
+    Vraća istu putanju koju spotify_oauth koristi
+    za token file (hidden dot fajl u rootu).
+    """
+    return get_hidden_json_path("spotify_oauth_token.json")
+
+
+
+# -------------------------------------------------------------------------
+# MATCH LOGOVI
+# -------------------------------------------------------------------------
+
+MATCH_LOG_DIR = PROJECT_ROOT / "logs" / "match"
+
+
+def get_match_log_dir() -> str:
+    """
+    Vrati folder za match logove. Ako ne postoji, kreira ga.
+
+    Koristi:
+    - modules.match.setup_logging()
+    """
+    MATCH_LOG_DIR.mkdir(parents=True, exist_ok=True)
+    return str(MATCH_LOG_DIR)
+
+
+# -------------------------------------------------------------------------
+# POMOĆNI HELPER ZA SKRIVENE JSON FAJLOVE
+# -------------------------------------------------------------------------
 
 def get_hidden_json_path(filename: str) -> str:
     """
-    Vraća full path do JSON fajla unutar .hidden direktorija.
+    Helper za 'skrivene' (dot) JSON fajlove koje koristi spotify_oauth.py.
 
-    Primjer:
-        get_hidden_json_path("spotify_oauth_token.json")
-        -> /Users/khlm/ML/.hidden/spotify_oauth_token.json
+    spotify_oauth zove:
+        get_hidden_json_path(CRED_FILENAME)
+
+    CRED_FILENAME je samo ime fajla (npr. 'spotify_credentials.json'),
+    a mi ga mapiramo na:
+
+        PROJECT_ROOT/.spotify_credentials.json
     """
-    return str(Path(get_hidden_dir()) / filename)
-
-
-# ---------------------------------------------------------------------
-# Alias za analysis DB (za analiziraj.py i ostale module)
-# Trenutno koristimo istu bazu kao main (tracks.db).
-# ---------------------------------------------------------------------
-
-def get_analysis_db_path() -> str:
-    """
-    Putanja do baze koju koristi analiza (trenutno ista kao main DB).
-
-    Ako kasnije razdvojimo na dvije baze, ovdje ćemo samo promijeniti path.
-    """
-    return get_main_db_path()
+    # spremamo u root projekta kao dot-fajl
+    name = filename
+    if not name.startswith("."):
+        name = "." + name
+    return str(PROJECT_ROOT / name)
