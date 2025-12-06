@@ -18,6 +18,7 @@ import argparse
 import os
 import sys
 import time
+import json
 import traceback
 import subprocess
 from dataclasses import dataclass, asdict
@@ -167,6 +168,66 @@ def print_progress(processed: int, total: int, tracks_in_db: int) -> None:
         ratio = 0
     if ratio > 1:
         ratio = 1
+
+    bar_len = 30
+    filled = int(bar_len * ratio)
+    bar = "#" * filled + "-" * (bar_len - filled)
+    percent = int(ratio * 100)
+
+    msg = f"[INFO] Obrađeno: {processed}/{total} , Pjesama u bazi: {tracks_in_db} ({percent:3d}%) [{bar}]"
+    sys.stderr.write(COLOR_BLUE + msg + COLOR_RESET + "\r")
+    sys.stderr.flush()
+
+
+def get_db_connection():
+    """Vrati sqlite3 konekciju na glavnu bazu ili None ako nije dostupna."""
+    try:
+        db_path = get_main_db_path()
+        conn = sqlite3.connect(str(db_path))
+        return conn
+    except Exception as e:
+        log(f"[WARN] Ne mogu se spojiti na bazu: {e}")
+        return None
+
+
+def extract_file_hash_from_final(final_json_path: str) -> Optional[str]:
+    """Pokušaj pročitati file_hash iz .final.json.
+
+    Ako JSON ne postoji ili nema tog ključa, vraća None.
+    """
+    if not file_exists(final_json_path):
+        return None
+
+    try:
+        with open(final_json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        log(f"[WARN] Ne mogu pročitati {final_json_path}: {e}")
+        return None
+
+    # MATCH modul bi trebao zapisati hash pod ovim imenom
+    h = data.get("file_hash") or data.get("hash")
+    if not isinstance(h, str) or not h.strip():
+        return None
+    return h.strip()
+
+
+def hash_exists_in_db(conn, file_hash: str) -> bool:
+    """Provjeri postoji li dani file_hash u tablici tracks.
+
+    Ako dođe do greške, vraća False (tako da pipeline i dalje radi).
+    """
+    if conn is None:
+        return False
+
+    try:
+        cur = conn.cursor()
+        cur.execute("SELECT 1 FROM tracks WHERE file_hash = ? LIMIT 1", (file_hash,))
+        row = cur.fetchone()
+        return row is not None
+    except Exception as e:
+        log(f"[WARN] Ne mogu provjeriti hash u bazi: {e}")
+        return False
     percent = ratio * 100.0
 
     bar_width = 40
@@ -325,6 +386,34 @@ def process_track(
     spotify_json = hidden_json_path(audio_path, SPOTIFY_SUFFIX)
     audio_json   = hidden_json_path(audio_path, AUDIO_SUFFIX)
     final_json   = hidden_json_path(audio_path, FINAL_SUFFIX)
+    # Prvo pokušaj: ako već imamo .final.json i njegov hash postoji u bazi,
+    # SKIP cijeli teški pipeline (MATCH/AUDIO/MERGE) i napravi samo LOAD (UPDATE).
+    final_hash: Optional[str] = None
+    conn = None
+    if not dry_run and not skip_load and file_exists(final_json):
+        final_hash = extract_file_hash_from_final(final_json)
+        if final_hash:
+            conn = get_db_connection()
+            if conn is not None and hash_exists_in_db(conn, final_hash):
+                log(f"[SKIP] PIPELINE (hash u bazi) — {audio_path}")
+                try:
+                    tr.loaded = run_load(audio_path, final_json, dry_run=dry_run)
+                except Exception as e:
+                    tr.failed_stage = "LOAD"
+                    tr.error = "".join(traceback.format_exception_only(type(e), e)).strip()
+                    log(f"[ERR] LOAD failed: {tr.error}")
+                finally:
+                    try:
+                        if conn is not None:
+                            conn.close()
+                    except Exception:
+                        pass
+            return tr
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception:
+                pass
 
     log(f"\n=== TRACK === {audio_path}")
 

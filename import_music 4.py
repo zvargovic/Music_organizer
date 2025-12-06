@@ -126,6 +126,61 @@ def newer_than(path_a: str, path_b: str) -> bool:
 def file_exists(path: str) -> bool:
     return os.path.isfile(path)
 
+# ---------------------------------------------------------------------------
+# ANSI boje i progres bar
+# ---------------------------------------------------------------------------
+
+COLOR_YELLOW  = "\033[33m"
+COLOR_MAGENTA = "\033[35m"
+COLOR_BLUE    = "\033[34m"
+COLOR_RESET   = "\033[0m"
+
+
+def format_track_label(path: Optional[str]) -> str:
+    """Vrati lijepi label za trenutačni track (samo ime file-a)."""
+    if not path:
+        return ""
+    try:
+        base = os.path.basename(path)
+    except Exception:
+        return str(path)
+    return base
+
+
+def print_progress(processed: int, total: int, tracks_in_db: int, current_path: Optional[str] = None) -> None:
+    """Ispiši osnovnu statistiku + progress bar u jednoj liniji.
+
+    Primjer:
+      Obrađujem: [37/6000] Neki Track.mp3   (žuto)
+      Zapisa u bazi: 37                     (ljubičasto)
+      12% [#####......................] 100% (plavo)
+
+    Ovdje je sve spojeno u jednu liniju da ekran što manje scrolla.
+    """
+    if total <= 0:
+        return
+
+    ratio = processed / total if total else 0.0
+    if ratio < 0:
+        ratio = 0.0
+    if ratio > 1:
+        ratio = 1.0
+
+    bar_len = 35
+    filled = int(bar_len * ratio)
+    bar = "#" * filled + "." * (bar_len - filled)
+    percent = int(ratio * 100)
+
+    track_label = format_track_label(current_path)
+    left = f"{COLOR_YELLOW}Obrađujem: [{processed}/{total}] {track_label}{COLOR_RESET}"
+    mid  = f"{COLOR_MAGENTA}Zapisa u bazi: {tracks_in_db}{COLOR_RESET}"
+    right = f"{COLOR_BLUE}{percent:3d}% [{bar}] 100%{COLOR_RESET}"
+
+    msg = f"{left}  {mid}  {right}"
+    sys.stderr.write("\r" + msg)
+    sys.stderr.flush()
+
+
 
 # ---------------------------------------------------------------------------
 # Hookovi na postojeće module (match / analyze / merge / load)
@@ -444,6 +499,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             log(f"[ERR] Neočekivana greška: {tr.error}")
 
         stats.update_from_track(tr)
+        print_progress(stats.total, total_files, get_tracks_in_db(), audio_path)
 
     # zavrsni summary
     elapsed = time.time() - t_start
