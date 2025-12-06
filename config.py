@@ -13,6 +13,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import os
+from typing import Optional
 
 # -------------------------------------------------------------------------
 # OSNOVNE PUTANJE
@@ -99,3 +100,58 @@ def get_hidden_json_path(filename: str) -> str:
     if not name.startswith("."):
         name = "." + name
     return str(PROJECT_ROOT / name)
+# -------------------------------------------------------------------------
+# Downloader helperi
+# -------------------------------------------------------------------------
+
+def get_downloader_log_dir() -> str:
+    """
+    Folder za downloader logove.
+
+    Primjer: <PROJECT_ROOT>/logs/download
+
+    Kreira direktorij ako ne postoji i vraća ga kao string.
+    """
+    log_dir = PROJECT_ROOT / "logs" / "download"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    return str(log_dir)
+
+
+def get_downloader_tmp_dir() -> str:
+    """
+    Privremeni folder koji downloader može koristiti za pomoćne fajlove.
+
+    Primjer: <PROJECT_ROOT>/tmp/download
+
+    Kreira direktorij ako ne postoji i vraća ga kao string.
+    """
+    tmp_dir = PROJECT_ROOT / "tmp" / "download"
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    return str(tmp_dir)
+
+
+def get_downloader_batch_dir() -> str:
+    """
+    Folder gdje se čuvaju batch JSON liste za downloader.
+
+    Primjer: <PROJECT_ROOT>/data/download_batches
+
+    Kreira direktorij ako ne postoji i vraća ga kao string.
+    """
+    batch_dir = PROJECT_ROOT / "data" / "download_batches"
+    batch_dir.mkdir(parents=True, exist_ok=True)
+    return str(batch_dir)
+
+
+def get_default_music_root() -> Optional[Path]:
+    """
+    Opcionalni default MUSIC_ROOT za skripte (npr. downloader) koje rade nad
+    cijelom kolekcijom.
+
+    Ako je postavljena env varijabla ZMUSIC_MUSIC_ROOT, vraća Path na tu
+    lokaciju. Inače vraća None i skripte trebaju zahtijevati --base-path.
+    """
+    env = os.environ.get("ZMUSIC_MUSIC_ROOT")
+    if not env:
+        return None
+    return Path(env).expanduser()

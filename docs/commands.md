@@ -102,8 +102,6 @@ python -m modules.spotify_oauth info
 
 ---
 
----
-
 ### 🔹 **match.py**
 
 Per-track Spotify lookup na temelju lokalnog fajla (tagovi + trajanje) i zapis skrivenog `.spotify.json` uz audio.
@@ -118,6 +116,7 @@ python -m modules.match --path "/put/do/Artist/Album/01 - Track.flac"
 python -m modules.match --path "/put/do/Artist/Album/01 - Track.flac" --verbose
 ```
 
+---
 
 ### 🔹 **audio_analyze.py**
 
@@ -133,6 +132,7 @@ python -m modules.audio_analyze --path "/put/do/Artist/Album/01 - Track.flac"
 python -m modules.audio_analyze --path "/put/do/Artist/Album/01 - Track.flac" --info
 ```
 
+---
 
 ### 🔹 **merge.py**
 
@@ -148,6 +148,7 @@ python -m modules.merge --path "/put/do/Artist/Album/01 - Track.flac"
 python -m modules.merge --path "/put/do/Artist/Album/01 - Track.flac" --verbose
 ```
 
+---
 
 ### 🔹 **load.py**
 
@@ -169,14 +170,42 @@ python -m modules.load --path "/put/do/Artist/Album/01 - Track.flac" --verbose
 python -m modules.load --path "/put/do/Artist/Album/01 - Track.flac" --db "/put/do/neke_drugacije_baze.db"
 ```
 
+---
+
+### 🔹 **import_music.py**
+
+High-level import pipeline: prolaz kroz lokalnu kolekciju i za svaku pjesmu pokreće
+`match → analyze → merge → load`, uz idempotentnost i kontrolirani Spotify rate.
+
+#### Import cijele kolekcije (koristi root iz config.py, npr. `MUSIC_BASE_DIR`)
+```bash
+python import_music.py
+```
+
+#### Import od specificiranog foldera (npr. jedan artist / jedan album)
+```bash
+python import_music.py --base-path "/Volumes/HDD2/Music/351 Lake Shore Drive/2011/Provencale"
+```
+
+#### Limitiraj broj pjesama (npr. za testiranje)
+```bash
+python import_music.py --base-path "/Volumes/HDD2/Music" --max-tracks 100
+```
+
+#### Info mod — sažetak nakon importa (stats + JSON sažetak)
+```bash
+python import_music.py --base-path "/Volumes/HDD2/Music/351 Lake Shore Drive/2011/Provencale" --max-tracks 3 --info
+```
+
+- `--base-path`  → odakle pipeline kreće (root kolekcije ili pod-folder)
+- `--max-tracks` → stani nakon N pjesama (korisno za probe)
+- `--info`       → dodatno ispiše JSON sa statistikama (matched / analyzed / merged / loaded / failed / spotify_calls / elapsed_sec)
+
+---
 
 ## Ovdje će se dodavati komande za sve buduće module:
 - scanner.py
-- match.py
 - analyze_track.py
-- merge.py
-- load.py
-- import_music.py
 - spotify_oauth.py (proširenja)
 - itd.
 

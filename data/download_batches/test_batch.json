@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generated_by": "manual_test",
+  "generated_at": "2025-12-06T11:30:00Z",
+  "base_path": "/Volumes/HDD2/Music",
+  "note": "Test batch za downloader kostur",
+  "tracks": [
+    {
+      "spotify_id": "1zWU8xqh32lGNz2lVElNL1",
+      "spotify_url": "https://open.spotify.com/track/1zWU8xqh32lGNz2lVElNL1",
+      "artist": "Matt Marshak",
+      "album": "This Time Around",
+      "album_year": 2004,
+      "track_name": "Shake It Again",
+      "disc_number": 1,
+      "track_number": 2
+    }
+  ]
+}
