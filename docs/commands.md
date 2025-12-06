@@ -210,3 +210,59 @@ python import_music.py --base-path "/Volumes/HDD2/Music/351 Lake Shore Drive/201
 - itd.
 
 Svaki modul će imati svoju podsekciju kao db_creator.py gore.
+---
+
+### 🔹 **download.py**
+
+Downloader modul za skidanje audio datoteka preko **spotdl** alata.
+Radi u više modova (track / album / artist / batch), ali je trenutno
+u potpunosti implementiran i testiran za **batch** i **track**.
+
+#### Info o downloader konfiguraciji
+```bash
+python -m modules.download info
+```
+- ispisuje `BATCH_DIR`, `TMP_DIR`, `LOG_DIR`
+- pokaže vrijednost `ZMUSIC_MUSIC_ROOT` ako je postavljen
+
+#### Batch download (test na praznom folderu, dry-run)
+```bash
+python -m modules.download batch \
+  --json data/download_batches/test_batch.json \
+  --base-path /Volumes/HDD2/Music_TEST_EMPTY \
+  --dry-run \
+  --info
+```
+- čita listu trackova iz `test_batch.json`
+- provjerava postoji li već audio fajl na odredištu
+- u **dry-run** modu ne zove spotdl, samo javlja što bi se radilo
+
+#### Batch download (realni download)
+```bash
+python -m modules.download batch \
+  --json data/download_batches/test_batch.json \
+  --base-path /Volumes/HDD2/Music_TEST_EMPTY \
+  --info
+```
+- koristi **before/after diff** u `TMP_DIR` da pronađe koji je audio fajl novi
+- novi fajl automatski premješta u strukturu:
+  `Artist/Year/Album/Artist - Title.ext` ispod `--base-path`
+
+#### Track download (single ID ili URL, dummy meta)
+```bash
+# preko ID-a
+python -m modules.download track \
+  --id 1zWU8xqh32lGNz2lVElNL1 \
+  --base-path /Volumes/HDD2/Music_TEST_EMPTY \
+  --info
+
+# preko URL-a
+python -m modules.download track \
+  --url https://open.spotify.com/track/1zWU8xqh32lGNz2lVElNL1 \
+  --base-path /Volumes/HDD2/Music_TEST_EMPTY \
+  --info
+```
+- za sada koristi `Unknown Artist/Unknown Album/Unknown Track` kao meta,
+  ali koristi isti download engine kao batch
+
+> Napomena: `--dry-run` se može dodati na bilo koju komandu da samo simulira bez downloada.

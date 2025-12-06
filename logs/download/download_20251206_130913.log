@@ -1,0 +1,15 @@
+2025-12-06 13:09:13,452 [INFO] Downloader start
+2025-12-06 13:09:13,452 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251206_130913.log
+2025-12-06 13:09:13,452 [INFO] Base path (CLI): /Volumes/HDD2/Music_TEST_EMPTY
+2025-12-06 13:09:13,452 [INFO] [BATCH] mode
+2025-12-06 13:09:13,452 [INFO]   batch JSON: data/download_batches/small_real_test.json
+2025-12-06 13:09:13,452 [INFO]   base_path: /Volumes/HDD2/Music_TEST_EMPTY
+2025-12-06 13:09:13,453 [INFO] Planirano taskova: 2, max-tracks limit: 2
+2025-12-06 13:09:13,455 [INFO] [TASK 1/2] Queen - Radio Gaga → /Volumes/HDD2/Music_TEST_EMPTY/Queen/2018/Bohemian Rapsody (The Original Soundtrack)/Queen - Radio Gaga (spotify_id=0YwBZKT8JE4U5TwmYE9BV9)
+2025-12-06 13:09:13,455 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0YwBZKT8JE4U5TwmYE9BV9
+2025-12-06 13:09:34,317 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Queen - Radio Ga Ga - Live Aid.mp3
+2025-12-06 13:09:35,057 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music_TEST_EMPTY/Queen/2018/Bohemian Rapsody (The Original Soundtrack)/Queen - Radio Gaga.mp3
+2025-12-06 13:09:35,065 [INFO] [TASK 2/2] Parni Valjak - Lutka Za Bal → /Volumes/HDD2/Music_TEST_EMPTY/Parni Valjak/1977/Glavom Kroz Zid/Parni Valjak - Lutka Za Bal (spotify_id=1U6Rt8JJ9gKcrLBmhNJZyp)
+2025-12-06 13:09:35,066 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1U6Rt8JJ9gKcrLBmhNJZyp
+2025-12-06 13:10:03,992 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Parni Valjak - Lutka za bal.mp3
+2025-12-06 13:10:04,481 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music_TEST_EMPTY/Parni Valjak/1977/Glavom Kroz Zid/Parni Valjak - Lutka Za Bal.mp3

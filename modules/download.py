@@ -2,20 +2,10 @@
 """
 Downloader modul za Z-Music Organizer.
 
-Faza 2: batch + provjera postojećih fajlova + REALNI download preko spotdl.
-- Radi CLI:
-    track / album / artist / batch / info
-- Implementirano:
-    * "batch" učitava JSON
-    * složi TrackTask listu
-    * za svaki track:
-        - izračuna target path (Artist/Year/Album/Artist - Title.ext)
-        - provjeri postoji li već audio fajl (mp3/flac/m4a/ogg/wav)
-        - u --dry-run modu:
-              - samo logira što bi napravio
-        - u realnom modu (bez --dry-run):
-              - ako ne postoji → pozove spotdl u TMP_DIR
-              - premjesti fajl u target folder
+FAZA 2b + PROGRESS BAR:
+  - batch + provjera postojećih fajlova + REALNI download preko spotdl
+  - robustno pronalaženje novog fajla (before/after diff u TMP_DIR)
+  - prikaz progress bara u plavoj boji u formatu "76/5400"
 """
 
 from __future__ import annotations
@@ -29,7 +19,7 @@ import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 # Pretpostavka: config.py je u project rootu i sadrži ove simbole.
 try:
@@ -81,7 +71,6 @@ def setup_logging(log_level: str) -> None:
     if not isinstance(numeric_level, int):
         numeric_level = logging.INFO
 
-    # Kreiraj log direktorij ako je moguće
     log_dir = Path(get_downloader_log_dir())
     log_dir.mkdir(parents=True, exist_ok=True)
     log_file = log_dir / f"download_{time.strftime('%Y%m%d_%H%M%S')}.log"
@@ -211,7 +200,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
     # info
     p_info = subparsers.add_parser("info", help="Prikaži konfiguraciju downloadera.")
-    # info ne treba common args; samo outputa config
     p_info.set_defaults(func=cmd_info)
 
     return parser
@@ -233,6 +221,37 @@ def find_existing_audio(base_without_ext: Path) -> Optional[Path]:
     return None
 
 
+def list_audio_files_recursive(root: Path) -> Set[Path]:
+    """Vrati skup svih audio fajlova (AUDIO_EXTS) ispod root (rekurzivno)."""
+    files: Set[Path] = set()
+    if not root.exists():
+        return files
+    for p in root.rglob("*"):
+        if p.is_file() and p.suffix.lower() in AUDIO_EXTS:
+            files.add(p.resolve())
+    return files
+
+
+def render_progress(current: int, total: int, width: int = 40) -> None:
+    """
+    Ispiši jednostavan progress bar u plavoj boji u formatu:
+    [█████.....] 76/5400
+    """
+    if total <= 0:
+        return
+    ratio = current / total
+    if ratio < 0:
+        ratio = 0
+    if ratio > 1:
+        ratio = 1
+    filled = int(width * ratio)
+    bar = "█" * filled + " " * (width - filled)
+    BLUE = "\033[34m"
+    RESET = "\033[0m"
+    line = f"\r{BLUE}[{bar}] {current}/{total}{RESET}"
+    print(line, end="", file=sys.stdout, flush=True)
+
+
 def perform_download(task: TrackTask, base_path: Path, tmp_dir: Path) -> Optional[Path]:
     """
     Izvrši stvarni download preko spotdl-a za zadani task.
@@ -244,14 +263,15 @@ def perform_download(task: TrackTask, base_path: Path, tmp_dir: Path) -> Optiona
 
     tmp_dir.mkdir(parents=True, exist_ok=True)
 
-    # Output pattern za spotdl (u TMP dir)
-    out_pattern = str(tmp_dir / "%(artist)s - %(title)s.%(ext)s")
+    # Snapshot prije downloada
+    before_files = list_audio_files_recursive(tmp_dir)
+    logging.debug("  [DL] Audio fajlova u TMP prije: %d", len(before_files))
 
     cmd = [
         "spotdl",
         spotify_url,
         "--output",
-        out_pattern,
+        str(tmp_dir),
     ]
 
     logging.debug("  [DL] CMD: %s", " ".join(cmd))
@@ -277,20 +297,20 @@ def perform_download(task: TrackTask, base_path: Path, tmp_dir: Path) -> Optiona
         logging.debug("  [DL-STDERR] %s", proc.stderr.strip())
         return None
 
-    # Pokušaj pronaći skinuti fajl u TMP diru
-    base_name = f"{task.artist} - {task.track_name}"
-    downloaded_file: Optional[Path] = None
-    for ext in AUDIO_EXTS:
-        candidate = tmp_dir / f"{base_name}{ext}"
-        if candidate.is_file():
-            downloaded_file = candidate
-            break
+    # Snapshot poslije downloada
+    after_files = list_audio_files_recursive(tmp_dir)
+    logging.debug("  [DL] Audio fajlova u TMP poslije: %d", len(after_files))
 
-    if downloaded_file is None:
-        logging.error("  [DL-ERROR] Ne mogu pronaći output fajl za %s u %s", base_name, tmp_dir)
+    new_files = after_files - before_files
+    if not new_files:
+        logging.error("  [DL-ERROR] Ne mogu pronaći novi audio fajl u %s nakon downloada.", tmp_dir)
         logging.debug("  [DL-STDOUT] %s", proc.stdout.strip())
         logging.debug("  [DL-STDERR] %s", proc.stderr.strip())
         return None
+
+    # Ako ima više novih fajlova, uzmi onaj s najnovijim mtime
+    downloaded_file = max(new_files, key=lambda p: p.stat().st_mtime)
+    logging.info("  [DL] Detektirani novi audio fajl: %s", downloaded_file)
 
     # Formiraj konačni target path
     target_no_ext = base_path / task.target_rel_path()
@@ -313,14 +333,13 @@ def perform_download(task: TrackTask, base_path: Path, tmp_dir: Path) -> Optiona
 # ---------------------------------------------------------------------
 
 def cmd_track(args: argparse.Namespace) -> int:
-    """Za sada samo skeleton: jedan track se tretira kao mini batch."""
+    """Za sada: track se tretira kao mini batch s dummy metapodacima."""
     base_path = resolve_base_path(args.base_path)
     tmp_dir = Path(get_downloader_tmp_dir())
     logging.info("[TRACK] mode")
     logging.info("  input: id=%r url=%r", getattr(args, "id", None), getattr(args, "url", None))
     logging.info("  base_path: %s", base_path)
 
-    # Minimalan skeleton: složimo jedan TrackTask s minimalnim podacima
     spotify_id = args.id if args.id is not None else ""
     spotify_url = args.url
 
@@ -438,7 +457,7 @@ def cmd_artist(args: argparse.Namespace) -> int:
 
 
 def cmd_batch(args: argparse.Namespace) -> int:
-    """Batch download iz JSON liste."""
+    """Batch download iz JSON liste s progress barom."""
     base_path = resolve_base_path(args.base_path)
     batch_path = Path(args.json).expanduser()
     tmp_dir = Path(get_downloader_tmp_dir())
@@ -489,56 +508,62 @@ def cmd_batch(args: argparse.Namespace) -> int:
         )
         tasks.append(task)
 
-    if not tasks:
-        logging.warning("Batch lista je prazna ili neispravna — nema taskova za obradu.")
-        if args.info:
-            print_summary(total=0, downloaded=0, skipped=0, failed=0, elapsed_sec=0.0)
-        return 0
-
     start = time.time()
     total = 0
     downloaded = 0
     skipped = 0
     failed = 0
 
-    max_tracks = args.max_tracks if args.max_tracks is not None else len(tasks)
-    logging.info("Planirano taskova: %d, max-tracks limit: %d", len(tasks), max_tracks)
+    if not tasks:
+        logging.warning("Batch lista je prazna ili neispravna — nema taskova za obradu.")
+        effective_total = 0
+    else:
+        max_tracks = args.max_tracks if args.max_tracks is not None else len(tasks)
+        effective_total = min(len(tasks), max_tracks)
+        logging.info("Planirano taskova: %d, max-tracks limit: %d", len(tasks), max_tracks)
 
-    for i, task in enumerate(tasks, start=1):
-        if total >= max_tracks:
-            logging.info("Dosegnut max-tracks=%d, prekidam.", max_tracks)
-            break
+        processed = 0
+        for i, task in enumerate(tasks, start=1):
+            if processed >= max_tracks:
+                logging.info("Dosegnut max-tracks=%d, prekidam.", max_tracks)
+                break
 
-        rel_path = task.target_rel_path()
-        target_no_ext = base_path / rel_path  # bez ekstenzije
+            rel_path = task.target_rel_path()
+            target_no_ext = base_path / rel_path
+            existing = find_existing_audio(target_no_ext)
 
-        existing = find_existing_audio(target_no_ext)
+            logging.info(
+                "[TASK %d/%d] %s - %s → %s (spotify_id=%s)",
+                i,
+                len(tasks),
+                task.artist,
+                task.track_name,
+                target_no_ext,
+                task.spotify_id,
+            )
 
-        logging.info(
-            "[TASK %d/%d] %s - %s → %s (spotify_id=%s)",
-            i,
-            len(tasks),
-            task.artist,
-            task.track_name,
-            target_no_ext,
-            task.spotify_id,
-        )
-
-        if existing is not None:
-            logging.info("  [EXISTS] Već postoji audio fajl: %s", existing)
-            skipped += 1
-        else:
-            if args.dry_run:
-                logging.info("  [DRY-RUN] AUDIO NE POSTOJI → ovdje bi išao download.")
+            if existing is not None:
+                logging.info("  [EXISTS] Već postoji audio fajl: %s", existing)
                 skipped += 1
             else:
-                result = perform_download(task, base_path, tmp_dir)
-                if result is not None:
-                    downloaded += 1
+                if args.dry_run:
+                    logging.info("  [DRY-RUN] AUDIO NE POSTOJI → ovdje bi išao download.")
+                    skipped += 1
                 else:
-                    failed += 1
+                    result = perform_download(task, base_path, tmp_dir)
+                    if result is not None:
+                        downloaded += 1
+                    else:
+                        failed += 1
 
-        total += 1
+            processed += 1
+            total += 1
+            # update progress bar
+            render_progress(processed, effective_total)
+
+        if effective_total > 0:
+            # završi liniju nakon progress bara
+            print("", file=sys.stdout)
 
     elapsed = time.time() - start
     if args.info:

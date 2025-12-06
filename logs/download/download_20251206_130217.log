@@ -1,0 +1,11 @@
+2025-12-06 13:02:17,825 [INFO] Downloader start
+2025-12-06 13:02:17,825 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251206_130217.log
+2025-12-06 13:02:17,825 [INFO] Base path (CLI): /Volumes/HDD2/Music_TEST_EMPTY
+2025-12-06 13:02:17,825 [INFO] [BATCH] mode
+2025-12-06 13:02:17,825 [INFO]   batch JSON: data/download_batches/small_real_test.json
+2025-12-06 13:02:17,825 [INFO]   base_path: /Volumes/HDD2/Music_TEST_EMPTY
+2025-12-06 13:02:17,825 [INFO] Planirano taskova: 2, max-tracks limit: 2
+2025-12-06 13:02:17,827 [INFO] [TASK 1/2] Queen - Radio Gaga → /Volumes/HDD2/Music_TEST_EMPTY/Queen/2018/Bohemian Rapsody (The Original Soundtrack)/Queen - Radio Gaga (spotify_id=0YwBZKT8JE4U5TwmYE9BV9)
+2025-12-06 13:02:17,827 [INFO]   [DRY-RUN] AUDIO NE POSTOJI → ovdje bi išao download.
+2025-12-06 13:02:17,829 [INFO] [TASK 2/2] Parni Valjak - Lutka Za Bal → /Volumes/HDD2/Music_TEST_EMPTY/Parni Valjak/1977/Glavom Kroz Zid/Parni Valjak - Lutka Za Bal (spotify_id=1U6Rt8JJ9gKcrLBmhNJZyp)
+2025-12-06 13:02:17,829 [INFO]   [DRY-RUN] AUDIO NE POSTOJI → ovdje bi išao download.

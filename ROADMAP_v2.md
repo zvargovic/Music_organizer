@@ -95,6 +95,18 @@ Spotify calls:
 - Spotify API nikad nije flooded
 - Baza reflektira `.final.json`
 
+
+# 8. Downloader modul — IMPLEMENTIRANO
+STATUS: DONE
+
+- [x] download.py — FAZA 1: CLI skeleton (track/album/artist/batch/info), bez realnog downloada
+- [x] download.py — FAZA 2: batch + provjera postojećih fajlova (AUDIO_EXTS) + dry-run
+- [x] download.py — FAZA 2b: integracija sa spotdl (realni download u TMP_DIR, before/after diff, premještanje u Artist/Year/Album/Artist - Title.ext)
+    - batch: puni pipeline za 1+ trackova
+    - track: minimalni wrapper (dummy meta, ali koristi isti download engine)
+    - album/artist: za sada kostur (SIM output, bez pravog Spotify API)
+  (06.12.2025 — DONE)
+
 # 🚀 v1.1.0 — Hardening i stabilnost
 - [ ] JSON log format
 - [ ] Retry mehanizam
@@ -117,6 +129,10 @@ Spotify calls:
 - [ ] Playlist builder
 
 # 📘 PROGRESS LOG
+## 2025-12-06
+- Downloader modul (download.py FAZA 2b: spotdl integracija + TMP diff + premještanje u finalni folder) — DONE
+- download.py — batch CLI progress bar (plava trakica, current/total) — DONE
+
 
 ## 2025-12-03
 - DB Creator, config, OAuth — DONE  

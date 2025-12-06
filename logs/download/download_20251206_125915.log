@@ -1,0 +1,7 @@
+2025-12-06 12:59:15,237 [INFO] Downloader start
+2025-12-06 12:59:15,237 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251206_125915.log
+2025-12-06 12:59:15,237 [INFO] Base path (CLI): /Volumes/HDD2/Music
+2025-12-06 12:59:15,237 [INFO] [BATCH] mode
+2025-12-06 12:59:15,237 [INFO]   batch JSON: data/download_batches/small_real_test.json
+2025-12-06 12:59:15,237 [INFO]   base_path: /Volumes/HDD2/Music
+2025-12-06 12:59:15,237 [WARNING] Batch lista je prazna ili neispravna — nema taskova za obradu.
