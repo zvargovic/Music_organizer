@@ -1,7 +1,0 @@
-2025-12-06 12:04:14,526 [INFO] Downloader start
-2025-12-06 12:04:14,526 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251206_120414.log
-2025-12-06 12:04:14,526 [INFO] Base path (CLI): /Volumes/HDD2/Music
-2025-12-06 12:04:14,526 [INFO] [BATCH] mode
-2025-12-06 12:04:14,526 [INFO]   batch JSON: data/download_batches/test_batch.json
-2025-12-06 12:04:14,527 [INFO]   base_path: /Volumes/HDD2/Music
-2025-12-06 12:04:14,527 [ERROR] Batch JSON ne postoji: data/download_batches/test_batch.json

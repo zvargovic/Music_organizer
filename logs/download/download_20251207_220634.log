@@ -1,0 +1,1057 @@
+2025-12-07 22:06:34,921 [INFO] Downloader start
+2025-12-07 22:06:34,921 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251207_220634.log
+2025-12-07 22:06:34,921 [INFO] Base path (CLI): /Volumes/HDD2/Music
+2025-12-07 22:06:34,921 [INFO] [BATCH] mode
+2025-12-07 22:06:34,921 [INFO]   batch JSON: /Users/khlm/ML/data/download_batches/artist_collection_20251207_220627.json
+2025-12-07 22:06:34,921 [INFO]   base_path: /Volumes/HDD2/Music
+2025-12-07 22:06:34,922 [INFO] Planirano taskova: 263, max-tracks limit: 263
+2025-12-07 22:06:35,033 [INFO] [TASK 1/263] Gibonni - KIŠA - Zinaab → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - KIŠA - Zinaab (spotify_id=3KOw1ruSI5pQsfSKWsXfeV)
+2025-12-07 22:06:35,033 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3KOw1ruSI5pQsfSKWsXfeV
+2025-12-07 22:06:53,032 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - KIŠA - Zinaab.mp3
+2025-12-07 22:06:53,904 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - KIŠA - Zinaab.mp3
+2025-12-07 22:06:53,913 [INFO] [TASK 2/263] Gibonni - Pijesak Nošen Vjetrom → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Pijesak Nošen Vjetrom (spotify_id=5mMcjH5qFheaMJy5B819gX)
+2025-12-07 22:06:53,913 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5mMcjH5qFheaMJy5B819gX
+2025-12-07 22:07:09,577 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Pijesak Nošen Vjetrom.mp3
+2025-12-07 22:07:10,223 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Pijesak Nošen Vjetrom.mp3
+2025-12-07 22:07:10,243 [INFO] [TASK 3/263] Gibonni - Lažu Fotografije → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Lažu Fotografije (spotify_id=43hwzSZvMinQw8d6wXvXw5)
+2025-12-07 22:07:10,243 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/43hwzSZvMinQw8d6wXvXw5
+2025-12-07 22:07:27,358 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lažu Fotografije.mp3
+2025-12-07 22:07:28,193 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Lažu Fotografije.mp3
+2025-12-07 22:07:28,201 [INFO] [TASK 4/263] Gibonni - Mlijeko Proliveno → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Mlijeko Proliveno (spotify_id=4hcBqK6w6nFf1t9bKuFQ1V)
+2025-12-07 22:07:28,201 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4hcBqK6w6nFf1t9bKuFQ1V
+2025-12-07 22:07:43,637 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mlijeko Proliveno.mp3
+2025-12-07 22:07:44,269 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Mlijeko Proliveno.mp3
+2025-12-07 22:07:44,282 [INFO] [TASK 5/263] Gibonni - Ko Si, Da Si → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Ko Si, Da Si (spotify_id=5iAYiS6NnAXH0JH523Hldy)
+2025-12-07 22:07:44,283 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5iAYiS6NnAXH0JH523Hldy
+2025-12-07 22:07:59,440 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ko Si, Da Si.mp3
+2025-12-07 22:07:59,978 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Ko Si, Da Si.mp3
+2025-12-07 22:07:59,985 [INFO] [TASK 6/263] Gibonni - UVERTIRA → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - UVERTIRA (spotify_id=3vAMoBTpxumKDx9ytLwKGz)
+2025-12-07 22:07:59,985 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3vAMoBTpxumKDx9ytLwKGz
+2025-12-07 22:08:15,297 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - UVERTIRA.mp3
+2025-12-07 22:08:15,539 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - UVERTIRA.mp3
+2025-12-07 22:08:15,550 [INFO] [TASK 7/263] Gibonni - Božjom voljom, svojom voljom → /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Božjom voljom, svojom voljom (spotify_id=0sMedlaEpdj9Pjrg0B2pRS)
+2025-12-07 22:08:15,550 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0sMedlaEpdj9Pjrg0B2pRS
+2025-12-07 22:08:33,404 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Božjom voljom, svojom voljom.mp3
+2025-12-07 22:08:34,184 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2021/U Po'ure (Extended Edition)/Gibonni - Božjom voljom, svojom voljom.mp3
+2025-12-07 22:08:34,190 [INFO] [TASK 8/263] Oliver Dragojevic - Onako, Od Oka → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Onako, Od Oka (spotify_id=2CMmCYqk0hX6Z2nnxzs0bE)
+2025-12-07 22:08:34,190 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2CMmCYqk0hX6Z2nnxzs0bE
+2025-12-07 22:08:59,522 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Onako, Od Oka.mp3
+2025-12-07 22:09:00,253 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Onako, Od Oka.mp3
+2025-12-07 22:09:00,294 [INFO] [TASK 9/263] Oliver Dragojevic - Sreća → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Sreća (spotify_id=4Ccsz3JQftt2LrsX28Qc3p)
+2025-12-07 22:09:00,294 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4Ccsz3JQftt2LrsX28Qc3p
+2025-12-07 22:09:18,587 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Oliver Dragojevic, Gibonni - Sreća.mp3
+2025-12-07 22:09:22,677 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Sreća.mp3
+2025-12-07 22:09:22,700 [INFO] [TASK 10/263] Oliver Dragojevic - Kad Sam Nasamo S Njom → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Kad Sam Nasamo S Njom (spotify_id=1vj6fI1x7SAvENskbzzznd)
+2025-12-07 22:09:22,700 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1vj6fI1x7SAvENskbzzznd
+2025-12-07 22:09:38,572 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Oliver Dragojevic - Kad Sam Nasamo S Njom.mp3
+2025-12-07 22:09:39,178 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Kad Sam Nasamo S Njom.mp3
+2025-12-07 22:09:39,187 [INFO] [TASK 11/263] Oliver Dragojevic - Bella Figura Intro → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Bella Figura Intro (spotify_id=7lhIq3dsV9GqDGAGjDRQi5)
+2025-12-07 22:09:39,187 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7lhIq3dsV9GqDGAGjDRQi5
+2025-12-07 22:09:52,200 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Miroslav Tadic - Bella Figura Intro.mp3
+2025-12-07 22:09:52,382 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Bella Figura Intro.mp3
+2025-12-07 22:09:52,408 [INFO] [TASK 12/263] Oliver Dragojevic - Bella Figura, Bella Pitura → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Bella Figura, Bella Pitura (spotify_id=7AgXWsiqJq8hrQRdNOi0sQ)
+2025-12-07 22:09:52,408 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7AgXWsiqJq8hrQRdNOi0sQ
+2025-12-07 22:10:10,055 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Bella Figura, Bella Pitura.mp3
+2025-12-07 22:10:10,677 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Bella Figura, Bella Pitura.mp3
+2025-12-07 22:10:10,688 [INFO] [TASK 13/263] Oliver Dragojevic - Gdje To Piše? → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Gdje To Piše? (spotify_id=59j5gWZMULv6Niw8x4INew)
+2025-12-07 22:10:10,688 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/59j5gWZMULv6Niw8x4INew
+2025-12-07 22:10:26,482 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Oliver Dragojevic - Gdje To Piše.mp3
+2025-12-07 22:10:26,963 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Gdje To Piše?.mp3
+2025-12-07 22:10:26,976 [INFO] [TASK 14/263] Oliver Dragojevic - Udica → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Udica (spotify_id=0nJ0dh4qVos0YGSqGJv6Cl)
+2025-12-07 22:10:26,976 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0nJ0dh4qVos0YGSqGJv6Cl
+2025-12-07 22:10:43,552 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Udica.mp3
+2025-12-07 22:10:44,282 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Udica.mp3
+2025-12-07 22:10:44,303 [INFO] [TASK 15/263] Oliver Dragojevic - Moja Si Kuća → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Moja Si Kuća (spotify_id=00ZxSxWffjqJTsxlnfqlZF)
+2025-12-07 22:10:44,303 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/00ZxSxWffjqJTsxlnfqlZF
+2025-12-07 22:10:59,574 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Oliver Dragojevic, Gibonni - Moja Si Kuća.mp3
+2025-12-07 22:11:00,192 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Moja Si Kuća.mp3
+2025-12-07 22:11:00,203 [INFO] [TASK 16/263] Oliver Dragojevic - Za Tvoje Dobro → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Za Tvoje Dobro (spotify_id=5akHkKzzSQPtwqeCFwjfJG)
+2025-12-07 22:11:00,203 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5akHkKzzSQPtwqeCFwjfJG
+2025-12-07 22:11:16,201 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Oliver Dragojevic - Za Tvoje Dobro.mp3
+2025-12-07 22:11:16,824 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Za Tvoje Dobro.mp3
+2025-12-07 22:11:16,834 [INFO] [TASK 17/263] Oliver Dragojevic - Nisi Više Moja Bol → /Volumes/HDD2/Music/Oliver Dragojevic/2016/Familija/Oliver Dragojevic - Nisi Više Moja Bol (spotify_id=4TbunAL4D7wg2kv7WKPWWt)
+2025-12-07 22:11:16,834 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4TbunAL4D7wg2kv7WKPWWt
+2025-12-07 22:11:26,310 [ERROR]   [DL-ERROR] Ne mogu pronaći novi audio fajl u /Users/khlm/ML/tmp/download nakon downloada.
+2025-12-07 22:11:26,314 [INFO] [TASK 18/263] Gibonni - Andjeo U Tebi → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Andjeo U Tebi (spotify_id=5IEfWgNUs3xXoW8sKQDZVP)
+2025-12-07 22:11:26,314 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5IEfWgNUs3xXoW8sKQDZVP
+2025-12-07 22:11:42,003 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Andjeo U Tebi.mp3
+2025-12-07 22:11:42,715 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Andjeo U Tebi.mp3
+2025-12-07 22:11:42,723 [INFO] [TASK 19/263] Gibonni - Vrime Da Se Pomirim Sa Svitom → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Vrime Da Se Pomirim Sa Svitom (spotify_id=6WmSDMe0SJJXtD0UuDn6Oh)
+2025-12-07 22:11:42,723 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6WmSDMe0SJJXtD0UuDn6Oh
+2025-12-07 22:12:00,079 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrime Da Se Pomirim Sa Svitom.mp3
+2025-12-07 22:12:00,743 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Vrime Da Se Pomirim Sa Svitom.mp3
+2025-12-07 22:12:00,756 [INFO] [TASK 20/263] Gibonni - Kad Sam Na Samo Sa Njom → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Kad Sam Na Samo Sa Njom (spotify_id=2hx8WRQfVLQfgv14UPoTz7)
+2025-12-07 22:12:00,757 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2hx8WRQfVLQfgv14UPoTz7
+2025-12-07 22:12:15,681 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Sam Na Samo Sa Njom.mp3
+2025-12-07 22:12:16,195 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Kad Sam Na Samo Sa Njom.mp3
+2025-12-07 22:12:16,204 [INFO] [TASK 21/263] Gibonni - Zavezanih Ociju → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Zavezanih Ociju (spotify_id=23HRuULa7kbEfxu43M2FqT)
+2025-12-07 22:12:16,204 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/23HRuULa7kbEfxu43M2FqT
+2025-12-07 22:12:35,791 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zavezanih Ociju.mp3
+2025-12-07 22:12:36,375 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Zavezanih Ociju.mp3
+2025-12-07 22:12:36,383 [INFO] [TASK 22/263] Gibonni - Sta Ce Meni Moja Dica Ric → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sta Ce Meni Moja Dica Ric (spotify_id=0FpoeDXMQ6EzfIDzcgssWo)
+2025-12-07 22:12:36,383 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0FpoeDXMQ6EzfIDzcgssWo
+2025-12-07 22:12:51,559 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sta Ce Meni Moja Dica Ric.mp3
+2025-12-07 22:12:52,264 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sta Ce Meni Moja Dica Ric.mp3
+2025-12-07 22:12:52,278 [INFO] [TASK 23/263] Gibonni - Hodaj → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Hodaj (spotify_id=2ME8b8EdHMGkcM79YTMhaP)
+2025-12-07 22:12:52,278 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2ME8b8EdHMGkcM79YTMhaP
+2025-12-07 22:13:08,104 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Hodaj.mp3
+2025-12-07 22:13:08,743 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Hodaj.mp3
+2025-12-07 22:13:08,754 [INFO] [TASK 24/263] Gibonni - Mi Svijetlimlo → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Mi Svijetlimlo (spotify_id=0CKDqcbkJJyiaoW2mjjO5P)
+2025-12-07 22:13:08,754 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0CKDqcbkJJyiaoW2mjjO5P
+2025-12-07 22:13:25,755 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mi Svijetlimlo.mp3
+2025-12-07 22:13:26,429 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Mi Svijetlimlo.mp3
+2025-12-07 22:13:26,438 [INFO] [TASK 25/263] Gibonni - Tija Bi Te Zaboravit → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Tija Bi Te Zaboravit (spotify_id=6fQvam3RkxjaRv2PkIQK7T)
+2025-12-07 22:13:26,438 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6fQvam3RkxjaRv2PkIQK7T
+2025-12-07 22:13:44,115 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tija Bi Te Zaboravit.mp3
+2025-12-07 22:13:44,917 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Tija Bi Te Zaboravit.mp3
+2025-12-07 22:13:44,926 [INFO] [TASK 26/263] Gibonni - Sebi Dovoljna → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sebi Dovoljna (spotify_id=6E0v9zQqI1XiCj2Ri5iJDE)
+2025-12-07 22:13:44,926 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6E0v9zQqI1XiCj2Ri5iJDE
+2025-12-07 22:14:00,552 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sebi Dovoljna.mp3
+2025-12-07 22:14:01,095 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sebi Dovoljna.mp3
+2025-12-07 22:14:01,105 [INFO] [TASK 27/263] Gibonni - Oslobodi Me - Ako Znas O Cemu Govorim → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Oslobodi Me - Ako Znas O Cemu Govorim (spotify_id=1wAc0tu3T1vIN0snqcAx1l)
+2025-12-07 22:14:01,105 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1wAc0tu3T1vIN0snqcAx1l
+2025-12-07 22:14:17,254 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Oslobodi Me - Ako Znas O Cemu Govorim.mp3
+2025-12-07 22:14:17,944 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Oslobodi Me - Ako Znas O Cemu Govorim.mp3
+2025-12-07 22:14:17,968 [INFO] [TASK 28/263] Gibonni - Vrime Da Se Pomirim Sa Svitom - Acoustic → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Vrime Da Se Pomirim Sa Svitom - Acoustic (spotify_id=6ejlD4RhbDJs2kJXwsqV6B)
+2025-12-07 22:14:17,969 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6ejlD4RhbDJs2kJXwsqV6B
+2025-12-07 22:14:33,892 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrime Da Se Pomirim Sa Svitom - Acoustic.mp3
+2025-12-07 22:14:34,539 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Vrime Da Se Pomirim Sa Svitom - Acoustic.mp3
+2025-12-07 22:14:34,548 [INFO] [TASK 29/263] Gibonni - Sta Ce Meni Moja Dica Ric - Bistra Verzija → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sta Ce Meni Moja Dica Ric - Bistra Verzija (spotify_id=1EBGtZq8jAnyeuN4G7B0xf)
+2025-12-07 22:14:34,548 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1EBGtZq8jAnyeuN4G7B0xf
+2025-12-07 22:14:51,050 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sta Ce Meni Moja Dica Ric - Bistra Verzija.mp3
+2025-12-07 22:14:51,610 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sta Ce Meni Moja Dica Ric - Bistra Verzija.mp3
+2025-12-07 22:14:51,621 [INFO] [TASK 30/263] Gibonni - ... → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - ... (spotify_id=66cZTQXjqTcQ2BDobjwSYY)
+2025-12-07 22:14:51,621 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/66cZTQXjqTcQ2BDobjwSYY
+2025-12-07 22:14:59,707 [ERROR]   [DL-ERROR] Ne mogu pronaći novi audio fajl u /Users/khlm/ML/tmp/download nakon downloada.
+2025-12-07 22:14:59,733 [INFO] [TASK 31/263] Gibonni - Sebi Dovoljna - Mix by Coco Mosquito → /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sebi Dovoljna - Mix by Coco Mosquito (spotify_id=2KNYqI8iyaMmywKyby2YlN)
+2025-12-07 22:14:59,733 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2KNYqI8iyaMmywKyby2YlN
+2025-12-07 22:15:16,019 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sebi Dovoljna - Mix by Coco Mosquito.mp3
+2025-12-07 22:15:17,016 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Unca Fibre/Gibonni - Sebi Dovoljna - Mix by Coco Mosquito.mp3
+2025-12-07 22:15:17,021 [INFO] [TASK 32/263] Gibonni - Toleranca → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Toleranca (spotify_id=2dPMMyyCHYWwlIMkF22FJQ)
+2025-12-07 22:15:17,021 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2dPMMyyCHYWwlIMkF22FJQ
+2025-12-07 22:15:33,831 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Toleranca.mp3
+2025-12-07 22:15:34,255 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Toleranca.mp3
+2025-12-07 22:15:34,265 [INFO] [TASK 33/263] Gibonni - Zedam → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Zedam (spotify_id=3rMonTZf4C3D88Kid0Fn4I)
+2025-12-07 22:15:34,266 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3rMonTZf4C3D88Kid0Fn4I
+2025-12-07 22:15:49,688 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zedam.mp3
+2025-12-07 22:15:50,318 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Zedam.mp3
+2025-12-07 22:15:50,333 [INFO] [TASK 34/263] Gibonni - Zamoli Me - Mozda Ti Je Ispod Casti → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Zamoli Me - Mozda Ti Je Ispod Casti (spotify_id=0dWIdk8RdTcygAYYqGNPpv)
+2025-12-07 22:15:50,333 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0dWIdk8RdTcygAYYqGNPpv
+2025-12-07 22:16:04,962 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zamoli Me - Mozda Ti Je Ispod Casti.mp3
+2025-12-07 22:16:05,472 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Zamoli Me - Mozda Ti Je Ispod Casti.mp3
+2025-12-07 22:16:05,483 [INFO] [TASK 35/263] Gibonni - Vesla Na Vodi → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vesla Na Vodi (spotify_id=4LL9r551XXtbIOJJLzuzNd)
+2025-12-07 22:16:05,483 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4LL9r551XXtbIOJJLzuzNd
+2025-12-07 22:16:21,661 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vesla Na Vodi.mp3
+2025-12-07 22:16:22,232 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vesla Na Vodi.mp3
+2025-12-07 22:16:22,241 [INFO] [TASK 36/263] Gibonni - Mala Vesla → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Mala Vesla (spotify_id=3dyx37kxmCGTFqIsi8mkBy)
+2025-12-07 22:16:22,241 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3dyx37kxmCGTFqIsi8mkBy
+2025-12-07 22:16:36,370 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mala Vesla.mp3
+2025-12-07 22:16:36,669 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Mala Vesla.mp3
+2025-12-07 22:16:36,677 [INFO] [TASK 37/263] Gibonni - Slavim Ove Dane Sto Si Tu → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Slavim Ove Dane Sto Si Tu (spotify_id=3qA01LAnP34n8MCxYMdf9v)
+2025-12-07 22:16:36,678 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3qA01LAnP34n8MCxYMdf9v
+2025-12-07 22:16:53,131 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Slavim Ove Dane Sto Si Tu.mp3
+2025-12-07 22:16:53,712 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Slavim Ove Dane Sto Si Tu.mp3
+2025-12-07 22:16:53,721 [INFO] [TASK 38/263] Gibonni - Vrata Do Nas → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vrata Do Nas (spotify_id=3dxepW0Zdz3L8Ct4dvWfAj)
+2025-12-07 22:16:53,721 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3dxepW0Zdz3L8Ct4dvWfAj
+2025-12-07 22:17:09,559 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrata Do Nas.mp3
+2025-12-07 22:17:10,183 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vrata Do Nas.mp3
+2025-12-07 22:17:10,209 [INFO] [TASK 39/263] Gibonni - Opet Si Bogu Drag → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Opet Si Bogu Drag (spotify_id=3TkzoZBe1jB9KCydTxEYDx)
+2025-12-07 22:17:10,209 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3TkzoZBe1jB9KCydTxEYDx
+2025-12-07 22:17:26,969 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Opet Si Bogu Drag.mp3
+2025-12-07 22:17:27,421 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Opet Si Bogu Drag.mp3
+2025-12-07 22:17:27,443 [INFO] [TASK 40/263] Gibonni - Vrata Moje Sestre → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vrata Moje Sestre (spotify_id=311ErOVqPK5ZBHLSCeuCSe)
+2025-12-07 22:17:27,443 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/311ErOVqPK5ZBHLSCeuCSe
+2025-12-07 22:17:43,766 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrata Moje Sestre.mp3
+2025-12-07 22:17:44,284 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Vrata Moje Sestre.mp3
+2025-12-07 22:17:44,292 [INFO] [TASK 41/263] Gibonni - Cemu Se Nadas, Srce Moje → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Cemu Se Nadas, Srce Moje (spotify_id=47RL3D5EgqCRaRJExufzc4)
+2025-12-07 22:17:44,293 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/47RL3D5EgqCRaRJExufzc4
+2025-12-07 22:18:00,115 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Cemu Se Nadas, Srce Moje.mp3
+2025-12-07 22:18:00,664 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Cemu Se Nadas, Srce Moje.mp3
+2025-12-07 22:18:00,675 [INFO] [TASK 42/263] Gibonni - Toleranca - Drugo Citanje → /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Toleranca - Drugo Citanje (spotify_id=28WcHkt6botnYvuGHxCvwA)
+2025-12-07 22:18:00,675 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/28WcHkt6botnYvuGHxCvwA
+2025-12-07 22:18:15,103 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Toleranca - Drugo Citanje.mp3
+2025-12-07 22:18:15,432 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Toleranca/Gibonni - Toleranca - Drugo Citanje.mp3
+2025-12-07 22:18:15,435 [INFO] [TASK 43/263] Gibonni - Oprosti → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Oprosti (spotify_id=3sgVCNPfm0UbHxbBJAU9jM)
+2025-12-07 22:18:15,435 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3sgVCNPfm0UbHxbBJAU9jM
+2025-12-07 22:18:32,165 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Oprosti.mp3
+2025-12-07 22:18:32,740 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Oprosti.mp3
+2025-12-07 22:18:32,748 [INFO] [TASK 44/263] Gibonni - Libar → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Libar (spotify_id=3w5U7oyMWOt7FTw11KQ0j0)
+2025-12-07 22:18:32,748 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3w5U7oyMWOt7FTw11KQ0j0
+2025-12-07 22:18:49,599 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Libar.mp3
+2025-12-07 22:18:50,341 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Libar.mp3
+2025-12-07 22:18:50,350 [INFO] [TASK 45/263] Gibonni - Ne Odustajem → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Ne Odustajem (spotify_id=3hvGrRYbAMXP9mFcTUcSKd)
+2025-12-07 22:18:50,350 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3hvGrRYbAMXP9mFcTUcSKd
+2025-12-07 22:19:05,535 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ne Odustajem.mp3
+2025-12-07 22:19:06,175 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Ne Odustajem.mp3
+2025-12-07 22:19:06,195 [INFO] [TASK 46/263] Gibonni - Tajna Vještina → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Tajna Vještina (spotify_id=2IlXXAJqdROpH7g6HQyZ05)
+2025-12-07 22:19:06,195 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2IlXXAJqdROpH7g6HQyZ05
+2025-12-07 22:19:36,138 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tajna Vještina.mp3
+2025-12-07 22:19:36,790 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Tajna Vještina.mp3
+2025-12-07 22:19:36,802 [INFO] [TASK 47/263] Gibonni - Mirakul - Intro → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Mirakul - Intro (spotify_id=5RYoQbLdPVwnHSoaT2vD9b)
+2025-12-07 22:19:36,803 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5RYoQbLdPVwnHSoaT2vD9b
+2025-12-07 22:20:02,948 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mirakul - Intro.mp3
+2025-12-07 22:20:03,107 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Mirakul - Intro.mp3
+2025-12-07 22:20:03,116 [INFO] [TASK 48/263] Gibonni - Mirakul → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Mirakul (spotify_id=5uSLzwLqMS33fHP6EPOhHj)
+2025-12-07 22:20:03,116 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5uSLzwLqMS33fHP6EPOhHj
+2025-12-07 22:20:34,911 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mirakul.mp3
+2025-12-07 22:20:35,644 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Mirakul.mp3
+2025-12-07 22:20:35,652 [INFO] [TASK 49/263] Gibonni - Za Ljubav Izgorit' → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Za Ljubav Izgorit' (spotify_id=1sleZGlBe46h7EyLte9jmq)
+2025-12-07 22:20:35,652 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1sleZGlBe46h7EyLte9jmq
+2025-12-07 22:21:04,570 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Za Ljubav Izgorit'.mp3
+2025-12-07 22:21:05,143 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Za Ljubav Izgorit'.mp3
+2025-12-07 22:21:05,152 [INFO] [TASK 50/263] Gibonni - Ono Nešto → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Ono Nešto (spotify_id=3N0XZul59oOIlrFGrLEuR9)
+2025-12-07 22:21:05,152 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3N0XZul59oOIlrFGrLEuR9
+2025-12-07 22:21:18,784 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ono Nešto.mp3
+2025-12-07 22:21:18,960 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Ono Nešto.mp3
+2025-12-07 22:21:18,970 [INFO] [TASK 51/263] Gibonni - Kao Časna Riječ → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Kao Časna Riječ (spotify_id=589I5meq6pChRoeEQHyX5y)
+2025-12-07 22:21:18,970 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/589I5meq6pChRoeEQHyX5y
+2025-12-07 22:21:35,069 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kao Časna Riječ.mp3
+2025-12-07 22:21:35,714 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Kao Časna Riječ.mp3
+2025-12-07 22:21:35,726 [INFO] [TASK 52/263] Gibonni - Svi Moji Punti Kad Se Zbroje → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Svi Moji Punti Kad Se Zbroje (spotify_id=06dHJ4ICHSCXpltDPiyuWO)
+2025-12-07 22:21:35,727 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/06dHJ4ICHSCXpltDPiyuWO
+2025-12-07 22:22:05,111 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Svi Moji Punti Kad Se Zbroje.mp3
+2025-12-07 22:22:05,715 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Svi Moji Punti Kad Se Zbroje.mp3
+2025-12-07 22:22:05,730 [INFO] [TASK 53/263] Gibonni - Kad Mi Nebo Bude Dom → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Kad Mi Nebo Bude Dom (spotify_id=6CHa4nfntKSvbCxlaJ8Qri)
+2025-12-07 22:22:05,730 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6CHa4nfntKSvbCxlaJ8Qri
+2025-12-07 22:22:33,965 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Mi Nebo Bude Dom.mp3
+2025-12-07 22:22:34,826 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Kad Mi Nebo Bude Dom.mp3
+2025-12-07 22:22:34,835 [INFO] [TASK 54/263] Gibonni - Libar Od Mojega Duga → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Libar Od Mojega Duga (spotify_id=5mp7ckdqTLh94yi1QI9gu2)
+2025-12-07 22:22:34,835 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5mp7ckdqTLh94yi1QI9gu2
+2025-12-07 22:22:50,403 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Libar Od Mojega Duga.mp3
+2025-12-07 22:22:50,949 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Libar Od Mojega Duga.mp3
+2025-12-07 22:22:50,958 [INFO] [TASK 55/263] Gibonni - Oprosti - A Capella → /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Oprosti - A Capella (spotify_id=2crg2KmnQuBygv3hfRrEmZ)
+2025-12-07 22:22:50,958 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2crg2KmnQuBygv3hfRrEmZ
+2025-12-07 22:23:06,172 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Oprosti - A Capella.mp3
+2025-12-07 22:23:06,557 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Mirakul/Gibonni - Oprosti - A Capella.mp3
+2025-12-07 22:23:06,559 [INFO] [TASK 56/263] Gibonni - Divji Cvit - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Divji Cvit - Live (spotify_id=3AIKAmEkAgyZzm3sHsTdTw)
+2025-12-07 22:23:06,559 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3AIKAmEkAgyZzm3sHsTdTw
+2025-12-07 22:23:23,153 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Divji Cvit - Live.mp3
+2025-12-07 22:23:23,842 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Divji Cvit - Live.mp3
+2025-12-07 22:23:23,851 [INFO] [TASK 57/263] Gibonni - Mirakul - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Mirakul - Live (spotify_id=3DvMwoQOeVoLJKTeUenjOS)
+2025-12-07 22:23:23,851 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3DvMwoQOeVoLJKTeUenjOS
+2025-12-07 22:23:40,674 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mirakul - Live.mp3
+2025-12-07 22:23:41,491 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Mirakul - Live.mp3
+2025-12-07 22:23:41,493 [INFO] [TASK 58/263] Gibonni - Ne Odustajem / Dvije Duse - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Ne Odustajem / Dvije Duse - Live (spotify_id=1GxYcuVByFISazOaKbVz8U)
+2025-12-07 22:23:41,493 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1GxYcuVByFISazOaKbVz8U
+2025-12-07 22:23:58,974 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ne Odustajem  Dvije Duse - Live.mp3
+2025-12-07 22:23:59,765 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Ne Odustajem / Dvije Duse - Live.mp3
+2025-12-07 22:23:59,776 [INFO] [TASK 59/263] Gibonni - Amazing Grace - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Amazing Grace - Live (spotify_id=41WhrdcSoHfqudBUHeRBz4)
+2025-12-07 22:23:59,777 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/41WhrdcSoHfqudBUHeRBz4
+2025-12-07 22:24:14,561 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Amazing Grace - Live.mp3
+2025-12-07 22:24:14,923 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Amazing Grace - Live.mp3
+2025-12-07 22:24:14,937 [INFO] [TASK 60/263] Gibonni - Toleranca - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Toleranca - Live (spotify_id=6Ai16XsQyTv27BffgwlCGE)
+2025-12-07 22:24:14,937 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6Ai16XsQyTv27BffgwlCGE
+2025-12-07 22:24:35,404 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Toleranca - Live.mp3
+2025-12-07 22:24:35,951 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Toleranca - Live.mp3
+2025-12-07 22:24:35,959 [INFO] [TASK 61/263] Gibonni - Zedjam - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Zedjam - Live (spotify_id=1IvpItbZHbm42Fuq14RqP8)
+2025-12-07 22:24:35,959 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1IvpItbZHbm42Fuq14RqP8
+2025-12-07 22:24:52,392 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zedjam - Live.mp3
+2025-12-07 22:24:53,035 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Zedjam - Live.mp3
+2025-12-07 22:24:53,046 [INFO] [TASK 62/263] Gibonni - Zamoli Me - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Zamoli Me - Live (spotify_id=0GcnEEtlIcGg1UM2GrlBRu)
+2025-12-07 22:24:53,046 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0GcnEEtlIcGg1UM2GrlBRu
+2025-12-07 22:25:08,086 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zamoli Me - Live.mp3
+2025-12-07 22:25:08,646 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Zamoli Me - Live.mp3
+2025-12-07 22:25:08,648 [INFO] [TASK 63/263] Gibonni - Judi, Zviri I Bestinje / Moja Voda - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Judi, Zviri I Bestinje / Moja Voda - Live (spotify_id=4xGcnwPzuczs6w1BBnhFpJ)
+2025-12-07 22:25:08,648 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4xGcnwPzuczs6w1BBnhFpJ
+2025-12-07 22:25:34,696 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Judi, Zviri I Bestinje  Moja Voda - Live.mp3
+2025-12-07 22:25:35,244 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Judi, Zviri I Bestinje / Moja Voda - Live.mp3
+2025-12-07 22:25:35,253 [INFO] [TASK 64/263] Gibonni - Slavim Ove Dane - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Slavim Ove Dane - Live (spotify_id=3v711N9zPhHfOz6HExDuP2)
+2025-12-07 22:25:35,253 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3v711N9zPhHfOz6HExDuP2
+2025-12-07 22:25:53,671 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Slavim Ove Dane - Live.mp3
+2025-12-07 22:25:54,737 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Slavim Ove Dane - Live.mp3
+2025-12-07 22:25:54,746 [INFO] [TASK 65/263] Gibonni - Posoljeni Zrak I Razlivena Tinta - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live (spotify_id=7KKhGk4i5FaTXm4ltL0MvB)
+2025-12-07 22:25:54,746 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7KKhGk4i5FaTXm4ltL0MvB
+2025-12-07 22:26:13,833 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live.mp3
+2025-12-07 22:26:14,878 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live.mp3
+2025-12-07 22:26:14,888 [INFO] [TASK 66/263] Gibonni - Vrata Moje Setre - Live → /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Vrata Moje Setre - Live (spotify_id=3xp7SPZocQ3AEaCz9An9Ho)
+2025-12-07 22:26:14,888 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3xp7SPZocQ3AEaCz9An9Ho
+2025-12-07 22:26:35,292 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrata Moje Setre - Live.mp3
+2025-12-07 22:26:35,985 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Live/Gibonni - Vrata Moje Setre - Live.mp3
+2025-12-07 22:26:35,988 [INFO] [TASK 67/263] Gibonni - Cinim Pravu Stvar - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Cinim Pravu Stvar - Live (spotify_id=3VKk75qIyGAsEHXp0EVOyM)
+2025-12-07 22:26:35,988 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3VKk75qIyGAsEHXp0EVOyM
+2025-12-07 22:26:51,329 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Cinim Pravu Stvar - Live.mp3
+2025-12-07 22:26:51,933 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Cinim Pravu Stvar - Live.mp3
+2025-12-07 22:26:51,941 [INFO] [TASK 68/263] Gibonni - Dvije Duse - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Dvije Duse - Live (spotify_id=3Rkjo20nLRjO73nNJrfEUq)
+2025-12-07 22:26:51,941 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3Rkjo20nLRjO73nNJrfEUq
+2025-12-07 22:27:07,458 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duse - Live.mp3
+2025-12-07 22:27:08,017 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Dvije Duse - Live.mp3
+2025-12-07 22:27:08,026 [INFO] [TASK 69/263] Gibonni - Mirakul - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Mirakul - Live (spotify_id=3VKvX1b0PjhcFPIZYp59NH)
+2025-12-07 22:27:08,026 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3VKvX1b0PjhcFPIZYp59NH
+2025-12-07 22:27:24,689 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mirakul - Live.mp3
+2025-12-07 22:27:25,549 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Mirakul - Live.mp3
+2025-12-07 22:27:25,558 [INFO] [TASK 70/263] Gibonni - Posoljeni Zrak I Razlivena Tinta - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live (spotify_id=56FkVpUxeXlPycnKIJ3Ddt)
+2025-12-07 22:27:25,558 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/56FkVpUxeXlPycnKIJ3Ddt
+2025-12-07 22:27:40,589 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live.mp3
+2025-12-07 22:27:41,180 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Posoljeni Zrak I Razlivena Tinta - Live.mp3
+2025-12-07 22:27:41,195 [INFO] [TASK 71/263] Gibonni - Tempera - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Tempera - Live (spotify_id=2RAmEPmOvLjuG2p5fj7w06)
+2025-12-07 22:27:41,195 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2RAmEPmOvLjuG2p5fj7w06
+2025-12-07 22:27:57,889 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tempera - Live.mp3
+2025-12-07 22:27:58,539 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Tempera - Live.mp3
+2025-12-07 22:27:58,551 [INFO] [TASK 72/263] Gibonni - Sve Cu Prezivit - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Sve Cu Prezivit - Live (spotify_id=0tKlHSY57ZFQo828iepMfN)
+2025-12-07 22:27:58,551 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0tKlHSY57ZFQo828iepMfN
+2025-12-07 22:28:14,669 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sve Cu Prezivit - Live.mp3
+2025-12-07 22:28:15,189 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Sve Cu Prezivit - Live.mp3
+2025-12-07 22:28:15,198 [INFO] [TASK 73/263] Gibonni - Sta Ce Meni Moja Dica Rec - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Sta Ce Meni Moja Dica Rec - Live (spotify_id=4RjP2WkQjOp5YHOozMWh83)
+2025-12-07 22:28:15,198 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4RjP2WkQjOp5YHOozMWh83
+2025-12-07 22:28:34,741 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sta Ce Meni Moja Dica Rec - Live.mp3
+2025-12-07 22:28:35,349 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Sta Ce Meni Moja Dica Rec - Live.mp3
+2025-12-07 22:28:35,360 [INFO] [TASK 74/263] Gibonni - Svi Moji Punti Kad Se Zbroje - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Svi Moji Punti Kad Se Zbroje - Live (spotify_id=3yz8Vro9MEti9CW7rB9DJN)
+2025-12-07 22:28:35,360 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3yz8Vro9MEti9CW7rB9DJN
+2025-12-07 22:28:50,318 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Svi Moji Punti Kad Se Zbroje - Live.mp3
+2025-12-07 22:28:50,865 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Svi Moji Punti Kad Se Zbroje - Live.mp3
+2025-12-07 22:28:50,874 [INFO] [TASK 75/263] Gibonni - Ovo Mi Je Skola - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Ovo Mi Je Skola - Live (spotify_id=6ITBc5BaRL2X06V1xiOWGp)
+2025-12-07 22:28:50,874 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6ITBc5BaRL2X06V1xiOWGp
+2025-12-07 22:29:08,223 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo Mi Je Skola - Live.mp3
+2025-12-07 22:29:09,142 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Ovo Mi Je Skola - Live.mp3
+2025-12-07 22:29:09,151 [INFO] [TASK 76/263] Gibonni - U Ljubav Vjere Nemam - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - U Ljubav Vjere Nemam - Live (spotify_id=0BkDvw1YXbUtNmo9xMPNY4)
+2025-12-07 22:29:09,151 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0BkDvw1YXbUtNmo9xMPNY4
+2025-12-07 22:29:25,255 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 22:29:25,846 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 22:29:25,856 [INFO] [TASK 77/263] Gibonni - Andjeo U Tebi - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Andjeo U Tebi - Live (spotify_id=6e550IGG3BaIPwUZZDnFPL)
+2025-12-07 22:29:25,857 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6e550IGG3BaIPwUZZDnFPL
+2025-12-07 22:29:41,189 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Andjeo U Tebi - Live.mp3
+2025-12-07 22:29:42,014 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Andjeo U Tebi - Live.mp3
+2025-12-07 22:29:42,023 [INFO] [TASK 78/263] Gibonni - Libar - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Libar - Live (spotify_id=21339HnEeMjMjrMAXOv0M9)
+2025-12-07 22:29:42,023 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/21339HnEeMjMjrMAXOv0M9
+2025-12-07 22:30:01,528 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Libar - Live.mp3
+2025-12-07 22:30:02,676 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Libar - Live.mp3
+2025-12-07 22:30:02,686 [INFO] [TASK 79/263] Gibonni - Oprosti - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Oprosti - Live (spotify_id=0bSR9TV3iy4eKRo26YInMn)
+2025-12-07 22:30:02,686 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0bSR9TV3iy4eKRo26YInMn
+2025-12-07 22:30:19,619 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Oprosti - Live.mp3
+2025-12-07 22:30:20,340 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Oprosti - Live.mp3
+2025-12-07 22:30:20,353 [INFO] [TASK 80/263] Gibonni - Vrime Da Se Pomirim Sa Svitom - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Vrime Da Se Pomirim Sa Svitom - Live (spotify_id=7eoVy8j8DyBbcQ0lgitSif)
+2025-12-07 22:30:20,353 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7eoVy8j8DyBbcQ0lgitSif
+2025-12-07 22:30:37,703 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Vrime Da Se Pomirim Sa Svitom - Live.mp3
+2025-12-07 22:30:38,344 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Vrime Da Se Pomirim Sa Svitom - Live.mp3
+2025-12-07 22:30:38,355 [INFO] [TASK 81/263] Gibonni - Tija Bi Te Zaboravit - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Tija Bi Te Zaboravit - Live (spotify_id=1uOahZUCw21Ea34bW5QtTL)
+2025-12-07 22:30:38,355 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1uOahZUCw21Ea34bW5QtTL
+2025-12-07 22:30:57,081 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tija Bi Te Zaboravit - Live.mp3
+2025-12-07 22:30:57,927 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Tija Bi Te Zaboravit - Live.mp3
+2025-12-07 22:30:57,938 [INFO] [TASK 82/263] Gibonni - Hodaj - Live → /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Hodaj - Live (spotify_id=5ssTTOqOXiv1ip5SeOALQk)
+2025-12-07 22:30:57,938 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5ssTTOqOXiv1ip5SeOALQk
+2025-12-07 22:31:15,045 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Hodaj - Live.mp3
+2025-12-07 22:31:15,680 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2015/Acoustic:Electric/Gibonni - Hodaj - Live.mp3
+2025-12-07 22:31:15,683 [INFO] [TASK 83/263] Gibonni - Hey Crow → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Hey Crow (spotify_id=4oIbJdpw8SXinJIZMVSc5p)
+2025-12-07 22:31:15,683 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4oIbJdpw8SXinJIZMVSc5p
+2025-12-07 22:31:34,551 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Hey Crow.mp3
+2025-12-07 22:31:35,042 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Hey Crow.mp3
+2025-12-07 22:31:35,051 [INFO] [TASK 84/263] Gibonni - Hide the Mirror → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Hide the Mirror (spotify_id=760NeEtXFMTfUre0f5b2Z8)
+2025-12-07 22:31:35,051 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/760NeEtXFMTfUre0f5b2Z8
+2025-12-07 22:31:51,892 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Hide the Mirror.mp3
+2025-12-07 22:31:52,496 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Hide the Mirror.mp3
+2025-12-07 22:31:52,508 [INFO] [TASK 85/263] Gibonni - Broken Finger → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Broken Finger (spotify_id=2E7MgjeiDLMq3Faa1Qgh3p)
+2025-12-07 22:31:52,508 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2E7MgjeiDLMq3Faa1Qgh3p
+2025-12-07 22:32:08,838 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Broken Finger.mp3
+2025-12-07 22:32:09,347 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Broken Finger.mp3
+2025-12-07 22:32:09,355 [INFO] [TASK 86/263] Gibonni - My Cloud → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - My Cloud (spotify_id=6Th0zqazUn7BInrWQ9eztm)
+2025-12-07 22:32:09,355 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6Th0zqazUn7BInrWQ9eztm
+2025-12-07 22:32:35,272 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - My Cloud.mp3
+2025-12-07 22:32:35,920 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - My Cloud.mp3
+2025-12-07 22:32:35,928 [INFO] [TASK 87/263] Gibonni - 20th Century Man → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - 20th Century Man (spotify_id=2tHwppCbJC6pwNpm9qtWQ8)
+2025-12-07 22:32:35,928 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2tHwppCbJC6pwNpm9qtWQ8
+2025-12-07 22:32:52,107 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - 20th Century Man.mp3
+2025-12-07 22:32:52,630 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - 20th Century Man.mp3
+2025-12-07 22:32:52,639 [INFO] [TASK 88/263] Gibonni - Kids in Uniform → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Kids in Uniform (spotify_id=0IgqZPhoBbmUw0P09PitU2)
+2025-12-07 22:32:52,640 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0IgqZPhoBbmUw0P09PitU2
+2025-12-07 22:33:09,008 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kids in Uniform.mp3
+2025-12-07 22:33:09,610 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Kids in Uniform.mp3
+2025-12-07 22:33:09,617 [INFO] [TASK 89/263] Gibonni - My brother Cain → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - My brother Cain (spotify_id=7LNGObzu5fAnoYDYfIy2HV)
+2025-12-07 22:33:09,617 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7LNGObzu5fAnoYDYfIy2HV
+2025-12-07 22:33:34,789 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - My brother Cain.mp3
+2025-12-07 22:33:35,719 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - My brother Cain.mp3
+2025-12-07 22:33:35,728 [INFO] [TASK 90/263] Gibonni - She said → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - She said (spotify_id=0eOwzo6AvIXehFlddRNKog)
+2025-12-07 22:33:35,728 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0eOwzo6AvIXehFlddRNKog
+2025-12-07 22:33:52,059 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - She said.mp3
+2025-12-07 22:33:52,869 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - She said.mp3
+2025-12-07 22:33:52,883 [INFO] [TASK 91/263] Gibonni - Nothing Changes → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Nothing Changes (spotify_id=1L3qVSD6MNcFYXzyFdVnms)
+2025-12-07 22:33:52,883 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1L3qVSD6MNcFYXzyFdVnms
+2025-12-07 22:34:08,416 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nothing Changes.mp3
+2025-12-07 22:34:09,012 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Nothing Changes.mp3
+2025-12-07 22:34:09,044 [INFO] [TASK 92/263] Gibonni - Ain't bad enough for r'n'r → /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Ain't bad enough for r'n'r (spotify_id=1Nbemi2jTe0w56Jwz5MUwp)
+2025-12-07 22:34:09,044 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1Nbemi2jTe0w56Jwz5MUwp
+2025-12-07 22:34:35,683 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ain't bad enough for r'n'r.mp3
+2025-12-07 22:34:36,210 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2013/20TH CENTURY MAN/Gibonni - Ain't bad enough for r'n'r.mp3
+2025-12-07 22:34:36,212 [INFO] [TASK 93/263] Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio) → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio) (spotify_id=5jVRGJKMGIatRDDMHgr3Ax)
+2025-12-07 22:34:36,212 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5jVRGJKMGIatRDDMHgr3Ax
+2025-12-07 22:34:52,388 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio).mp3
+2025-12-07 22:34:52,827 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio).mp3
+2025-12-07 22:34:52,835 [INFO] [TASK 94/263] Gibonni - Ciccolina → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ciccolina (spotify_id=587UqJK90NgJSwxY5cZNQz)
+2025-12-07 22:34:52,836 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/587UqJK90NgJSwxY5cZNQz
+2025-12-07 22:35:07,975 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ciccolina.mp3
+2025-12-07 22:35:08,457 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ciccolina.mp3
+2025-12-07 22:35:08,468 [INFO] [TASK 95/263] Gibonni - Zrno Radosti → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zrno Radosti (spotify_id=7a6pUQtkzzHVWF6JLZMSkM)
+2025-12-07 22:35:08,468 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7a6pUQtkzzHVWF6JLZMSkM
+2025-12-07 22:35:23,519 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zrno Radosti.mp3
+2025-12-07 22:35:24,097 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zrno Radosti.mp3
+2025-12-07 22:35:24,218 [INFO] [TASK 96/263] Gibonni - Sve Će Biti K'O Nekada → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sve Će Biti K'O Nekada (spotify_id=5tl0PfrX6nhNqVVl91VxbG)
+2025-12-07 22:35:24,218 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5tl0PfrX6nhNqVVl91VxbG
+2025-12-07 22:35:39,237 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sve Će Biti K'O Nekada.mp3
+2025-12-07 22:35:39,771 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sve Će Biti K'O Nekada.mp3
+2025-12-07 22:35:39,779 [INFO] [TASK 97/263] Gibonni - Sa Mnom Ili Bez Mene → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sa Mnom Ili Bez Mene (spotify_id=2x3WTwhkzF5NOsjyK1cJDe)
+2025-12-07 22:35:39,779 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2x3WTwhkzF5NOsjyK1cJDe
+2025-12-07 22:35:55,138 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 22:35:55,596 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 22:35:55,604 [INFO] [TASK 98/263] Gibonni - Kad Te Spomenem → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kad Te Spomenem (spotify_id=6m5FUFBslTrt2UwB7QnHll)
+2025-12-07 22:35:55,605 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6m5FUFBslTrt2UwB7QnHll
+2025-12-07 22:36:10,927 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 22:36:11,453 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 22:36:11,476 [INFO] [TASK 99/263] Gibonni - Cijelu Noć Molio Sam Nebo → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Cijelu Noć Molio Sam Nebo (spotify_id=0lTpBlaIMCyJlH9ka6gxdD)
+2025-12-07 22:36:11,476 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0lTpBlaIMCyJlH9ka6gxdD
+2025-12-07 22:36:34,329 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 22:36:35,230 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 22:36:35,240 [INFO] [TASK 100/263] Gibonni - Zar Bih Te Povrijedio → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zar Bih Te Povrijedio (spotify_id=4s4481DVjFDyvAg6Ey9lcE)
+2025-12-07 22:36:35,240 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4s4481DVjFDyvAg6Ey9lcE
+2025-12-07 22:37:03,753 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zar Bih Te Povrijedio.mp3
+2025-12-07 22:37:04,091 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zar Bih Te Povrijedio.mp3
+2025-12-07 22:37:04,099 [INFO] [TASK 101/263] Gibonni - Nek Se Dijete Zove Kao Ja → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nek Se Dijete Zove Kao Ja (spotify_id=0n5kMM8fLCWZ7T9VM9VPtA)
+2025-12-07 22:37:04,099 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0n5kMM8fLCWZ7T9VM9VPtA
+2025-12-07 22:37:20,009 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 22:37:20,538 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 22:37:20,572 [INFO] [TASK 102/263] Gibonni - Suviše Sam Njen → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Suviše Sam Njen (spotify_id=0H3ZV6X4y3MbgXCsINX050)
+2025-12-07 22:37:20,572 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0H3ZV6X4y3MbgXCsINX050
+2025-12-07 22:37:36,116 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Suviše Sam Njen.mp3
+2025-12-07 22:37:36,756 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Suviše Sam Njen.mp3
+2025-12-07 22:37:36,765 [INFO] [TASK 103/263] Gibonni - Noina Arka → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Noina Arka (spotify_id=2kgZ2WttlsxPtV4stt9lCE)
+2025-12-07 22:37:36,765 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2kgZ2WttlsxPtV4stt9lCE
+2025-12-07 22:37:53,135 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Noina Arka.mp3
+2025-12-07 22:37:53,931 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Noina Arka.mp3
+2025-12-07 22:37:53,940 [INFO] [TASK 104/263] Gibonni - Ostat Ću Na Nogama → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ostat Ću Na Nogama (spotify_id=1ArNlrKFAWsYyvZYi7LYSy)
+2025-12-07 22:37:53,940 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1ArNlrKFAWsYyvZYi7LYSy
+2025-12-07 22:38:09,337 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ostat Ću Na Nogama.mp3
+2025-12-07 22:38:09,918 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ostat Ću Na Nogama.mp3
+2025-12-07 22:38:09,927 [INFO] [TASK 105/263] Gibonni - Dobri Judi → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dobri Judi (spotify_id=5C7D2WPcxNf25zngCDhUyp)
+2025-12-07 22:38:09,927 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5C7D2WPcxNf25zngCDhUyp
+2025-12-07 22:38:25,990 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi.mp3
+2025-12-07 22:38:26,439 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dobri Judi.mp3
+2025-12-07 22:38:26,448 [INFO] [TASK 106/263] Gibonni - Zlatne Godine - Unplugged Verzija → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zlatne Godine - Unplugged Verzija (spotify_id=6muHWV4Fmxqvlw31sHuXKL)
+2025-12-07 22:38:26,448 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6muHWV4Fmxqvlw31sHuXKL
+2025-12-07 22:38:44,647 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 22:38:45,438 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 22:38:45,449 [INFO] [TASK 107/263] Gibonni - Nisi Htjela Siromaha → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nisi Htjela Siromaha (spotify_id=5CW8xa5EKTIMLD0F2IRSML)
+2025-12-07 22:38:45,450 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5CW8xa5EKTIMLD0F2IRSML
+2025-12-07 22:39:00,440 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nisi Htjela Siromaha.mp3
+2025-12-07 22:39:00,957 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nisi Htjela Siromaha.mp3
+2025-12-07 22:39:00,976 [INFO] [TASK 108/263] Gibonni - Tebe Nisam Bio Vrijedan → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Tebe Nisam Bio Vrijedan (spotify_id=1QrBsBw54dJf5neOF5Fgao)
+2025-12-07 22:39:00,977 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1QrBsBw54dJf5neOF5Fgao
+2025-12-07 22:39:16,044 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 22:39:16,488 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 22:39:16,500 [INFO] [TASK 109/263] Gibonni - Kaplja Voska → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kaplja Voska (spotify_id=5sX7iGeoZMd0O158z9A1nO)
+2025-12-07 22:39:16,500 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5sX7iGeoZMd0O158z9A1nO
+2025-12-07 22:39:30,868 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kaplja Voska.mp3
+2025-12-07 22:39:31,381 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kaplja Voska.mp3
+2025-12-07 22:39:31,392 [INFO] [TASK 110/263] Gibonni - Mi Smo Prvaci → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Mi Smo Prvaci (spotify_id=4Eao2bVbKNo5jMWJYtYydI)
+2025-12-07 22:39:31,392 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4Eao2bVbKNo5jMWJYtYydI
+2025-12-07 22:39:47,076 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mi Smo Prvaci.mp3
+2025-12-07 22:39:47,651 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Mi Smo Prvaci.mp3
+2025-12-07 22:39:47,661 [INFO] [TASK 111/263] Gibonni - Nije Vrime Od Nedije Za U Poje Poći → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nije Vrime Od Nedije Za U Poje Poći (spotify_id=7szZy15zocZbcHxOmCLrFc)
+2025-12-07 22:39:47,661 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7szZy15zocZbcHxOmCLrFc
+2025-12-07 22:40:03,401 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 22:40:03,919 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 22:40:03,934 [INFO] [TASK 112/263] Gibonni - Kruna Od Perja → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kruna Od Perja (spotify_id=7zhProcJRWDGjX12V2OKwm)
+2025-12-07 22:40:03,935 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7zhProcJRWDGjX12V2OKwm
+2025-12-07 22:40:21,159 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kruna Od Perja.mp3
+2025-12-07 22:40:21,633 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Kruna Od Perja.mp3
+2025-12-07 22:40:21,647 [INFO] [TASK 113/263] Gibonni - Dvije Duše → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dvije Duše (spotify_id=6MmdGPDKAw0RhCMzfpow4I)
+2025-12-07 22:40:21,647 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6MmdGPDKAw0RhCMzfpow4I
+2025-12-07 22:40:39,251 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše.mp3
+2025-12-07 22:40:39,893 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dvije Duše.mp3
+2025-12-07 22:40:39,903 [INFO] [TASK 114/263] Gibonni - Ozdravi Mi Ti → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti (spotify_id=4y4Ke5lMWsDKF19Br3KzUM)
+2025-12-07 22:40:39,903 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4y4Ke5lMWsDKF19Br3KzUM
+2025-12-07 22:40:55,143 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 22:40:55,807 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 22:40:55,815 [INFO] [TASK 115/263] Gibonni - Predstavi Se, Tko Si → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Predstavi Se, Tko Si (spotify_id=5ljLLsZX2UvlmgPPiVcGke)
+2025-12-07 22:40:55,815 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5ljLLsZX2UvlmgPPiVcGke
+2025-12-07 22:41:13,458 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Predstavi Se, Tko Si.mp3
+2025-12-07 22:41:14,006 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Predstavi Se, Tko Si.mp3
+2025-12-07 22:41:14,016 [INFO] [TASK 116/263] Gibonni - Goli Pod Zvijezdama → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Goli Pod Zvijezdama (spotify_id=1EM6P2ToYkHT5hMF6dW9Zb)
+2025-12-07 22:41:14,016 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1EM6P2ToYkHT5hMF6dW9Zb
+2025-12-07 22:41:33,889 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Goli Pod Zvijezdama.mp3
+2025-12-07 22:41:34,465 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Goli Pod Zvijezdama.mp3
+2025-12-07 22:41:34,476 [INFO] [TASK 117/263] Gibonni - Ljudi, Drž → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ljudi, Drž (spotify_id=6l7XqDj0NkwL6pWB2fb9qr)
+2025-12-07 22:41:34,477 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6l7XqDj0NkwL6pWB2fb9qr
+2025-12-07 22:41:51,136 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ljudi, Drž.mp3
+2025-12-07 22:41:51,781 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ljudi, Drž.mp3
+2025-12-07 22:41:51,793 [INFO] [TASK 118/263] Gibonni - Život Me Umorio → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Život Me Umorio (spotify_id=7pKmfh30UrwpPSIioZ8lCS)
+2025-12-07 22:41:51,793 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7pKmfh30UrwpPSIioZ8lCS
+2025-12-07 22:42:08,110 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio.mp3
+2025-12-07 22:42:08,667 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Život Me Umorio.mp3
+2025-12-07 22:42:08,678 [INFO] [TASK 119/263] Gibonni - Pjesma Za Bijelu Vranu → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Pjesma Za Bijelu Vranu (spotify_id=5ed7dEA6KqOgg9dbq69iHm)
+2025-12-07 22:42:08,678 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5ed7dEA6KqOgg9dbq69iHm
+2025-12-07 22:42:35,096 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Pjesma Za Bijelu Vranu.mp3
+2025-12-07 22:42:35,706 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Pjesma Za Bijelu Vranu.mp3
+2025-12-07 22:42:35,717 [INFO] [TASK 120/263] Gibonni - Lipa Moja → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Lipa Moja (spotify_id=6VKU4TIx6yI5eddvjYVZNj)
+2025-12-07 22:42:35,717 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6VKU4TIx6yI5eddvjYVZNj
+2025-12-07 22:43:05,178 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja.mp3
+2025-12-07 22:43:05,725 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Lipa Moja.mp3
+2025-12-07 22:43:05,734 [INFO] [TASK 121/263] Gibonni - Ozdravi Mi Ti - Instrumental → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti - Instrumental (spotify_id=7aiohtqFiaClayPhZjZL1m)
+2025-12-07 22:43:05,734 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7aiohtqFiaClayPhZjZL1m
+2025-12-07 22:43:20,556 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti - Instrumental.mp3
+2025-12-07 22:43:21,035 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti - Instrumental.mp3
+2025-12-07 22:43:21,059 [INFO] [TASK 122/263] Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live (spotify_id=0ojbJMRL22yHDEyQH8ybuZ)
+2025-12-07 22:43:21,060 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0ojbJMRL22yHDEyQH8ybuZ
+2025-12-07 22:43:36,074 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live.mp3
+2025-12-07 22:43:36,588 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live.mp3
+2025-12-07 22:43:36,598 [INFO] [TASK 123/263] Gibonni - Život Me Umorio - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Život Me Umorio - Live (spotify_id=4HyXNcZS8CFiGlTUeAvdMi)
+2025-12-07 22:43:36,598 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4HyXNcZS8CFiGlTUeAvdMi
+2025-12-07 22:43:53,349 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio - Live.mp3
+2025-12-07 22:43:53,936 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Život Me Umorio - Live.mp3
+2025-12-07 22:43:53,945 [INFO] [TASK 124/263] Gibonni - Što Je Meni Tvoja Nevjera? - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Što Je Meni Tvoja Nevjera? - Live (spotify_id=75WdmJ9oW2VAOjLLhJ8MRL)
+2025-12-07 22:43:53,945 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/75WdmJ9oW2VAOjLLhJ8MRL
+2025-12-07 22:44:08,812 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što Je Meni Tvoja Nevjera - Live.mp3
+2025-12-07 22:44:09,279 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Što Je Meni Tvoja Nevjera? - Live.mp3
+2025-12-07 22:44:09,291 [INFO] [TASK 125/263] Gibonni - Dobri Judi - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dobri Judi - Live (spotify_id=2xgl1aFxnRHuA2BUHUKh43)
+2025-12-07 22:44:09,291 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2xgl1aFxnRHuA2BUHUKh43
+2025-12-07 22:44:35,837 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi - Live.mp3
+2025-12-07 22:44:36,279 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dobri Judi - Live.mp3
+2025-12-07 22:44:36,290 [INFO] [TASK 126/263] Gibonni - Tebe Nisam Bio Vrijedan - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Tebe Nisam Bio Vrijedan - Live (spotify_id=1nByhBJDRk0LLQZKK9ukm0)
+2025-12-07 22:44:36,290 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1nByhBJDRk0LLQZKK9ukm0
+2025-12-07 22:45:04,536 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan - Live.mp3
+2025-12-07 22:45:05,123 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Tebe Nisam Bio Vrijedan - Live.mp3
+2025-12-07 22:45:05,139 [INFO] [TASK 127/263] Gibonni - Noina Arka - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Noina Arka - Live (spotify_id=18S1sTOJWf4sgFsVRZzbLJ)
+2025-12-07 22:45:05,139 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/18S1sTOJWf4sgFsVRZzbLJ
+2025-12-07 22:45:35,280 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Noina Arka - Live.mp3
+2025-12-07 22:45:36,064 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Noina Arka - Live.mp3
+2025-12-07 22:45:36,078 [INFO] [TASK 128/263] Gibonni - Zlatne Godine - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zlatne Godine - Live (spotify_id=5XHxeL5GVALJ8mQwxp0n0s)
+2025-12-07 22:45:36,079 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5XHxeL5GVALJ8mQwxp0n0s
+2025-12-07 22:46:05,128 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine - Live.mp3
+2025-12-07 22:46:05,842 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Zlatne Godine - Live.mp3
+2025-12-07 22:46:05,856 [INFO] [TASK 129/263] Gibonni - Sa Mnom Ili Bez Mene - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sa Mnom Ili Bez Mene - Live (spotify_id=6UtikeIxP5IoOpiE7KpFpB)
+2025-12-07 22:46:05,856 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6UtikeIxP5IoOpiE7KpFpB
+2025-12-07 22:46:37,141 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene - Live.mp3
+2025-12-07 22:46:37,606 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Sa Mnom Ili Bez Mene - Live.mp3
+2025-12-07 22:46:37,624 [INFO] [TASK 130/263] Gibonni - Da Mi Je Biti Morski Pas - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Da Mi Je Biti Morski Pas - Live (spotify_id=5eMZp7O2pXbX30YcfEGsuD)
+2025-12-07 22:46:37,624 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5eMZp7O2pXbX30YcfEGsuD
+2025-12-07 22:47:03,678 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Da Mi Je Biti Morski Pas - Live.mp3
+2025-12-07 22:47:04,211 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Da Mi Je Biti Morski Pas - Live.mp3
+2025-12-07 22:47:04,223 [INFO] [TASK 131/263] Gibonni - U Ljubav Vjere Nemam - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - U Ljubav Vjere Nemam - Live (spotify_id=0cc5dhhNLE8CHDNsNtJXzc)
+2025-12-07 22:47:04,223 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0cc5dhhNLE8CHDNsNtJXzc
+2025-12-07 22:47:36,257 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 22:47:36,852 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 22:47:36,863 [INFO] [TASK 132/263] Gibonni - Lipa Moja - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Lipa Moja - Live (spotify_id=5svRk1MewKLKsYWD4qi9Wf)
+2025-12-07 22:47:36,863 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5svRk1MewKLKsYWD4qi9Wf
+2025-12-07 22:48:04,090 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja - Live.mp3
+2025-12-07 22:48:04,561 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Lipa Moja - Live.mp3
+2025-12-07 22:48:04,571 [INFO] [TASK 133/263] Gibonni - Ozdravi Mi Ti - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti - Live (spotify_id=4mGGEHrNIXFQn5I6oHAwq8)
+2025-12-07 22:48:04,571 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4mGGEHrNIXFQn5I6oHAwq8
+2025-12-07 22:48:34,683 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 22:48:35,182 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 22:48:35,196 [INFO] [TASK 134/263] Gibonni - Nek' Se (Djete Zove Kao Ja) - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live (spotify_id=2ihnuvyn2FMCfTmsKONQPg)
+2025-12-07 22:48:35,196 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2ihnuvyn2FMCfTmsKONQPg
+2025-12-07 22:49:07,147 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 22:49:07,700 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 22:49:07,712 [INFO] [TASK 135/263] Gibonni - Dvije Duše - Live → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dvije Duše - Live (spotify_id=1aY7yttXv3eO7C0Eu2UAwY)
+2025-12-07 22:49:07,712 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1aY7yttXv3eO7C0Eu2UAwY
+2025-12-07 22:49:24,851 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 22:49:25,492 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 22:49:25,503 [INFO] [TASK 136/263] Gibonni - Ovo Mi Je Škola → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ovo Mi Je Škola (spotify_id=0r28YPgTG2PIdwuJ4xsyvJ)
+2025-12-07 22:49:25,503 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0r28YPgTG2PIdwuJ4xsyvJ
+2025-12-07 22:49:56,028 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 22:49:56,744 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 22:49:56,754 [INFO] [TASK 137/263] Gibonni - Crno Ili Bijelo → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Crno Ili Bijelo (spotify_id=5bguL1xqlI61ESEZaQTi6C)
+2025-12-07 22:49:56,754 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5bguL1xqlI61ESEZaQTi6C
+2025-12-07 22:50:13,117 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Crno Ili Bijelo.mp3
+2025-12-07 22:50:13,978 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Crno Ili Bijelo.mp3
+2025-12-07 22:50:13,989 [INFO] [TASK 138/263] Gibonni - Loše Vino → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Loše Vino (spotify_id=6Pud1qIn0aeUUliGwvV0xY)
+2025-12-07 22:50:13,989 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6Pud1qIn0aeUUliGwvV0xY
+2025-12-07 22:50:35,668 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Loše Vino.mp3
+2025-12-07 22:50:36,061 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Loše Vino.mp3
+2025-12-07 22:50:36,076 [INFO] [TASK 139/263] Gibonni - Nepobjediva → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nepobjediva (spotify_id=5IrXuFFLiNs20qrfYO68nX)
+2025-12-07 22:50:36,076 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5IrXuFFLiNs20qrfYO68nX
+2025-12-07 22:51:03,999 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nepobjediva.mp3
+2025-12-07 22:51:04,613 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Nepobjediva.mp3
+2025-12-07 22:51:04,624 [INFO] [TASK 140/263] Gibonni - Što Je Meni Tvoja Nevjera → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Što Je Meni Tvoja Nevjera (spotify_id=0BQ4GqOZi4D7559y0SOy7B)
+2025-12-07 22:51:04,624 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0BQ4GqOZi4D7559y0SOy7B
+2025-12-07 22:51:32,916 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što Je Meni Tvoja Nevjera.mp3
+2025-12-07 22:51:33,577 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Što Je Meni Tvoja Nevjera.mp3
+2025-12-07 22:51:33,593 [INFO] [TASK 141/263] Gibonni - Ispod Moga Pramca (Tempera) → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ispod Moga Pramca (Tempera) (spotify_id=3gcNLB2dTZlmERflq8gyDh)
+2025-12-07 22:51:33,593 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3gcNLB2dTZlmERflq8gyDh
+2025-12-07 22:52:04,121 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 22:52:04,672 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 22:52:04,684 [INFO] [TASK 142/263] Gibonni - Mogu Se Kladit U Bilo Što (Bez Tebe...) → /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Mogu Se Kladit U Bilo Što (Bez Tebe...) (spotify_id=0ronUWHHiDNoXDLAZgXbHi)
+2025-12-07 22:52:04,684 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0ronUWHHiDNoXDLAZgXbHi
+2025-12-07 22:52:20,573 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mogu Se Kladit U Bilo Što (Bez Tebe...).mp3
+2025-12-07 22:52:21,073 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2012/Kolekcija/Gibonni - Mogu Se Kladit U Bilo Što (Bez Tebe...mp3
+2025-12-07 22:52:21,077 [INFO] [TASK 143/263] Gibonni - Sa Mnom Ili Bez Mene → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Sa Mnom Ili Bez Mene (spotify_id=3sxp3y8zXgTvmLxeUT2y55)
+2025-12-07 22:52:21,077 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3sxp3y8zXgTvmLxeUT2y55
+2025-12-07 22:52:35,836 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 22:52:36,411 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 22:52:36,420 [INFO] [TASK 144/263] Gibonni - Nek Se Dijete Zove Kao Ja → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nek Se Dijete Zove Kao Ja (spotify_id=35w0WRZ5q8ZNfh01YXXUdn)
+2025-12-07 22:52:36,420 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/35w0WRZ5q8ZNfh01YXXUdn
+2025-12-07 22:53:11,232 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 22:53:11,703 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 22:53:11,716 [INFO] [TASK 145/263] Gibonni - Tebe Nisam Bio Vrijedan → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Tebe Nisam Bio Vrijedan (spotify_id=0IGVDrcFM0OxiAAFfNBUAU)
+2025-12-07 22:53:11,716 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0IGVDrcFM0OxiAAFfNBUAU
+2025-12-07 22:53:35,132 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 22:53:35,942 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 22:53:35,953 [INFO] [TASK 146/263] Gibonni - Zrno Radosti → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Zrno Radosti (spotify_id=21fXwKEEpbCeI2vh1sdYZb)
+2025-12-07 22:53:35,953 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/21fXwKEEpbCeI2vh1sdYZb
+2025-12-07 22:53:51,001 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zrno Radosti.mp3
+2025-12-07 22:53:51,537 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Zrno Radosti.mp3
+2025-12-07 22:53:51,547 [INFO] [TASK 147/263] Gibonni - Zlatne Godine → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Zlatne Godine (spotify_id=7s6mpek9l9wRCQrENY7jCk)
+2025-12-07 22:53:51,547 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7s6mpek9l9wRCQrENY7jCk
+2025-12-07 22:54:08,465 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine.mp3
+2025-12-07 22:54:09,030 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Zlatne Godine.mp3
+2025-12-07 22:54:09,038 [INFO] [TASK 148/263] Gibonni - Ostat Ću Na Nogama → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ostat Ću Na Nogama (spotify_id=7mPIYnvQC0fGsSWPFyG2pZ)
+2025-12-07 22:54:09,038 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7mPIYnvQC0fGsSWPFyG2pZ
+2025-12-07 22:54:34,274 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ostat Ću Na Nogama.mp3
+2025-12-07 22:54:34,851 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ostat Ću Na Nogama.mp3
+2025-12-07 22:54:34,864 [INFO] [TASK 149/263] Gibonni - Kad Te Spomenem → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Kad Te Spomenem (spotify_id=0eor0Nq31WJW1YdRQ8JJ1t)
+2025-12-07 22:54:34,864 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0eor0Nq31WJW1YdRQ8JJ1t
+2025-12-07 22:54:50,064 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 22:54:50,957 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 22:54:50,967 [INFO] [TASK 150/263] Gibonni - Dobri Judi → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dobri Judi (spotify_id=0o7RNekGNKLsuYkMG8roJN)
+2025-12-07 22:54:50,968 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0o7RNekGNKLsuYkMG8roJN
+2025-12-07 22:55:05,884 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi.mp3
+2025-12-07 22:55:06,289 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dobri Judi.mp3
+2025-12-07 22:55:06,314 [INFO] [TASK 151/263] Gibonni - Ozdravi Mi Ti → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ozdravi Mi Ti (spotify_id=0YVWHBQBnbhjfMMSCRu4eD)
+2025-12-07 22:55:06,314 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0YVWHBQBnbhjfMMSCRu4eD
+2025-12-07 22:55:22,856 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 22:55:23,367 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 22:55:23,377 [INFO] [TASK 152/263] Gibonni - Dvije Duše → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dvije Duše (spotify_id=3UTfZkyGrcpIbtWUMJBLkx)
+2025-12-07 22:55:23,377 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3UTfZkyGrcpIbtWUMJBLkx
+2025-12-07 22:55:39,688 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše.mp3
+2025-12-07 22:55:40,453 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dvije Duše.mp3
+2025-12-07 22:55:40,462 [INFO] [TASK 153/263] Gibonni - U Ljubav Vjere Nemam → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - U Ljubav Vjere Nemam (spotify_id=3Oq0t8w1E8uH2jEPwD1XYK)
+2025-12-07 22:55:40,462 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3Oq0t8w1E8uH2jEPwD1XYK
+2025-12-07 22:56:06,966 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - U Ljubav Vjere Nemam.mp3
+2025-12-07 22:56:07,480 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - U Ljubav Vjere Nemam.mp3
+2025-12-07 22:56:07,488 [INFO] [TASK 154/263] Gibonni - Kruna Od Perja → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Kruna Od Perja (spotify_id=59Nhf6aMJLs3G9LbR7rZSF)
+2025-12-07 22:56:07,488 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/59Nhf6aMJLs3G9LbR7rZSF
+2025-12-07 22:56:22,739 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kruna Od Perja.mp3
+2025-12-07 22:56:23,196 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Kruna Od Perja.mp3
+2025-12-07 22:56:23,207 [INFO] [TASK 155/263] Gibonni - Lipa Moja → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Lipa Moja (spotify_id=1KQeHhY3Y1WNbPp822UxGJ)
+2025-12-07 22:56:23,207 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1KQeHhY3Y1WNbPp822UxGJ
+2025-12-07 22:56:39,936 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja.mp3
+2025-12-07 22:56:40,472 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Lipa Moja.mp3
+2025-12-07 22:56:40,488 [INFO] [TASK 156/263] Gibonni - Život Me Umorio → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Život Me Umorio (spotify_id=00xhYMdVYmvfm87kZYfkrg)
+2025-12-07 22:56:40,488 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/00xhYMdVYmvfm87kZYfkrg
+2025-12-07 22:56:56,116 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio.mp3
+2025-12-07 22:56:56,678 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Život Me Umorio.mp3
+2025-12-07 22:56:56,688 [INFO] [TASK 157/263] Gibonni - Nek' Se (Djete Zove Kao Ja) - Live → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live (spotify_id=1Soxpf6eozRizxjPBCntRG)
+2025-12-07 22:56:56,688 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1Soxpf6eozRizxjPBCntRG
+2025-12-07 22:57:12,412 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 22:57:12,956 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 22:57:12,990 [INFO] [TASK 158/263] Gibonni - Dvije Duše - Live → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dvije Duše - Live (spotify_id=2Rl9eoh7dtejpRovkfdna9)
+2025-12-07 22:57:12,990 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2Rl9eoh7dtejpRovkfdna9
+2025-12-07 22:57:35,863 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 22:57:36,496 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 22:57:36,507 [INFO] [TASK 159/263] Gibonni - Nije Vrime Od Nedije Za U Poje Poći → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nije Vrime Od Nedije Za U Poje Poći (spotify_id=5O4gYvdQ6touTxGxkHlZE3)
+2025-12-07 22:57:36,507 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5O4gYvdQ6touTxGxkHlZE3
+2025-12-07 22:57:52,418 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 22:57:52,915 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 22:57:52,925 [INFO] [TASK 160/263] Gibonni - Judi, Zviri I Beštimje → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Judi, Zviri I Beštimje (spotify_id=2b5MQO92pO5KjeD8fK8lqN)
+2025-12-07 22:57:52,925 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2b5MQO92pO5KjeD8fK8lqN
+2025-12-07 22:58:08,783 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Judi, Zviri I Beštimje.mp3
+2025-12-07 22:58:09,473 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Judi, Zviri I Beštimje.mp3
+2025-12-07 22:58:09,483 [INFO] [TASK 161/263] Gibonni - Oprosti → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Oprosti (spotify_id=4wMgH24SBRTU0wIVD9bpZr)
+2025-12-07 22:58:09,483 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4wMgH24SBRTU0wIVD9bpZr
+2025-12-07 22:58:24,495 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Oprosti.mp3
+2025-12-07 22:58:25,099 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Oprosti.mp3
+2025-12-07 22:58:25,124 [INFO] [TASK 162/263] Gibonni - Anđeo U Tebi → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Anđeo U Tebi (spotify_id=0utms9nTwovAKJqomTGMCR)
+2025-12-07 22:58:25,124 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0utms9nTwovAKJqomTGMCR
+2025-12-07 22:58:40,800 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Anđeo U Tebi.mp3
+2025-12-07 22:58:41,564 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Anđeo U Tebi.mp3
+2025-12-07 22:58:41,573 [INFO] [TASK 163/263] Gibonni - Ovo Mi Je Škola → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ovo Mi Je Škola (spotify_id=4UhC1L71kZaIUvB1pM8CD9)
+2025-12-07 22:58:41,573 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4UhC1L71kZaIUvB1pM8CD9
+2025-12-07 22:59:13,021 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 22:59:13,919 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 22:59:13,932 [INFO] [TASK 164/263] Gibonni - Činim Pravu Stvar → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Činim Pravu Stvar (spotify_id=7scE55gLp3HWKG2tRPTxf1)
+2025-12-07 22:59:13,932 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7scE55gLp3HWKG2tRPTxf1
+2025-12-07 22:59:35,106 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Činim Pravu Stvar.mp3
+2025-12-07 22:59:35,898 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Činim Pravu Stvar.mp3
+2025-12-07 22:59:35,908 [INFO] [TASK 165/263] Gibonni - Nepobjediva → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nepobjediva (spotify_id=4z2HPRiYXHSS9OVpglaiAH)
+2025-12-07 22:59:35,908 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4z2HPRiYXHSS9OVpglaiAH
+2025-12-07 22:59:51,366 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nepobjediva.mp3
+2025-12-07 22:59:51,948 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Nepobjediva.mp3
+2025-12-07 22:59:51,958 [INFO] [TASK 166/263] Gibonni - Ej, Vapore → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ej, Vapore (spotify_id=1wF42P3moZFST7v96AnNYW)
+2025-12-07 22:59:51,958 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1wF42P3moZFST7v96AnNYW
+2025-12-07 23:00:06,663 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:00:07,118 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:00:07,129 [INFO] [TASK 167/263] Gibonni - Ispod Moga Pramca (Tempera) → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ispod Moga Pramca (Tempera) (spotify_id=6AAhL3DxCXmy8gG0OC8GU8)
+2025-12-07 23:00:07,130 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6AAhL3DxCXmy8gG0OC8GU8
+2025-12-07 23:00:35,819 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:00:36,359 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:00:36,368 [INFO] [TASK 168/263] Gibonni - Ako Me Nosiš Na Duši → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ako Me Nosiš Na Duši (spotify_id=4rGpPSj5R7knqsviZqmoSY)
+2025-12-07 23:00:36,368 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4rGpPSj5R7knqsviZqmoSY
+2025-12-07 23:01:06,121 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:01:06,679 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:01:06,687 [INFO] [TASK 169/263] Gibonni - Ja Ću Budan Sanjati → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ja Ću Budan Sanjati (spotify_id=1FZXG9LPWXugDL9rgx8Nw1)
+2025-12-07 23:01:06,687 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1FZXG9LPWXugDL9rgx8Nw1
+2025-12-07 23:01:35,395 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ja Ću Budan Sanjati.mp3
+2025-12-07 23:01:36,091 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ja Ću Budan Sanjati.mp3
+2025-12-07 23:01:36,102 [INFO] [TASK 170/263] Gibonni - Projdi Vilo → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Projdi Vilo (spotify_id=2zEaVotbQePn9IprMQCOnS)
+2025-12-07 23:01:36,102 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2zEaVotbQePn9IprMQCOnS
+2025-12-07 23:02:10,974 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:02:11,499 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:02:11,511 [INFO] [TASK 171/263] Gibonni - Crno Ili Bijelo → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Crno Ili Bijelo (spotify_id=53TQbbsZKDjau8S2rPf7Ji)
+2025-12-07 23:02:11,511 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/53TQbbsZKDjau8S2rPf7Ji
+2025-12-07 23:02:33,312 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Crno Ili Bijelo.mp3
+2025-12-07 23:02:33,716 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Crno Ili Bijelo.mp3
+2025-12-07 23:02:33,726 [INFO] [TASK 172/263] Gibonni - Loše Vino → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Loše Vino (spotify_id=4vGFqEIvpkSgJRMakZ5Kkp)
+2025-12-07 23:02:33,726 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4vGFqEIvpkSgJRMakZ5Kkp
+2025-12-07 23:02:49,304 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Loše Vino.mp3
+2025-12-07 23:02:49,756 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Loše Vino.mp3
+2025-12-07 23:02:49,766 [INFO] [TASK 173/263] Gibonni - Ozdravi Mi Ti - Live → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ozdravi Mi Ti - Live (spotify_id=2yLOOUMcS0PqZxY4mLF59N)
+2025-12-07 23:02:49,766 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2yLOOUMcS0PqZxY4mLF59N
+2025-12-07 23:03:05,472 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 23:03:06,110 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 23:03:06,121 [INFO] [TASK 174/263] Gibonni - Što Je Meni Tvoja Nevjera - Live → /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Što Je Meni Tvoja Nevjera - Live (spotify_id=1wDe4A48UBhqKwcswmEIIp)
+2025-12-07 23:03:06,121 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1wDe4A48UBhqKwcswmEIIp
+2025-12-07 23:03:20,981 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što Je Meni Tvoja Nevjera - Live.mp3
+2025-12-07 23:03:21,466 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/The Platinum Collection/Gibonni - Što Je Meni Tvoja Nevjera - Live.mp3
+2025-12-07 23:03:21,469 [INFO] [TASK 175/263] Gibonni - Lipa Moja → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Lipa Moja (spotify_id=5I0VRaRPnJyO3lEMDu6fDb)
+2025-12-07 23:03:21,469 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5I0VRaRPnJyO3lEMDu6fDb
+2025-12-07 23:03:38,698 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja.mp3
+2025-12-07 23:03:39,244 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Lipa Moja.mp3
+2025-12-07 23:03:39,253 [INFO] [TASK 176/263] Gibonni - Ispod Moga Pramca (Tempera) → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ispod Moga Pramca (Tempera) (spotify_id=6QEbWxYfUfnj2qmW92RsTq)
+2025-12-07 23:03:39,253 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6QEbWxYfUfnj2qmW92RsTq
+2025-12-07 23:03:56,012 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:03:56,615 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:03:56,636 [INFO] [TASK 177/263] Gibonni - Ako Me Nosiš Na Duši → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ako Me Nosiš Na Duši (spotify_id=16TUXbUBB1JxdrRX8nD4QW)
+2025-12-07 23:03:56,636 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/16TUXbUBB1JxdrRX8nD4QW
+2025-12-07 23:04:13,436 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:04:14,044 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:04:14,060 [INFO] [TASK 178/263] Gibonni - Tebe Nisam Bio Vrijedan → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Tebe Nisam Bio Vrijedan (spotify_id=3X3B0MuF4HuJ8w20IaYdC4)
+2025-12-07 23:04:14,060 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3X3B0MuF4HuJ8w20IaYdC4
+2025-12-07 23:04:30,153 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 23:04:30,660 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 23:04:30,721 [INFO] [TASK 179/263] Gibonni - Suviše Sam Njen → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Suviše Sam Njen (spotify_id=6wdcU7skbEIRvDZ7w1b53z)
+2025-12-07 23:04:30,721 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6wdcU7skbEIRvDZ7w1b53z
+2025-12-07 23:04:46,212 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Suviše Sam Njen.mp3
+2025-12-07 23:04:46,707 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Suviše Sam Njen.mp3
+2025-12-07 23:04:46,725 [INFO] [TASK 180/263] Gibonni - Sa Mnom Ili Bez Mene → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Sa Mnom Ili Bez Mene (spotify_id=2OFd7JxymRwErNnQHwJHkG)
+2025-12-07 23:04:46,725 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2OFd7JxymRwErNnQHwJHkG
+2025-12-07 23:05:03,542 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:05:04,076 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:05:04,094 [INFO] [TASK 181/263] Gibonni - Ja Ću Budna Sanjati → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ja Ću Budna Sanjati (spotify_id=1FPKRlaZTUm5QOEs3XVfn4)
+2025-12-07 23:05:04,094 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1FPKRlaZTUm5QOEs3XVfn4
+2025-12-07 23:05:19,911 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ja Ću Budna Sanjati.mp3
+2025-12-07 23:05:20,623 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ja Ću Budna Sanjati.mp3
+2025-12-07 23:05:20,650 [INFO] [TASK 182/263] Gibonni - Kad Te Spomenem → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Kad Te Spomenem (spotify_id=7h1jtuT9XRWnX1KmJR1Ady)
+2025-12-07 23:05:20,651 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7h1jtuT9XRWnX1KmJR1Ady
+2025-12-07 23:05:35,497 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:05:36,649 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:05:36,668 [INFO] [TASK 183/263] Gibonni - Ej, Vapore → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ej, Vapore (spotify_id=0nSALZtjTm5W52P9dJXS3B)
+2025-12-07 23:05:36,669 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0nSALZtjTm5W52P9dJXS3B
+2025-12-07 23:05:52,178 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:05:52,799 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:05:52,817 [INFO] [TASK 184/263] Gibonni - Dobri Judi → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Dobri Judi (spotify_id=3zoynGOsA6QpdPUVfnd5IX)
+2025-12-07 23:05:52,817 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3zoynGOsA6QpdPUVfnd5IX
+2025-12-07 23:06:07,926 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi.mp3
+2025-12-07 23:06:08,383 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Dobri Judi.mp3
+2025-12-07 23:06:08,399 [INFO] [TASK 185/263] Gibonni - Dvije Duše → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Dvije Duše (spotify_id=0Tnf8k6CkUf8y6UGnsxDd1)
+2025-12-07 23:06:08,399 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0Tnf8k6CkUf8y6UGnsxDd1
+2025-12-07 23:06:25,612 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše.mp3
+2025-12-07 23:06:26,261 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Dvije Duše.mp3
+2025-12-07 23:06:26,280 [INFO] [TASK 186/263] Gibonni - Kruna Od Perja → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Kruna Od Perja (spotify_id=2SrzWifgpwFacn3Al8WCur)
+2025-12-07 23:06:26,281 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2SrzWifgpwFacn3Al8WCur
+2025-12-07 23:06:42,507 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kruna Od Perja.mp3
+2025-12-07 23:06:42,986 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Kruna Od Perja.mp3
+2025-12-07 23:06:43,005 [INFO] [TASK 187/263] Gibonni - Noina Arka → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Noina Arka (spotify_id=1C4hauFK2ZzwfA011SsL09)
+2025-12-07 23:06:43,005 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1C4hauFK2ZzwfA011SsL09
+2025-12-07 23:06:58,853 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Noina Arka.mp3
+2025-12-07 23:06:59,428 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Noina Arka.mp3
+2025-12-07 23:06:59,451 [INFO] [TASK 188/263] Gibonni - Zrno Radosti → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Zrno Radosti (spotify_id=34yfpiKPZ1TQxFnOewf3z5)
+2025-12-07 23:06:59,451 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/34yfpiKPZ1TQxFnOewf3z5
+2025-12-07 23:07:13,979 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zrno Radosti.mp3
+2025-12-07 23:07:14,489 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Zrno Radosti.mp3
+2025-12-07 23:07:14,506 [INFO] [TASK 189/263] Gibonni - Zlatne Godine - Unplugged Verzija → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Zlatne Godine - Unplugged Verzija (spotify_id=6ybpGNTc277CDq3BvhTHoW)
+2025-12-07 23:07:14,506 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6ybpGNTc277CDq3BvhTHoW
+2025-12-07 23:07:31,533 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 23:07:32,380 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 23:07:32,401 [INFO] [TASK 190/263] Gibonni - Život Me Umorio → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Život Me Umorio (spotify_id=5MXdLP7jgq1rOsyUYFJITn)
+2025-12-07 23:07:32,402 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5MXdLP7jgq1rOsyUYFJITn
+2025-12-07 23:07:47,152 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio.mp3
+2025-12-07 23:07:47,721 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Život Me Umorio.mp3
+2025-12-07 23:07:47,739 [INFO] [TASK 191/263] Gibonni - Ovo Mi Je Škola → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ovo Mi Je Škola (spotify_id=73vWJd7JyrVEyqPK6qbKSP)
+2025-12-07 23:07:47,739 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/73vWJd7JyrVEyqPK6qbKSP
+2025-12-07 23:08:06,901 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 23:08:07,603 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 23:08:07,631 [INFO] [TASK 192/263] Gibonni - Rušila Sam Mostove Od Sna - Live At Bačvice → /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Rušila Sam Mostove Od Sna - Live At Bačvice (spotify_id=0mzKSjOjam0BAvlmp3eGsB)
+2025-12-07 23:08:07,631 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0mzKSjOjam0BAvlmp3eGsB
+2025-12-07 23:08:24,566 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Rušila Sam Mostove Od Sna - Live At Bačvice.mp3
+2025-12-07 23:08:25,236 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2011/Najljepše Ljubavne Pjesme/Gibonni - Rušila Sam Mostove Od Sna - Live At Bačvice.mp3
+2025-12-07 23:08:25,253 [INFO] [TASK 193/263] Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live (spotify_id=7sBHUVPcMrV9oA7uJx3Gu0)
+2025-12-07 23:08:25,253 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7sBHUVPcMrV9oA7uJx3Gu0
+2025-12-07 23:08:42,556 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live.mp3
+2025-12-07 23:08:43,103 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Nije Vrime Od Nedije Za U Poje Poći - Live.mp3
+2025-12-07 23:08:43,115 [INFO] [TASK 194/263] Gibonni - Život Me Umorio - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Život Me Umorio - Live (spotify_id=0NBUb7ed0mJTn5uMATih53)
+2025-12-07 23:08:43,115 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0NBUb7ed0mJTn5uMATih53
+2025-12-07 23:08:58,614 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio - Live.mp3
+2025-12-07 23:08:59,211 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Život Me Umorio - Live.mp3
+2025-12-07 23:08:59,226 [INFO] [TASK 195/263] Gibonni - Što Je Meni Tvoja Nevjera? - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Što Je Meni Tvoja Nevjera? - Live (spotify_id=00roJ7GzYhN3vrQXYzAK1l)
+2025-12-07 23:08:59,226 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/00roJ7GzYhN3vrQXYzAK1l
+2025-12-07 23:09:14,843 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što Je Meni Tvoja Nevjera - Live.mp3
+2025-12-07 23:09:15,387 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Što Je Meni Tvoja Nevjera? - Live.mp3
+2025-12-07 23:09:15,494 [INFO] [TASK 196/263] Gibonni - Dobri Judi - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Dobri Judi - Live (spotify_id=0ThzCDAWuXLEOaIet0f5st)
+2025-12-07 23:09:15,494 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0ThzCDAWuXLEOaIet0f5st
+2025-12-07 23:09:33,028 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi - Live.mp3
+2025-12-07 23:09:33,498 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Dobri Judi - Live.mp3
+2025-12-07 23:09:33,507 [INFO] [TASK 197/263] Gibonni - Tebe Nisam Bio Vrijedan - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Tebe Nisam Bio Vrijedan - Live (spotify_id=1vIZkj8zgvYKwnhkhsnIKK)
+2025-12-07 23:09:33,507 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1vIZkj8zgvYKwnhkhsnIKK
+2025-12-07 23:09:50,759 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan - Live.mp3
+2025-12-07 23:09:51,312 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Tebe Nisam Bio Vrijedan - Live.mp3
+2025-12-07 23:09:51,322 [INFO] [TASK 198/263] Gibonni - Noina Arka - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Noina Arka - Live (spotify_id=39WfC3veuEt7sW2nkr6DFK)
+2025-12-07 23:09:51,322 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/39WfC3veuEt7sW2nkr6DFK
+2025-12-07 23:10:08,995 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Noina Arka - Live.mp3
+2025-12-07 23:10:09,754 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Noina Arka - Live.mp3
+2025-12-07 23:10:09,764 [INFO] [TASK 199/263] Gibonni - Zlatne Godine - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Zlatne Godine - Live (spotify_id=0vcWodwk5yEiKC09vPLPh7)
+2025-12-07 23:10:09,764 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0vcWodwk5yEiKC09vPLPh7
+2025-12-07 23:10:26,090 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine - Live.mp3
+2025-12-07 23:10:26,813 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Zlatne Godine - Live.mp3
+2025-12-07 23:10:26,822 [INFO] [TASK 200/263] Gibonni - Sa Mnom Ili Bez Mene - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Sa Mnom Ili Bez Mene - Live (spotify_id=1jCs2AY2KrDuvW0TPd1X5K)
+2025-12-07 23:10:26,822 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1jCs2AY2KrDuvW0TPd1X5K
+2025-12-07 23:10:42,971 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene - Live.mp3
+2025-12-07 23:10:43,399 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Sa Mnom Ili Bez Mene - Live.mp3
+2025-12-07 23:10:43,409 [INFO] [TASK 201/263] Gibonni - Da Mi Je Biti Morski Pas - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Da Mi Je Biti Morski Pas - Live (spotify_id=7d7J5EuoUJmo4FM02UI68P)
+2025-12-07 23:10:43,409 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7d7J5EuoUJmo4FM02UI68P
+2025-12-07 23:10:58,371 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Da Mi Je Biti Morski Pas - Live.mp3
+2025-12-07 23:10:58,753 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Da Mi Je Biti Morski Pas - Live.mp3
+2025-12-07 23:10:58,767 [INFO] [TASK 202/263] Gibonni - U Ljubav Vjere Nemam - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - U Ljubav Vjere Nemam - Live (spotify_id=5EjRgQgSc7toeMlm9YE5pR)
+2025-12-07 23:10:58,767 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5EjRgQgSc7toeMlm9YE5pR
+2025-12-07 23:11:14,298 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 23:11:14,909 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - U Ljubav Vjere Nemam - Live.mp3
+2025-12-07 23:11:14,918 [INFO] [TASK 203/263] Gibonni - Lipa Moja - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Lipa Moja - Live (spotify_id=6jfJW1jut58Cjkf7rbWAN2)
+2025-12-07 23:11:14,918 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6jfJW1jut58Cjkf7rbWAN2
+2025-12-07 23:11:29,567 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja - Live.mp3
+2025-12-07 23:11:30,052 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Lipa Moja - Live.mp3
+2025-12-07 23:11:30,071 [INFO] [TASK 204/263] Gibonni - Ozdravi Mi Ti - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Ozdravi Mi Ti - Live (spotify_id=6hhlr3OY4sChnsxWo89lKr)
+2025-12-07 23:11:30,071 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6hhlr3OY4sChnsxWo89lKr
+2025-12-07 23:11:44,983 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 23:11:45,609 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Ozdravi Mi Ti - Live.mp3
+2025-12-07 23:11:45,617 [INFO] [TASK 205/263] Gibonni - Nek' Se (Djete Zove Kao Ja) - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live (spotify_id=12BjBUp8WlnUTMOsTc6dv1)
+2025-12-07 23:11:45,617 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/12BjBUp8WlnUTMOsTc6dv1
+2025-12-07 23:12:04,100 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 23:12:04,647 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Nek' Se (Djete Zove Kao Ja) - Live.mp3
+2025-12-07 23:12:04,656 [INFO] [TASK 206/263] Gibonni - Dvije Duše - Live → /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Dvije Duše - Live (spotify_id=1gctkD2Xn8tvzmj84cJ2bV)
+2025-12-07 23:12:04,656 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1gctkD2Xn8tvzmj84cJ2bV
+2025-12-07 23:12:20,606 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 23:12:21,257 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/2006/Koncert/Gibonni - Dvije Duše - Live.mp3
+2025-12-07 23:12:21,259 [INFO] [TASK 207/263] Gibonni - Činim pravu stvar → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Činim pravu stvar (spotify_id=5NXqggzMZ5sjvDaAZekIcZ)
+2025-12-07 23:12:21,259 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5NXqggzMZ5sjvDaAZekIcZ
+2025-12-07 23:12:37,182 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Činim pravu stvar.mp3
+2025-12-07 23:12:37,880 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Činim pravu stvar.mp3
+2025-12-07 23:12:37,896 [INFO] [TASK 208/263] Gibonni - Miss Croatia → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Miss Croatia (spotify_id=3CejpDRSYbm3LnwD9KZjbc)
+2025-12-07 23:12:37,896 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3CejpDRSYbm3LnwD9KZjbc
+2025-12-07 23:13:04,297 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Miss Croatia.mp3
+2025-12-07 23:13:04,903 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Miss Croatia.mp3
+2025-12-07 23:13:04,919 [INFO] [TASK 209/263] Gibonni - Projdi Vilo - A Capella → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Projdi Vilo - A Capella (spotify_id=46idU2b95KeAtOCnUMIHO1)
+2025-12-07 23:13:04,920 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/46idU2b95KeAtOCnUMIHO1
+2025-12-07 23:13:24,660 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Projdi Vilo - A Capella.mp3
+2025-12-07 23:13:25,736 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Projdi Vilo - A Capella.mp3
+2025-12-07 23:13:25,753 [INFO] [TASK 210/263] Gibonni - Judi, zviri i beštimje → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Judi, zviri i beštimje (spotify_id=5b2pdLRIfQq915hPANOWsr)
+2025-12-07 23:13:25,753 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5b2pdLRIfQq915hPANOWsr
+2025-12-07 23:13:42,020 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Judi, zviri i beštimje.mp3
+2025-12-07 23:13:42,628 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Judi, zviri i beštimje.mp3
+2025-12-07 23:13:42,651 [INFO] [TASK 211/263] Gibonni - Divji Cvit → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Divji Cvit (spotify_id=6D2m3IJR0VVljR88HXmzN6)
+2025-12-07 23:13:42,651 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6D2m3IJR0VVljR88HXmzN6
+2025-12-07 23:14:04,581 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Divji Cvit.mp3
+2025-12-07 23:14:05,235 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Divji Cvit.mp3
+2025-12-07 23:14:05,256 [INFO] [TASK 212/263] Gibonni - Nije Tajna → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Nije Tajna (spotify_id=4PJcJPQ0c00GFG64VlkrWP)
+2025-12-07 23:14:05,257 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4PJcJPQ0c00GFG64VlkrWP
+2025-12-07 23:14:20,539 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Tajna.mp3
+2025-12-07 23:14:21,211 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Nije Tajna.mp3
+2025-12-07 23:14:21,228 [INFO] [TASK 213/263] Gibonni - I ja ću budan sanjati → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - I ja ću budan sanjati (spotify_id=4syJRehvazcT8D4Ho1Bqgf)
+2025-12-07 23:14:21,228 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4syJRehvazcT8D4Ho1Bqgf
+2025-12-07 23:14:36,465 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - I ja ću budan sanjati.mp3
+2025-12-07 23:14:37,313 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - I ja ću budan sanjati.mp3
+2025-12-07 23:14:37,334 [INFO] [TASK 214/263] Gibonni - Šuti, umukni → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Šuti, umukni (spotify_id=0ARUNEXrdmvwm5My8kHoSO)
+2025-12-07 23:14:37,334 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0ARUNEXrdmvwm5My8kHoSO
+2025-12-07 23:14:52,566 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Šuti, umukni.mp3
+2025-12-07 23:14:53,192 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Šuti, umukni.mp3
+2025-12-07 23:14:53,219 [INFO] [TASK 215/263] Gibonni - Ne Znam Plesat → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Ne Znam Plesat (spotify_id=4Xtp5bckMWFKT2Bmiojhf3)
+2025-12-07 23:14:53,219 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4Xtp5bckMWFKT2Bmiojhf3
+2025-12-07 23:15:09,211 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ne Znam Plesat.mp3
+2025-12-07 23:15:09,720 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Ne Znam Plesat.mp3
+2025-12-07 23:15:09,736 [INFO] [TASK 216/263] Gibonni - Posoljeni Zrak I Razlivena Tinta → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Posoljeni Zrak I Razlivena Tinta (spotify_id=7yqaOH3LzeZDsUU0xi66qm)
+2025-12-07 23:15:09,737 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7yqaOH3LzeZDsUU0xi66qm
+2025-12-07 23:15:25,916 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Posoljeni Zrak I Razlivena Tinta.mp3
+2025-12-07 23:15:26,533 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Posoljeni Zrak I Razlivena Tinta.mp3
+2025-12-07 23:15:26,551 [INFO] [TASK 217/263] Gibonni - Projdi Vilo → /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Projdi Vilo (spotify_id=0MTEiRmpyZRxd9It0X4Ro9)
+2025-12-07 23:15:26,551 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0MTEiRmpyZRxd9It0X4Ro9
+2025-12-07 23:15:42,561 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:15:43,116 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Judi, zviri i beštimje/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:15:43,119 [INFO] [TASK 218/263] Gibonni - Sa Mnom Ili Bez Mene → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Sa Mnom Ili Bez Mene (spotify_id=5CFH9Tx02LQQQNkYC76N5R)
+2025-12-07 23:15:43,119 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5CFH9Tx02LQQQNkYC76N5R
+2025-12-07 23:15:57,656 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:15:58,295 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:15:58,304 [INFO] [TASK 219/263] Gibonni - Cijelu Noć Molio Sam Nebo → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Cijelu Noć Molio Sam Nebo (spotify_id=1QUfd9EZ6PU70x01FMBvaY)
+2025-12-07 23:15:58,304 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1QUfd9EZ6PU70x01FMBvaY
+2025-12-07 23:16:14,026 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 23:16:14,601 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 23:16:14,611 [INFO] [TASK 220/263] Gibonni - Kad Te Spomenem → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Kad Te Spomenem (spotify_id=5oaPHJ2goO8FTw8pNjmJ3e)
+2025-12-07 23:16:14,611 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5oaPHJ2goO8FTw8pNjmJ3e
+2025-12-07 23:16:29,206 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:16:29,798 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:16:29,813 [INFO] [TASK 221/263] Gibonni - Tebe Nisam Bio Vrijedan → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Tebe Nisam Bio Vrijedan (spotify_id=0FYZwQKx4NZfDcgxXTalDn)
+2025-12-07 23:16:29,813 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0FYZwQKx4NZfDcgxXTalDn
+2025-12-07 23:16:45,380 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 23:16:45,975 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Tebe Nisam Bio Vrijedan.mp3
+2025-12-07 23:16:45,984 [INFO] [TASK 222/263] Gibonni - Zlatne Godine - Unplugged Verzija → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Zlatne Godine - Unplugged Verzija (spotify_id=2uqkP3zQq9bXx1P6LvNvra)
+2025-12-07 23:16:45,984 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2uqkP3zQq9bXx1P6LvNvra
+2025-12-07 23:17:05,779 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 23:17:06,478 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Zlatne Godine - Unplugged Verzija.mp3
+2025-12-07 23:17:06,488 [INFO] [TASK 223/263] Gibonni - Nek Se Dijete Zove Kao Ja → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Nek Se Dijete Zove Kao Ja (spotify_id=3oibwCae19n8aQzwS3dKMO)
+2025-12-07 23:17:06,488 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3oibwCae19n8aQzwS3dKMO
+2025-12-07 23:17:22,112 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 23:17:22,643 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Nek Se Dijete Zove Kao Ja.mp3
+2025-12-07 23:17:22,654 [INFO] [TASK 224/263] Gibonni - Dobri Judi → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Dobri Judi (spotify_id=32LllJf2qjM9lWvJLFZE8p)
+2025-12-07 23:17:22,654 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/32LllJf2qjM9lWvJLFZE8p
+2025-12-07 23:17:38,021 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dobri Judi.mp3
+2025-12-07 23:17:38,751 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Dobri Judi.mp3
+2025-12-07 23:17:38,765 [INFO] [TASK 225/263] Gibonni - Život Me Umorio → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Život Me Umorio (spotify_id=6U2sRL4H7QaSS7lz8LOXYC)
+2025-12-07 23:17:38,765 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6U2sRL4H7QaSS7lz8LOXYC
+2025-12-07 23:17:54,389 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život Me Umorio.mp3
+2025-12-07 23:17:54,938 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Život Me Umorio.mp3
+2025-12-07 23:17:54,949 [INFO] [TASK 226/263] Gibonni - Dvije Duše → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Dvije Duše (spotify_id=7ADGi130GjpMPvuZLL5HcJ)
+2025-12-07 23:17:54,949 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7ADGi130GjpMPvuZLL5HcJ
+2025-12-07 23:18:11,728 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije Duše.mp3
+2025-12-07 23:18:12,521 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Dvije Duše.mp3
+2025-12-07 23:18:12,531 [INFO] [TASK 227/263] Gibonni - Lipa Moja → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Lipa Moja (spotify_id=1WtkJ9GevhwDiVOaDfmCsY)
+2025-12-07 23:18:12,531 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1WtkJ9GevhwDiVOaDfmCsY
+2025-12-07 23:18:30,067 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa Moja.mp3
+2025-12-07 23:18:30,600 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Lipa Moja.mp3
+2025-12-07 23:18:30,617 [INFO] [TASK 228/263] Gibonni - Nije Vrime Od Nedije Za U Poje Poći → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Nije Vrime Od Nedije Za U Poje Poći (spotify_id=1Ee3PZAQtDhKKP3EVNxIK3)
+2025-12-07 23:18:30,617 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1Ee3PZAQtDhKKP3EVNxIK3
+2025-12-07 23:18:45,021 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 23:18:45,510 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Nije Vrime Od Nedije Za U Poje Poći.mp3
+2025-12-07 23:18:45,518 [INFO] [TASK 229/263] Gibonni - Ozdravi Mi Ti → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ozdravi Mi Ti (spotify_id=2nEDplnTpo0fUWSHob1Xoe)
+2025-12-07 23:18:45,519 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2nEDplnTpo0fUWSHob1Xoe
+2025-12-07 23:19:01,501 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 23:19:02,008 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ozdravi Mi Ti.mp3
+2025-12-07 23:19:02,017 [INFO] [TASK 230/263] Gibonni - Ej, Vapore → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ej, Vapore (spotify_id=0rcLUQMV9qpRR8W7iGzP13)
+2025-12-07 23:19:02,017 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0rcLUQMV9qpRR8W7iGzP13
+2025-12-07 23:19:17,495 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:19:17,998 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ej, Vapore.mp3
+2025-12-07 23:19:18,309 [INFO] [TASK 231/263] Gibonni - Što Je Meni Tvoja Nevjera → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Što Je Meni Tvoja Nevjera (spotify_id=5lpwDnsxurM7SNnLzcJc86)
+2025-12-07 23:19:18,309 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5lpwDnsxurM7SNnLzcJc86
+2025-12-07 23:19:34,227 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što Je Meni Tvoja Nevjera.mp3
+2025-12-07 23:19:34,759 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Što Je Meni Tvoja Nevjera.mp3
+2025-12-07 23:19:34,769 [INFO] [TASK 232/263] Gibonni - Ovo Mi Je Škola → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ovo Mi Je Škola (spotify_id=492ftO1Us4RH4CWyLqAPDo)
+2025-12-07 23:19:34,769 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/492ftO1Us4RH4CWyLqAPDo
+2025-12-07 23:20:07,427 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 23:20:08,549 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ovo Mi Je Škola.mp3
+2025-12-07 23:20:08,560 [INFO] [TASK 233/263] Gibonni - Ako Me Nosiš Na Duši → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ako Me Nosiš Na Duši (spotify_id=3mc0zeraA5lngj1eTPTz0E)
+2025-12-07 23:20:08,560 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3mc0zeraA5lngj1eTPTz0E
+2025-12-07 23:20:26,073 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:20:26,638 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ako Me Nosiš Na Duši.mp3
+2025-12-07 23:20:26,674 [INFO] [TASK 234/263] Gibonni - Ispod Moga Pramca (Tempera) → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ispod Moga Pramca (Tempera) (spotify_id=2FamBKIFU1yrsMEEqxlmjU)
+2025-12-07 23:20:26,674 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2FamBKIFU1yrsMEEqxlmjU
+2025-12-07 23:20:42,740 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:20:43,361 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Ispod Moga Pramca (Tempera).mp3
+2025-12-07 23:20:43,372 [INFO] [TASK 235/263] Gibonni - Projdi Vilo → /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Projdi Vilo (spotify_id=3noBkQdtPjhTDplDWSe00O)
+2025-12-07 23:20:43,373 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3noBkQdtPjhTDplDWSe00O
+2025-12-07 23:20:59,995 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:21:00,525 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1999/Gibonni - 24 Karata ! 18 Velikih/Gibonni - Projdi Vilo.mp3
+2025-12-07 23:21:00,527 [INFO] [TASK 236/263] Gibonni - Ovo mi je škola - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ovo mi je škola - Remaster 2025 (spotify_id=6cRtl7tE2djUy0KTLUdr4m)
+2025-12-07 23:21:00,527 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6cRtl7tE2djUy0KTLUdr4m
+2025-12-07 23:21:18,591 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ovo mi je škola - Remaster 2025.mp3
+2025-12-07 23:21:19,297 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ovo mi je škola - Remaster 2025.mp3
+2025-12-07 23:21:19,305 [INFO] [TASK 237/263] Gibonni - Crno ili bijelo - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Crno ili bijelo - Remaster 2025 (spotify_id=3UbQLh7w82ygSMYT4Dn8tB)
+2025-12-07 23:21:19,305 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3UbQLh7w82ygSMYT4Dn8tB
+2025-12-07 23:21:33,340 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Crno ili bijelo - Remaster 2025.mp3
+2025-12-07 23:21:33,770 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Crno ili bijelo - Remaster 2025.mp3
+2025-12-07 23:21:33,787 [INFO] [TASK 238/263] Gibonni - Loše vino - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Loše vino - Remaster 2025 (spotify_id=7yoOszX5VKJiBTCJQlrI5B)
+2025-12-07 23:21:33,787 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7yoOszX5VKJiBTCJQlrI5B
+2025-12-07 23:21:48,605 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Loše vino - Remaster 2025.mp3
+2025-12-07 23:21:49,045 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Loše vino - Remaster 2025.mp3
+2025-12-07 23:21:49,064 [INFO] [TASK 239/263] Gibonni - Nepobjediva - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Nepobjediva - Remaster 2025 (spotify_id=4W3EiITebBBDucVRdlYUy9)
+2025-12-07 23:21:49,064 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4W3EiITebBBDucVRdlYUy9
+2025-12-07 23:22:03,950 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nepobjediva - Remaster 2025.mp3
+2025-12-07 23:22:04,592 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Nepobjediva - Remaster 2025.mp3
+2025-12-07 23:22:04,612 [INFO] [TASK 240/263] Gibonni - Što je meni tvoja nevjera - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Što je meni tvoja nevjera - Remaster 2025 (spotify_id=6Oqx9UtnovyhvL87x1y5PQ)
+2025-12-07 23:22:04,612 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6Oqx9UtnovyhvL87x1y5PQ
+2025-12-07 23:22:19,537 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Što je meni tvoja nevjera - Remaster 2025.mp3
+2025-12-07 23:22:20,043 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Što je meni tvoja nevjera - Remaster 2025.mp3
+2025-12-07 23:22:20,060 [INFO] [TASK 241/263] Gibonni - Ispod moga pramca (Tempera) - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ispod moga pramca (Tempera) - Remaster 2025 (spotify_id=6HxUCZlGWtCsoqgZR6GDtX)
+2025-12-07 23:22:20,060 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6HxUCZlGWtCsoqgZR6GDtX
+2025-12-07 23:22:35,311 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ispod moga pramca (Tempera) - Remaster 2025.mp3
+2025-12-07 23:22:35,860 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ispod moga pramca (Tempera) - Remaster 2025.mp3
+2025-12-07 23:22:35,877 [INFO] [TASK 242/263] Gibonni - Mogu se kladit u bilo što (Bez tebe...) - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Mogu se kladit u bilo što (Bez tebe...) - Remaster 2025 (spotify_id=6IwMfjt6DMO7QmFSTiYzAJ)
+2025-12-07 23:22:35,877 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6IwMfjt6DMO7QmFSTiYzAJ
+2025-12-07 23:22:51,596 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Mogu se kladit u bilo što (Bez tebe...) - Remaster 2025.mp3
+2025-12-07 23:22:52,282 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Mogu se kladit u bilo što (Bez tebe...mp3
+2025-12-07 23:22:52,297 [INFO] [TASK 243/263] Gibonni - Ako me nosiš na duši - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ako me nosiš na duši - Remaster 2025 (spotify_id=2bz2Bt1DmosQ3QWSoUmFxx)
+2025-12-07 23:22:52,297 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2bz2Bt1DmosQ3QWSoUmFxx
+2025-12-07 23:23:07,421 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ako me nosiš na duši - Remaster 2025.mp3
+2025-12-07 23:23:08,318 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ako me nosiš na duši - Remaster 2025.mp3
+2025-12-07 23:23:08,338 [INFO] [TASK 244/263] Gibonni - Ej, vapore - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ej, vapore - Remaster 2025 (spotify_id=1CGDI1O5UWoYkDV0pCWCqG)
+2025-12-07 23:23:08,338 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1CGDI1O5UWoYkDV0pCWCqG
+2025-12-07 23:23:24,620 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ej, vapore - Remaster 2025.mp3
+2025-12-07 23:23:25,091 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ej, vapore - Remaster 2025.mp3
+2025-12-07 23:23:25,113 [INFO] [TASK 245/263] Gibonni - Ruža vjetrova - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ruža vjetrova - Remaster 2025 (spotify_id=0Jm9y42z5nORcdIhpiSRwH)
+2025-12-07 23:23:25,113 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0Jm9y42z5nORcdIhpiSRwH
+2025-12-07 23:23:40,655 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ruža vjetrova - Remaster 2025.mp3
+2025-12-07 23:23:40,944 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1996/Ruža vjetrova (Remaster 2025)/Gibonni - Ruža vjetrova - Remaster 2025.mp3
+2025-12-07 23:23:40,947 [INFO] [TASK 246/263] Gibonni - Nije vrime od nedije za u poje poći - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Nije vrime od nedije za u poje poći - Remaster 2025 (spotify_id=3ZB0JkaulJYF0zwtyjSqvV)
+2025-12-07 23:23:40,947 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3ZB0JkaulJYF0zwtyjSqvV
+2025-12-07 23:23:56,205 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Nije vrime od nedije za u poje poći - Remaster 2025.mp3
+2025-12-07 23:23:56,717 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Nije vrime od nedije za u poje poći - Remaster 2025.mp3
+2025-12-07 23:23:56,724 [INFO] [TASK 247/263] Gibonni - Kruna od perja - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Kruna od perja - Remaster 2025 (spotify_id=2ZT5G7n10b3kO2ndCPrn70)
+2025-12-07 23:23:56,724 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2ZT5G7n10b3kO2ndCPrn70
+2025-12-07 23:24:11,737 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kruna od perja - Remaster 2025.mp3
+2025-12-07 23:24:12,316 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Kruna od perja - Remaster 2025.mp3
+2025-12-07 23:24:12,402 [INFO] [TASK 248/263] Gibonni - Dvije duše - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Dvije duše - Remaster 2025 (spotify_id=6U8ACi3HxNPe3poDpuY3yf)
+2025-12-07 23:24:12,402 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/6U8ACi3HxNPe3poDpuY3yf
+2025-12-07 23:24:27,892 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Dvije duše - Remaster 2025.mp3
+2025-12-07 23:24:28,919 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Dvije duše - Remaster 2025.mp3
+2025-12-07 23:24:28,972 [INFO] [TASK 249/263] Gibonni - Ozdravi mi ti - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Ozdravi mi ti - Remaster 2025 (spotify_id=56ZHebVWnyYcCgUhvJhagr)
+2025-12-07 23:24:28,973 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/56ZHebVWnyYcCgUhvJhagr
+2025-12-07 23:24:44,946 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ozdravi mi ti - Remaster 2025.mp3
+2025-12-07 23:24:45,468 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Ozdravi mi ti - Remaster 2025.mp3
+2025-12-07 23:24:45,477 [INFO] [TASK 250/263] Gibonni - Predstavi se, tko si - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Predstavi se, tko si - Remaster 2025 (spotify_id=7vkbxnU4xj2TEbN0kuCzmk)
+2025-12-07 23:24:45,477 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/7vkbxnU4xj2TEbN0kuCzmk
+2025-12-07 23:25:04,702 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Predstavi se, tko si - Remaster 2025.mp3
+2025-12-07 23:25:05,235 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Predstavi se, tko si - Remaster 2025.mp3
+2025-12-07 23:25:05,245 [INFO] [TASK 251/263] Gibonni - Goli pod zvijezdama - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Goli pod zvijezdama - Remaster 2025 (spotify_id=3NR7JpuACX6tAnrLPbI4Yd)
+2025-12-07 23:25:05,245 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/3NR7JpuACX6tAnrLPbI4Yd
+2025-12-07 23:25:21,632 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Goli pod zvijezdama - Remaster 2025.mp3
+2025-12-07 23:25:22,306 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Goli pod zvijezdama - Remaster 2025.mp3
+2025-12-07 23:25:22,317 [INFO] [TASK 252/263] Gibonni - Ljudi, drž'te lopova - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Ljudi, drž'te lopova - Remaster 2025 (spotify_id=1AoiwzgFs4iantgjwaHRyy)
+2025-12-07 23:25:22,317 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1AoiwzgFs4iantgjwaHRyy
+2025-12-07 23:25:37,860 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ljudi, drž'te lopova - Remaster 2025.mp3
+2025-12-07 23:25:38,648 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Ljudi, drž'te lopova - Remaster 2025.mp3
+2025-12-07 23:25:38,659 [INFO] [TASK 253/263] Gibonni - Život me umorio - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Život me umorio - Remaster 2025 (spotify_id=4ljzyAXnCYOEFvNkWQaJKz)
+2025-12-07 23:25:38,660 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4ljzyAXnCYOEFvNkWQaJKz
+2025-12-07 23:25:54,951 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Život me umorio - Remaster 2025.mp3
+2025-12-07 23:25:55,567 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Život me umorio - Remaster 2025.mp3
+2025-12-07 23:25:55,587 [INFO] [TASK 254/263] Gibonni - Pjesma za bijelu vranu - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Pjesma za bijelu vranu - Remaster 2025 (spotify_id=0KN5iSXL9xVtNaD1AdxptR)
+2025-12-07 23:25:55,588 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0KN5iSXL9xVtNaD1AdxptR
+2025-12-07 23:26:12,071 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Pjesma za bijelu vranu - Remaster 2025.mp3
+2025-12-07 23:26:12,681 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Pjesma za bijelu vranu - Remaster 2025.mp3
+2025-12-07 23:26:12,692 [INFO] [TASK 255/263] Gibonni - Lipa moja - Remaster 2025 → /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Lipa moja - Remaster 2025 (spotify_id=0ngioUw2Oc214XvW6Jnrxk)
+2025-12-07 23:26:12,693 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/0ngioUw2Oc214XvW6Jnrxk
+2025-12-07 23:26:28,962 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Lipa moja - Remaster 2025.mp3
+2025-12-07 23:26:29,509 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1994/Kruna od perja (Remaster 2025)/Gibonni - Lipa moja - Remaster 2025.mp3
+2025-12-07 23:26:29,511 [INFO] [TASK 256/263] Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio) → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio) (spotify_id=180MLFx7bl5hWdycCAGUaz)
+2025-12-07 23:26:29,511 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/180MLFx7bl5hWdycCAGUaz
+2025-12-07 23:26:43,954 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio).mp3
+2025-12-07 23:26:44,359 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Bolje Da Sam Šutio (Ne Bih Te Naljutio).mp3
+2025-12-07 23:26:44,369 [INFO] [TASK 257/263] Gibonni - Ciccolina → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Ciccolina (spotify_id=1TfOxUQ0UQp4YQXhPyLEVm)
+2025-12-07 23:26:44,369 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1TfOxUQ0UQp4YQXhPyLEVm
+2025-12-07 23:26:59,151 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Ciccolina.mp3
+2025-12-07 23:26:59,614 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Ciccolina.mp3
+2025-12-07 23:26:59,622 [INFO] [TASK 258/263] Gibonni - Zrno Radosti → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Zrno Radosti (spotify_id=1pEWJbrzEFTVuNNuPq6DhU)
+2025-12-07 23:26:59,622 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/1pEWJbrzEFTVuNNuPq6DhU
+2025-12-07 23:27:15,454 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zrno Radosti.mp3
+2025-12-07 23:27:15,950 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Zrno Radosti.mp3
+2025-12-07 23:27:15,960 [INFO] [TASK 259/263] Gibonni - Sve Će Biti K'O Nekada → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Sve Će Biti K'O Nekada (spotify_id=4LI3dtJRWb08XCVghH5UqX)
+2025-12-07 23:27:15,960 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4LI3dtJRWb08XCVghH5UqX
+2025-12-07 23:27:32,123 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sve Će Biti K'O Nekada.mp3
+2025-12-07 23:27:32,646 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Sve Će Biti K'O Nekada.mp3
+2025-12-07 23:27:32,656 [INFO] [TASK 260/263] Gibonni - Sa Mnom Ili Bez Mene → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Sa Mnom Ili Bez Mene (spotify_id=404BNB1QfI0fAXgob08I1O)
+2025-12-07 23:27:32,656 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/404BNB1QfI0fAXgob08I1O
+2025-12-07 23:27:46,599 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:27:47,449 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Sa Mnom Ili Bez Mene.mp3
+2025-12-07 23:27:47,479 [INFO] [TASK 261/263] Gibonni - Kad Te Spomenem → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Kad Te Spomenem (spotify_id=2q6k9h9j5mPgTPqDPoFBdr)
+2025-12-07 23:27:47,479 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/2q6k9h9j5mPgTPqDPoFBdr
+2025-12-07 23:28:03,411 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:28:04,305 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Kad Te Spomenem.mp3
+2025-12-07 23:28:04,316 [INFO] [TASK 262/263] Gibonni - Cijelu Noć Molio Sam Nebo → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Cijelu Noć Molio Sam Nebo (spotify_id=5xLiiZVeeFcUMY8WUtfnOs)
+2025-12-07 23:28:04,316 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/5xLiiZVeeFcUMY8WUtfnOs
+2025-12-07 23:28:21,980 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 23:28:22,793 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Cijelu Noć Molio Sam Nebo.mp3
+2025-12-07 23:28:22,815 [INFO] [TASK 263/263] Gibonni - Zar Bih Te Povrijedio → /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Zar Bih Te Povrijedio (spotify_id=4cWqJtOxn67jybM1xs2OiJ)
+2025-12-07 23:28:22,816 [INFO]   [DL] Pokrećem spotdl za URL: https://open.spotify.com/track/4cWqJtOxn67jybM1xs2OiJ
+2025-12-07 23:28:38,029 [INFO]   [DL] Detektirani novi audio fajl: /Users/khlm/ML/tmp/download/Gibonni - Zar Bih Te Povrijedio.mp3
+2025-12-07 23:28:38,674 [INFO]   [DL-OK] Skinuto i premješteno u: /Volumes/HDD2/Music/Gibonni/1991/Sa Mnom Ili Bez Mene/Gibonni - Zar Bih Te Povrijedio.mp3

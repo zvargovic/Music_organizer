@@ -266,3 +266,50 @@ python -m modules.download track \
   ali koristi isti download engine kao batch
 
 > Napomena: `--dry-run` se može dodati na bilo koju komandu da samo simulira bez downloada.
+
+---
+
+### 🔹 **download_queue.py**
+
+High-level *queue* modul iznad postojećeg `download.py`. Ne skida ništa sam,
+nego za svaki batch JSON poziva:
+
+```bash
+python -m modules.download batch --json <file> --base-path <root> [--dry-run] --info
+```
+
+JSON-ovi se očekuju u direktoriju koji vraća `get_downloader_batch_dir()`.
+
+#### Queue: odradi SVE pending batch JSON-ove
+
+```bash
+python -m modules.download_queue queue \\
+  --path /Volumes/HDD2/Music \\
+  --dry-run
+```
+
+- traži sve `*.json` u batch direktoriju koji **nemaju** sufiks `.json.done`
+- za svaki JSON poziva `modules.download batch` s `--base-path` i `--dry-run`
+- u **dry-run** modu ne skida ništa, samo se simulira poziv downloadera
+- bez `--dry-run`:
+  - svi batch-evi s `exit=0` se rename-aju u `*.json.done`
+  - batch-evi s greškom ostaju u folderu za kasnije ponovno pokretanje
+
+Primjer realnog queue run-a:
+
+```bash
+python -m modules.download_queue queue \\
+  --path /Volumes/HDD2/Music
+```
+
+#### Batch: odradi JEDAN batch JSON preko download.py
+
+```bash
+python -m modules.download_queue batch \\
+  --json data/download_batches/artist_album_20251207_174322.json \\
+  --path /Volumes/HDD2/Music \\
+  --dry-run
+```
+
+- korisno za debug pojedinog batch fajla
+- bez `--dry-run` radi stvarni download

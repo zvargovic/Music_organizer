@@ -97,6 +97,11 @@ Spotify calls:
 
 
 # 8. Downloader modul — IMPLEMENTIRANO
+# 9. Download queue modul — IMPLEMENTIRANO
+STATUS: DONE
+
+- [x] download_queue.py — high-level queue wrapper nad download.py; čita batch JSON-ove iz `get_downloader_batch_dir()` i za svaki poziva `modules.download batch` s `--base-path` i `--dry-run` podrškom (07.12.2025 — DONE)
+
 STATUS: DONE
 
 - [x] download.py — FAZA 1: CLI skeleton (track/album/artist/batch/info), bez realnog downloada
@@ -123,6 +128,64 @@ STATUS: DONE
 - [ ] instrument detection improvements
 - [ ] genre/mood refinements
 
+
+# 🧠 10. Brain Feeder — v1.4.0
+
+## 10.0. Preduvjeti
+- [ ] Dodati stupce u bazu:
+  - `has_audio INTEGER NOT NULL DEFAULT 1`
+  - `want_file INTEGER NOT NULL DEFAULT 1`
+- [ ] Migracija postojeće baze (`ALTER TABLE ... DEFAULT 1`)
+- [ ] load.py:
+  - nakon INSERT/UPDATE dodati:
+    `UPDATE tracks SET has_audio = 1 WHERE sha = ?`
+- [ ] want_file NE dira load.py (odluka brain feedera ili default baze)
+
+## 10.1. Brain Feeder Core (zasebna app/proces)
+- [ ] Napraviti `brain_feeder.py` (zasebni entry-point)
+- [ ] CLI:
+  - `--once`
+  - `--loop`
+  - `--dry-run`
+  - `--info`
+- [ ] DB helper konekcija (WAL + timeout + kratke transakcije)
+- [ ] Retry na `database is locked`
+
+## 10.2. V1 Logika — upravljanje postojećim trackovima
+- [ ] `brain_feeder_rules.json` (favorite_artists, baseline pravila)
+- [ ] engine:
+  - učitaj pravila
+  - pronađi pogođene trackove
+  - izračunaj deltu
+  - UPDATE `want_file`
+- [ ] Dry-run: ispis promjena
+- [ ] Real mode: upis u DB
+
+## 10.3. Downloader integracija
+- [ ] Missing audio → koristiti:
+  `WHERE has_audio = 0 AND want_file = 1`
+- [ ] Statistika:
+  - total_missing
+  - wanted_missing
+- [ ] (opcija) source filter za `bf_source`
+
+## 10.4. V2 — novi zapisi iz Spotify feedera
+- [ ] Dodati `bf_source` u tracks (local/follow/recommendation/manual)
+- [ ] Brain feeder stvara stub zapise:
+  - spotify_id
+  - artist, album, title, godina
+  - `has_audio = 0`
+  - `want_file` prema pravilima
+  - `bf_source = 'followed_artist'`
+- [ ] Downloader automatski vidi stubove i ubacuje ih u batch
+
+## 10.5. V3 — napredni scoring
+- [ ] mood/genre/instrument scoring → `want_file` odluke
+- [ ] `bf_score` (0–100)
+- [ ] automatski threshold
+- [ ] generiranje reporta (`.md` / `.txt`)
+
+
 # 🖥 v2.0.0 — User-facing sloj
 - [ ] REST API
 - [ ] Web UI
@@ -133,13 +196,18 @@ STATUS: DONE
 - Downloader modul (download.py FAZA 2b: spotdl integracija + TMP diff + premještanje u finalni folder) — DONE
 - download.py — batch CLI progress bar (plava trakica, current/total) — DONE
 
-
 ## 2025-12-03
 - DB Creator, config, OAuth — DONE  
+
 ## 2025-12-04
 - Match, AudioAnalyze, Merge — DONE  
+
 ## 2025-12-05
 - Load — DONE  
-- Dodan Import Pipeline u roadmap 
-- Import završen
- 
+- Dodan Import Pipeline u roadmap  
+- Import završen  
+
+## 2025-12-07
+- download_queue.py — DONE  
+- Dodane kolone `has_audio` i `want_file` u plan  
+- Brain Feeder — dodan kompletan modul u roadmap  

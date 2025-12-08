@@ -91,7 +91,11 @@ CREATE TABLE IF NOT EXISTS tracks (
 
     is_missing         INTEGER DEFAULT 0,  -- file više ne postoji na disku
     is_duplicate       INTEGER DEFAULT 0,  -- označen kao duplikat
-    notes              TEXT               -- slobodan tekst / debug
+    notes              TEXT,              -- slobodan tekst / debug
+
+    has_audio          INTEGER NOT NULL DEFAULT 1,
+    want_file          INTEGER NOT NULL DEFAULT 1
+
 );
 
 /* Indexi za najčešće upite */

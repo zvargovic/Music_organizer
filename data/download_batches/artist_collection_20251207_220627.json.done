@@ -1,0 +1,3951 @@
+{
+  "tasks": [
+    {
+      "type": "track",
+      "spotify_id": "3KOw1ruSI5pQsfSKWsXfeV",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "KIŠA - Zinaab"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5mMcjH5qFheaMJy5B819gX",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "Pijesak Nošen Vjetrom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "43hwzSZvMinQw8d6wXvXw5",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "Lažu Fotografije"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4hcBqK6w6nFf1t9bKuFQ1V",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "Mlijeko Proliveno"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5iAYiS6NnAXH0JH523Hldy",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "Ko Si, Da Si"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3vAMoBTpxumKDx9ytLwKGz",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "UVERTIRA"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0sMedlaEpdj9Pjrg0B2pRS",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "year": 2021,
+      "title": "Božjom voljom, svojom voljom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2CMmCYqk0hX6Z2nnxzs0bE",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Onako, Od Oka"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4Ccsz3JQftt2LrsX28Qc3p",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Sreća"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1vj6fI1x7SAvENskbzzznd",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Kad Sam Nasamo S Njom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7lhIq3dsV9GqDGAGjDRQi5",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Bella Figura Intro"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7AgXWsiqJq8hrQRdNOi0sQ",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Bella Figura, Bella Pitura"
+    },
+    {
+      "type": "track",
+      "spotify_id": "59j5gWZMULv6Niw8x4INew",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Gdje To Piše?"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0nJ0dh4qVos0YGSqGJv6Cl",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Udica"
+    },
+    {
+      "type": "track",
+      "spotify_id": "00ZxSxWffjqJTsxlnfqlZF",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Moja Si Kuća"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5akHkKzzSQPtwqeCFwjfJG",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Za Tvoje Dobro"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4TbunAL4D7wg2kv7WKPWWt",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "year": 2016,
+      "title": "Nisi Više Moja Bol"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5IEfWgNUs3xXoW8sKQDZVP",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Andjeo U Tebi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6WmSDMe0SJJXtD0UuDn6Oh",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Vrime Da Se Pomirim Sa Svitom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2hx8WRQfVLQfgv14UPoTz7",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Kad Sam Na Samo Sa Njom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "23HRuULa7kbEfxu43M2FqT",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Zavezanih Ociju"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0FpoeDXMQ6EzfIDzcgssWo",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Sta Ce Meni Moja Dica Ric"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2ME8b8EdHMGkcM79YTMhaP",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Hodaj"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0CKDqcbkJJyiaoW2mjjO5P",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Mi Svijetlimlo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6fQvam3RkxjaRv2PkIQK7T",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Tija Bi Te Zaboravit"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6E0v9zQqI1XiCj2Ri5iJDE",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Sebi Dovoljna"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1wAc0tu3T1vIN0snqcAx1l",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Oslobodi Me - Ako Znas O Cemu Govorim"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6ejlD4RhbDJs2kJXwsqV6B",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Vrime Da Se Pomirim Sa Svitom - Acoustic"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1EBGtZq8jAnyeuN4G7B0xf",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Sta Ce Meni Moja Dica Ric - Bistra Verzija"
+    },
+    {
+      "type": "track",
+      "spotify_id": "66cZTQXjqTcQ2BDobjwSYY",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "..."
+    },
+    {
+      "type": "track",
+      "spotify_id": "2KNYqI8iyaMmywKyby2YlN",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "year": 2015,
+      "title": "Sebi Dovoljna - Mix by Coco Mosquito"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2dPMMyyCHYWwlIMkF22FJQ",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Toleranca"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3rMonTZf4C3D88Kid0Fn4I",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Zedam"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0dWIdk8RdTcygAYYqGNPpv",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Zamoli Me - Mozda Ti Je Ispod Casti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4LL9r551XXtbIOJJLzuzNd",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Vesla Na Vodi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3dyx37kxmCGTFqIsi8mkBy",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Mala Vesla"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3qA01LAnP34n8MCxYMdf9v",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Slavim Ove Dane Sto Si Tu"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3dxepW0Zdz3L8Ct4dvWfAj",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Vrata Do Nas"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3TkzoZBe1jB9KCydTxEYDx",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Opet Si Bogu Drag"
+    },
+    {
+      "type": "track",
+      "spotify_id": "311ErOVqPK5ZBHLSCeuCSe",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Vrata Moje Sestre"
+    },
+    {
+      "type": "track",
+      "spotify_id": "47RL3D5EgqCRaRJExufzc4",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Cemu Se Nadas, Srce Moje"
+    },
+    {
+      "type": "track",
+      "spotify_id": "28WcHkt6botnYvuGHxCvwA",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "year": 2015,
+      "title": "Toleranca - Drugo Citanje"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3sgVCNPfm0UbHxbBJAU9jM",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Oprosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3w5U7oyMWOt7FTw11KQ0j0",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Libar"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3hvGrRYbAMXP9mFcTUcSKd",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Ne Odustajem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2IlXXAJqdROpH7g6HQyZ05",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Tajna Vještina"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5RYoQbLdPVwnHSoaT2vD9b",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Mirakul - Intro"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5uSLzwLqMS33fHP6EPOhHj",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Mirakul"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1sleZGlBe46h7EyLte9jmq",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Za Ljubav Izgorit'"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3N0XZul59oOIlrFGrLEuR9",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Ono Nešto"
+    },
+    {
+      "type": "track",
+      "spotify_id": "589I5meq6pChRoeEQHyX5y",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Kao Časna Riječ"
+    },
+    {
+      "type": "track",
+      "spotify_id": "06dHJ4ICHSCXpltDPiyuWO",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Svi Moji Punti Kad Se Zbroje"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6CHa4nfntKSvbCxlaJ8Qri",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Kad Mi Nebo Bude Dom"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5mp7ckdqTLh94yi1QI9gu2",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Libar Od Mojega Duga"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2crg2KmnQuBygv3hfRrEmZ",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "year": 2015,
+      "title": "Oprosti - A Capella"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3AIKAmEkAgyZzm3sHsTdTw",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Divji Cvit - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3DvMwoQOeVoLJKTeUenjOS",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Mirakul - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1GxYcuVByFISazOaKbVz8U",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Ne Odustajem / Dvije Duse - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "41WhrdcSoHfqudBUHeRBz4",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Amazing Grace - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6Ai16XsQyTv27BffgwlCGE",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Toleranca - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1IvpItbZHbm42Fuq14RqP8",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Zedjam - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0GcnEEtlIcGg1UM2GrlBRu",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Zamoli Me - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4xGcnwPzuczs6w1BBnhFpJ",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Judi, Zviri I Bestinje / Moja Voda - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3v711N9zPhHfOz6HExDuP2",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Slavim Ove Dane - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7KKhGk4i5FaTXm4ltL0MvB",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Posoljeni Zrak I Razlivena Tinta - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3xp7SPZocQ3AEaCz9An9Ho",
+      "artist": "Gibonni",
+      "album": "Live",
+      "year": 2015,
+      "title": "Vrata Moje Setre - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3VKk75qIyGAsEHXp0EVOyM",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Cinim Pravu Stvar - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3Rkjo20nLRjO73nNJrfEUq",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Dvije Duse - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3VKvX1b0PjhcFPIZYp59NH",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Mirakul - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "56FkVpUxeXlPycnKIJ3Ddt",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Posoljeni Zrak I Razlivena Tinta - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2RAmEPmOvLjuG2p5fj7w06",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Tempera - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0tKlHSY57ZFQo828iepMfN",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Sve Cu Prezivit - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4RjP2WkQjOp5YHOozMWh83",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Sta Ce Meni Moja Dica Rec - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3yz8Vro9MEti9CW7rB9DJN",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Svi Moji Punti Kad Se Zbroje - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6ITBc5BaRL2X06V1xiOWGp",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Ovo Mi Je Skola - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0BkDvw1YXbUtNmo9xMPNY4",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6e550IGG3BaIPwUZZDnFPL",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Andjeo U Tebi - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "21339HnEeMjMjrMAXOv0M9",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Libar - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0bSR9TV3iy4eKRo26YInMn",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Oprosti - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7eoVy8j8DyBbcQ0lgitSif",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Vrime Da Se Pomirim Sa Svitom - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1uOahZUCw21Ea34bW5QtTL",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Tija Bi Te Zaboravit - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5ssTTOqOXiv1ip5SeOALQk",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "year": 2015,
+      "title": "Hodaj - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4oIbJdpw8SXinJIZMVSc5p",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Hey Crow"
+    },
+    {
+      "type": "track",
+      "spotify_id": "760NeEtXFMTfUre0f5b2Z8",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Hide the Mirror"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2E7MgjeiDLMq3Faa1Qgh3p",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Broken Finger"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6Th0zqazUn7BInrWQ9eztm",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "My Cloud"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2tHwppCbJC6pwNpm9qtWQ8",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "20th Century Man"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0IgqZPhoBbmUw0P09PitU2",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Kids in Uniform"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7LNGObzu5fAnoYDYfIy2HV",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "My brother Cain"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0eOwzo6AvIXehFlddRNKog",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "She said"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1L3qVSD6MNcFYXzyFdVnms",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Nothing Changes"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1Nbemi2jTe0w56Jwz5MUwp",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "year": 2013,
+      "title": "Ain't bad enough for r'n'r"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5jVRGJKMGIatRDDMHgr3Ax",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Bolje Da Sam Šutio (Ne Bih Te Naljutio)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "587UqJK90NgJSwxY5cZNQz",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ciccolina"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7a6pUQtkzzHVWF6JLZMSkM",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Zrno Radosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5tl0PfrX6nhNqVVl91VxbG",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Sve Će Biti K'O Nekada"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2x3WTwhkzF5NOsjyK1cJDe",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6m5FUFBslTrt2UwB7QnHll",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Kad Te Spomenem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0lTpBlaIMCyJlH9ka6gxdD",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4s4481DVjFDyvAg6Ey9lcE",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Zar Bih Te Povrijedio"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0n5kMM8fLCWZ7T9VM9VPtA",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0H3ZV6X4y3MbgXCsINX050",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Suviše Sam Njen"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2kgZ2WttlsxPtV4stt9lCE",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Noina Arka"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1ArNlrKFAWsYyvZYi7LYSy",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ostat Ću Na Nogama"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5C7D2WPcxNf25zngCDhUyp",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Dobri Judi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6muHWV4Fmxqvlw31sHuXKL",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5CW8xa5EKTIMLD0F2IRSML",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nisi Htjela Siromaha"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1QrBsBw54dJf5neOF5Fgao",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5sX7iGeoZMd0O158z9A1nO",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Kaplja Voska"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4Eao2bVbKNo5jMWJYtYydI",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Mi Smo Prvaci"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7szZy15zocZbcHxOmCLrFc",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7zhProcJRWDGjX12V2OKwm",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Kruna Od Perja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6MmdGPDKAw0RhCMzfpow4I",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Dvije Duše"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4y4Ke5lMWsDKF19Br3KzUM",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ozdravi Mi Ti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5ljLLsZX2UvlmgPPiVcGke",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Predstavi Se, Tko Si"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1EM6P2ToYkHT5hMF6dW9Zb",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Goli Pod Zvijezdama"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6l7XqDj0NkwL6pWB2fb9qr",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ljudi, Drž"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7pKmfh30UrwpPSIioZ8lCS",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Život Me Umorio"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5ed7dEA6KqOgg9dbq69iHm",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Pjesma Za Bijelu Vranu"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6VKU4TIx6yI5eddvjYVZNj",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Lipa Moja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7aiohtqFiaClayPhZjZL1m",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ozdravi Mi Ti - Instrumental"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0ojbJMRL22yHDEyQH8ybuZ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nije Vrime Od Nedije Za U Poje Poći - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4HyXNcZS8CFiGlTUeAvdMi",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Život Me Umorio - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "75WdmJ9oW2VAOjLLhJ8MRL",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Što Je Meni Tvoja Nevjera? - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2xgl1aFxnRHuA2BUHUKh43",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Dobri Judi - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1nByhBJDRk0LLQZKK9ukm0",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Tebe Nisam Bio Vrijedan - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "18S1sTOJWf4sgFsVRZzbLJ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Noina Arka - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5XHxeL5GVALJ8mQwxp0n0s",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Zlatne Godine - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6UtikeIxP5IoOpiE7KpFpB",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Sa Mnom Ili Bez Mene - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5eMZp7O2pXbX30YcfEGsuD",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Da Mi Je Biti Morski Pas - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0cc5dhhNLE8CHDNsNtJXzc",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5svRk1MewKLKsYWD4qi9Wf",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Lipa Moja - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4mGGEHrNIXFQn5I6oHAwq8",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2ihnuvyn2FMCfTmsKONQPg",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1aY7yttXv3eO7C0Eu2UAwY",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Dvije Duše - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0r28YPgTG2PIdwuJ4xsyvJ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ovo Mi Je Škola"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5bguL1xqlI61ESEZaQTi6C",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Crno Ili Bijelo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6Pud1qIn0aeUUliGwvV0xY",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Loše Vino"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5IrXuFFLiNs20qrfYO68nX",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Nepobjediva"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0BQ4GqOZi4D7559y0SOy7B",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Što Je Meni Tvoja Nevjera"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3gcNLB2dTZlmERflq8gyDh",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0ronUWHHiDNoXDLAZgXbHi",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "year": 2012,
+      "title": "Mogu Se Kladit U Bilo Što (Bez Tebe...)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3sxp3y8zXgTvmLxeUT2y55",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "type": "track",
+      "spotify_id": "35w0WRZ5q8ZNfh01YXXUdn",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0IGVDrcFM0OxiAAFfNBUAU",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "type": "track",
+      "spotify_id": "21fXwKEEpbCeI2vh1sdYZb",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Zrno Radosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7s6mpek9l9wRCQrENY7jCk",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Zlatne Godine"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7mPIYnvQC0fGsSWPFyG2pZ",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ostat Ću Na Nogama"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0eor0Nq31WJW1YdRQ8JJ1t",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Kad Te Spomenem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0o7RNekGNKLsuYkMG8roJN",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Dobri Judi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0YVWHBQBnbhjfMMSCRu4eD",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ozdravi Mi Ti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3UTfZkyGrcpIbtWUMJBLkx",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Dvije Duše"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3Oq0t8w1E8uH2jEPwD1XYK",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "U Ljubav Vjere Nemam"
+    },
+    {
+      "type": "track",
+      "spotify_id": "59Nhf6aMJLs3G9LbR7rZSF",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Kruna Od Perja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1KQeHhY3Y1WNbPp822UxGJ",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Lipa Moja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "00xhYMdVYmvfm87kZYfkrg",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Život Me Umorio"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1Soxpf6eozRizxjPBCntRG",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2Rl9eoh7dtejpRovkfdna9",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Dvije Duše - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5O4gYvdQ6touTxGxkHlZE3",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2b5MQO92pO5KjeD8fK8lqN",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Judi, Zviri I Beštimje"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4wMgH24SBRTU0wIVD9bpZr",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Oprosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0utms9nTwovAKJqomTGMCR",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Anđeo U Tebi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4UhC1L71kZaIUvB1pM8CD9",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ovo Mi Je Škola"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7scE55gLp3HWKG2tRPTxf1",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Činim Pravu Stvar"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4z2HPRiYXHSS9OVpglaiAH",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Nepobjediva"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1wF42P3moZFST7v96AnNYW",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ej, Vapore"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6AAhL3DxCXmy8gG0OC8GU8",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4rGpPSj5R7knqsviZqmoSY",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1FZXG9LPWXugDL9rgx8Nw1",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ja Ću Budan Sanjati"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2zEaVotbQePn9IprMQCOnS",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Projdi Vilo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "53TQbbsZKDjau8S2rPf7Ji",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Crno Ili Bijelo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4vGFqEIvpkSgJRMakZ5Kkp",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Loše Vino"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2yLOOUMcS0PqZxY4mLF59N",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1wDe4A48UBhqKwcswmEIIp",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "year": 2011,
+      "title": "Što Je Meni Tvoja Nevjera - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5I0VRaRPnJyO3lEMDu6fDb",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Lipa Moja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6QEbWxYfUfnj2qmW92RsTq",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "16TUXbUBB1JxdrRX8nD4QW",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3X3B0MuF4HuJ8w20IaYdC4",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6wdcU7skbEIRvDZ7w1b53z",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Suviše Sam Njen"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2OFd7JxymRwErNnQHwJHkG",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1FPKRlaZTUm5QOEs3XVfn4",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Ja Ću Budna Sanjati"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7h1jtuT9XRWnX1KmJR1Ady",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Kad Te Spomenem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0nSALZtjTm5W52P9dJXS3B",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Ej, Vapore"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3zoynGOsA6QpdPUVfnd5IX",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Dobri Judi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0Tnf8k6CkUf8y6UGnsxDd1",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Dvije Duše"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2SrzWifgpwFacn3Al8WCur",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Kruna Od Perja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1C4hauFK2ZzwfA011SsL09",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Noina Arka"
+    },
+    {
+      "type": "track",
+      "spotify_id": "34yfpiKPZ1TQxFnOewf3z5",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Zrno Radosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6ybpGNTc277CDq3BvhTHoW",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5MXdLP7jgq1rOsyUYFJITn",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Život Me Umorio"
+    },
+    {
+      "type": "track",
+      "spotify_id": "73vWJd7JyrVEyqPK6qbKSP",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Ovo Mi Je Škola"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0mzKSjOjam0BAvlmp3eGsB",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "year": 2011,
+      "title": "Rušila Sam Mostove Od Sna - Live At Bačvice"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7sBHUVPcMrV9oA7uJx3Gu0",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Nije Vrime Od Nedije Za U Poje Poći - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0NBUb7ed0mJTn5uMATih53",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Život Me Umorio - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "00roJ7GzYhN3vrQXYzAK1l",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Što Je Meni Tvoja Nevjera? - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0ThzCDAWuXLEOaIet0f5st",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Dobri Judi - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1vIZkj8zgvYKwnhkhsnIKK",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Tebe Nisam Bio Vrijedan - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "39WfC3veuEt7sW2nkr6DFK",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Noina Arka - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0vcWodwk5yEiKC09vPLPh7",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Zlatne Godine - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1jCs2AY2KrDuvW0TPd1X5K",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Sa Mnom Ili Bez Mene - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7d7J5EuoUJmo4FM02UI68P",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Da Mi Je Biti Morski Pas - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5EjRgQgSc7toeMlm9YE5pR",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6jfJW1jut58Cjkf7rbWAN2",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Lipa Moja - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6hhlr3OY4sChnsxWo89lKr",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "12BjBUp8WlnUTMOsTc6dv1",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1gctkD2Xn8tvzmj84cJ2bV",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "year": 2006,
+      "title": "Dvije Duše - Live"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5NXqggzMZ5sjvDaAZekIcZ",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Činim pravu stvar"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3CejpDRSYbm3LnwD9KZjbc",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Miss Croatia"
+    },
+    {
+      "type": "track",
+      "spotify_id": "46idU2b95KeAtOCnUMIHO1",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Projdi Vilo - A Capella"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5b2pdLRIfQq915hPANOWsr",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Judi, zviri i beštimje"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6D2m3IJR0VVljR88HXmzN6",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Divji Cvit"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4PJcJPQ0c00GFG64VlkrWP",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Nije Tajna"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4syJRehvazcT8D4Ho1Bqgf",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "I ja ću budan sanjati"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0ARUNEXrdmvwm5My8kHoSO",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Šuti, umukni"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4Xtp5bckMWFKT2Bmiojhf3",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Ne Znam Plesat"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7yqaOH3LzeZDsUU0xi66qm",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Posoljeni Zrak I Razlivena Tinta"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0MTEiRmpyZRxd9It0X4Ro9",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "year": 1999,
+      "title": "Projdi Vilo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5CFH9Tx02LQQQNkYC76N5R",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1QUfd9EZ6PU70x01FMBvaY",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5oaPHJ2goO8FTw8pNjmJ3e",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Kad Te Spomenem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0FYZwQKx4NZfDcgxXTalDn",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2uqkP3zQq9bXx1P6LvNvra",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3oibwCae19n8aQzwS3dKMO",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "32LllJf2qjM9lWvJLFZE8p",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Dobri Judi"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6U2sRL4H7QaSS7lz8LOXYC",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Život Me Umorio"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7ADGi130GjpMPvuZLL5HcJ",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Dvije Duše"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1WtkJ9GevhwDiVOaDfmCsY",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Lipa Moja"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1Ee3PZAQtDhKKP3EVNxIK3",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2nEDplnTpo0fUWSHob1Xoe",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Ozdravi Mi Ti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0rcLUQMV9qpRR8W7iGzP13",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Ej, Vapore"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5lpwDnsxurM7SNnLzcJc86",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Što Je Meni Tvoja Nevjera"
+    },
+    {
+      "type": "track",
+      "spotify_id": "492ftO1Us4RH4CWyLqAPDo",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Ovo Mi Je Škola"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3mc0zeraA5lngj1eTPTz0E",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2FamBKIFU1yrsMEEqxlmjU",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3noBkQdtPjhTDplDWSe00O",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "year": 1999,
+      "title": "Projdi Vilo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6cRtl7tE2djUy0KTLUdr4m",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Ovo mi je škola - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3UbQLh7w82ygSMYT4Dn8tB",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Crno ili bijelo - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7yoOszX5VKJiBTCJQlrI5B",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Loše vino - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4W3EiITebBBDucVRdlYUy9",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Nepobjediva - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6Oqx9UtnovyhvL87x1y5PQ",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Što je meni tvoja nevjera - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6HxUCZlGWtCsoqgZR6GDtX",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Ispod moga pramca (Tempera) - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6IwMfjt6DMO7QmFSTiYzAJ",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Mogu se kladit u bilo što (Bez tebe...) - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2bz2Bt1DmosQ3QWSoUmFxx",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Ako me nosiš na duši - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1CGDI1O5UWoYkDV0pCWCqG",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Ej, vapore - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0Jm9y42z5nORcdIhpiSRwH",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "year": 1996,
+      "title": "Ruža vjetrova - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3ZB0JkaulJYF0zwtyjSqvV",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Nije vrime od nedije za u poje poći - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2ZT5G7n10b3kO2ndCPrn70",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Kruna od perja - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "6U8ACi3HxNPe3poDpuY3yf",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Dvije duše - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "56ZHebVWnyYcCgUhvJhagr",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Ozdravi mi ti - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "7vkbxnU4xj2TEbN0kuCzmk",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Predstavi se, tko si - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "3NR7JpuACX6tAnrLPbI4Yd",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Goli pod zvijezdama - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1AoiwzgFs4iantgjwaHRyy",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Ljudi, drž'te lopova - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4ljzyAXnCYOEFvNkWQaJKz",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Život me umorio - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0KN5iSXL9xVtNaD1AdxptR",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Pjesma za bijelu vranu - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "0ngioUw2Oc214XvW6Jnrxk",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "year": 1994,
+      "title": "Lipa moja - Remaster 2025"
+    },
+    {
+      "type": "track",
+      "spotify_id": "180MLFx7bl5hWdycCAGUaz",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Bolje Da Sam Šutio (Ne Bih Te Naljutio)"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1TfOxUQ0UQp4YQXhPyLEVm",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Ciccolina"
+    },
+    {
+      "type": "track",
+      "spotify_id": "1pEWJbrzEFTVuNNuPq6DhU",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Zrno Radosti"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4LI3dtJRWb08XCVghH5UqX",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Sve Će Biti K'O Nekada"
+    },
+    {
+      "type": "track",
+      "spotify_id": "404BNB1QfI0fAXgob08I1O",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "type": "track",
+      "spotify_id": "2q6k9h9j5mPgTPqDPoFBdr",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Kad Te Spomenem"
+    },
+    {
+      "type": "track",
+      "spotify_id": "5xLiiZVeeFcUMY8WUtfnOs",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "type": "track",
+      "spotify_id": "4cWqJtOxn67jybM1xs2OiJ",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "year": 1991,
+      "title": "Zar Bih Te Povrijedio"
+    }
+  ],
+  "tracks": [
+    {
+      "spotify_id": "3KOw1ruSI5pQsfSKWsXfeV",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "KIŠA - Zinaab"
+    },
+    {
+      "spotify_id": "5mMcjH5qFheaMJy5B819gX",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "Pijesak Nošen Vjetrom"
+    },
+    {
+      "spotify_id": "43hwzSZvMinQw8d6wXvXw5",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "Lažu Fotografije"
+    },
+    {
+      "spotify_id": "4hcBqK6w6nFf1t9bKuFQ1V",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "Mlijeko Proliveno"
+    },
+    {
+      "spotify_id": "5iAYiS6NnAXH0JH523Hldy",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "Ko Si, Da Si"
+    },
+    {
+      "spotify_id": "3vAMoBTpxumKDx9ytLwKGz",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "UVERTIRA"
+    },
+    {
+      "spotify_id": "0sMedlaEpdj9Pjrg0B2pRS",
+      "artist": "Gibonni",
+      "album": "U Po'ure (Extended Edition)",
+      "album_year": 2021,
+      "track_name": "Božjom voljom, svojom voljom"
+    },
+    {
+      "spotify_id": "2CMmCYqk0hX6Z2nnxzs0bE",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Onako, Od Oka"
+    },
+    {
+      "spotify_id": "4Ccsz3JQftt2LrsX28Qc3p",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Sreća"
+    },
+    {
+      "spotify_id": "1vj6fI1x7SAvENskbzzznd",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Kad Sam Nasamo S Njom"
+    },
+    {
+      "spotify_id": "7lhIq3dsV9GqDGAGjDRQi5",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Bella Figura Intro"
+    },
+    {
+      "spotify_id": "7AgXWsiqJq8hrQRdNOi0sQ",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Bella Figura, Bella Pitura"
+    },
+    {
+      "spotify_id": "59j5gWZMULv6Niw8x4INew",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Gdje To Piše?"
+    },
+    {
+      "spotify_id": "0nJ0dh4qVos0YGSqGJv6Cl",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Udica"
+    },
+    {
+      "spotify_id": "00ZxSxWffjqJTsxlnfqlZF",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Moja Si Kuća"
+    },
+    {
+      "spotify_id": "5akHkKzzSQPtwqeCFwjfJG",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Za Tvoje Dobro"
+    },
+    {
+      "spotify_id": "4TbunAL4D7wg2kv7WKPWWt",
+      "artist": "Oliver Dragojevic",
+      "album": "Familija",
+      "album_year": 2016,
+      "track_name": "Nisi Više Moja Bol"
+    },
+    {
+      "spotify_id": "5IEfWgNUs3xXoW8sKQDZVP",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Andjeo U Tebi"
+    },
+    {
+      "spotify_id": "6WmSDMe0SJJXtD0UuDn6Oh",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Vrime Da Se Pomirim Sa Svitom"
+    },
+    {
+      "spotify_id": "2hx8WRQfVLQfgv14UPoTz7",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Kad Sam Na Samo Sa Njom"
+    },
+    {
+      "spotify_id": "23HRuULa7kbEfxu43M2FqT",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Zavezanih Ociju"
+    },
+    {
+      "spotify_id": "0FpoeDXMQ6EzfIDzcgssWo",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Sta Ce Meni Moja Dica Ric"
+    },
+    {
+      "spotify_id": "2ME8b8EdHMGkcM79YTMhaP",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Hodaj"
+    },
+    {
+      "spotify_id": "0CKDqcbkJJyiaoW2mjjO5P",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Mi Svijetlimlo"
+    },
+    {
+      "spotify_id": "6fQvam3RkxjaRv2PkIQK7T",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Tija Bi Te Zaboravit"
+    },
+    {
+      "spotify_id": "6E0v9zQqI1XiCj2Ri5iJDE",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Sebi Dovoljna"
+    },
+    {
+      "spotify_id": "1wAc0tu3T1vIN0snqcAx1l",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Oslobodi Me - Ako Znas O Cemu Govorim"
+    },
+    {
+      "spotify_id": "6ejlD4RhbDJs2kJXwsqV6B",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Vrime Da Se Pomirim Sa Svitom - Acoustic"
+    },
+    {
+      "spotify_id": "1EBGtZq8jAnyeuN4G7B0xf",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Sta Ce Meni Moja Dica Ric - Bistra Verzija"
+    },
+    {
+      "spotify_id": "66cZTQXjqTcQ2BDobjwSYY",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "..."
+    },
+    {
+      "spotify_id": "2KNYqI8iyaMmywKyby2YlN",
+      "artist": "Gibonni",
+      "album": "Unca Fibre",
+      "album_year": 2015,
+      "track_name": "Sebi Dovoljna - Mix by Coco Mosquito"
+    },
+    {
+      "spotify_id": "2dPMMyyCHYWwlIMkF22FJQ",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Toleranca"
+    },
+    {
+      "spotify_id": "3rMonTZf4C3D88Kid0Fn4I",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Zedam"
+    },
+    {
+      "spotify_id": "0dWIdk8RdTcygAYYqGNPpv",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Zamoli Me - Mozda Ti Je Ispod Casti"
+    },
+    {
+      "spotify_id": "4LL9r551XXtbIOJJLzuzNd",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Vesla Na Vodi"
+    },
+    {
+      "spotify_id": "3dyx37kxmCGTFqIsi8mkBy",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Mala Vesla"
+    },
+    {
+      "spotify_id": "3qA01LAnP34n8MCxYMdf9v",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Slavim Ove Dane Sto Si Tu"
+    },
+    {
+      "spotify_id": "3dxepW0Zdz3L8Ct4dvWfAj",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Vrata Do Nas"
+    },
+    {
+      "spotify_id": "3TkzoZBe1jB9KCydTxEYDx",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Opet Si Bogu Drag"
+    },
+    {
+      "spotify_id": "311ErOVqPK5ZBHLSCeuCSe",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Vrata Moje Sestre"
+    },
+    {
+      "spotify_id": "47RL3D5EgqCRaRJExufzc4",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Cemu Se Nadas, Srce Moje"
+    },
+    {
+      "spotify_id": "28WcHkt6botnYvuGHxCvwA",
+      "artist": "Gibonni",
+      "album": "Toleranca",
+      "album_year": 2015,
+      "track_name": "Toleranca - Drugo Citanje"
+    },
+    {
+      "spotify_id": "3sgVCNPfm0UbHxbBJAU9jM",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Oprosti"
+    },
+    {
+      "spotify_id": "3w5U7oyMWOt7FTw11KQ0j0",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Libar"
+    },
+    {
+      "spotify_id": "3hvGrRYbAMXP9mFcTUcSKd",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Ne Odustajem"
+    },
+    {
+      "spotify_id": "2IlXXAJqdROpH7g6HQyZ05",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Tajna Vještina"
+    },
+    {
+      "spotify_id": "5RYoQbLdPVwnHSoaT2vD9b",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Mirakul - Intro"
+    },
+    {
+      "spotify_id": "5uSLzwLqMS33fHP6EPOhHj",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Mirakul"
+    },
+    {
+      "spotify_id": "1sleZGlBe46h7EyLte9jmq",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Za Ljubav Izgorit'"
+    },
+    {
+      "spotify_id": "3N0XZul59oOIlrFGrLEuR9",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Ono Nešto"
+    },
+    {
+      "spotify_id": "589I5meq6pChRoeEQHyX5y",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Kao Časna Riječ"
+    },
+    {
+      "spotify_id": "06dHJ4ICHSCXpltDPiyuWO",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Svi Moji Punti Kad Se Zbroje"
+    },
+    {
+      "spotify_id": "6CHa4nfntKSvbCxlaJ8Qri",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Kad Mi Nebo Bude Dom"
+    },
+    {
+      "spotify_id": "5mp7ckdqTLh94yi1QI9gu2",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Libar Od Mojega Duga"
+    },
+    {
+      "spotify_id": "2crg2KmnQuBygv3hfRrEmZ",
+      "artist": "Gibonni",
+      "album": "Mirakul",
+      "album_year": 2015,
+      "track_name": "Oprosti - A Capella"
+    },
+    {
+      "spotify_id": "3AIKAmEkAgyZzm3sHsTdTw",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Divji Cvit - Live"
+    },
+    {
+      "spotify_id": "3DvMwoQOeVoLJKTeUenjOS",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Mirakul - Live"
+    },
+    {
+      "spotify_id": "1GxYcuVByFISazOaKbVz8U",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Ne Odustajem / Dvije Duse - Live"
+    },
+    {
+      "spotify_id": "41WhrdcSoHfqudBUHeRBz4",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Amazing Grace - Live"
+    },
+    {
+      "spotify_id": "6Ai16XsQyTv27BffgwlCGE",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Toleranca - Live"
+    },
+    {
+      "spotify_id": "1IvpItbZHbm42Fuq14RqP8",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Zedjam - Live"
+    },
+    {
+      "spotify_id": "0GcnEEtlIcGg1UM2GrlBRu",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Zamoli Me - Live"
+    },
+    {
+      "spotify_id": "4xGcnwPzuczs6w1BBnhFpJ",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Judi, Zviri I Bestinje / Moja Voda - Live"
+    },
+    {
+      "spotify_id": "3v711N9zPhHfOz6HExDuP2",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Slavim Ove Dane - Live"
+    },
+    {
+      "spotify_id": "7KKhGk4i5FaTXm4ltL0MvB",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Posoljeni Zrak I Razlivena Tinta - Live"
+    },
+    {
+      "spotify_id": "3xp7SPZocQ3AEaCz9An9Ho",
+      "artist": "Gibonni",
+      "album": "Live",
+      "album_year": 2015,
+      "track_name": "Vrata Moje Setre - Live"
+    },
+    {
+      "spotify_id": "3VKk75qIyGAsEHXp0EVOyM",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Cinim Pravu Stvar - Live"
+    },
+    {
+      "spotify_id": "3Rkjo20nLRjO73nNJrfEUq",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Dvije Duse - Live"
+    },
+    {
+      "spotify_id": "3VKvX1b0PjhcFPIZYp59NH",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Mirakul - Live"
+    },
+    {
+      "spotify_id": "56FkVpUxeXlPycnKIJ3Ddt",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Posoljeni Zrak I Razlivena Tinta - Live"
+    },
+    {
+      "spotify_id": "2RAmEPmOvLjuG2p5fj7w06",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Tempera - Live"
+    },
+    {
+      "spotify_id": "0tKlHSY57ZFQo828iepMfN",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Sve Cu Prezivit - Live"
+    },
+    {
+      "spotify_id": "4RjP2WkQjOp5YHOozMWh83",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Sta Ce Meni Moja Dica Rec - Live"
+    },
+    {
+      "spotify_id": "3yz8Vro9MEti9CW7rB9DJN",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Svi Moji Punti Kad Se Zbroje - Live"
+    },
+    {
+      "spotify_id": "6ITBc5BaRL2X06V1xiOWGp",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Ovo Mi Je Skola - Live"
+    },
+    {
+      "spotify_id": "0BkDvw1YXbUtNmo9xMPNY4",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "spotify_id": "6e550IGG3BaIPwUZZDnFPL",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Andjeo U Tebi - Live"
+    },
+    {
+      "spotify_id": "21339HnEeMjMjrMAXOv0M9",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Libar - Live"
+    },
+    {
+      "spotify_id": "0bSR9TV3iy4eKRo26YInMn",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Oprosti - Live"
+    },
+    {
+      "spotify_id": "7eoVy8j8DyBbcQ0lgitSif",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Vrime Da Se Pomirim Sa Svitom - Live"
+    },
+    {
+      "spotify_id": "1uOahZUCw21Ea34bW5QtTL",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Tija Bi Te Zaboravit - Live"
+    },
+    {
+      "spotify_id": "5ssTTOqOXiv1ip5SeOALQk",
+      "artist": "Gibonni",
+      "album": "Acoustic:Electric",
+      "album_year": 2015,
+      "track_name": "Hodaj - Live"
+    },
+    {
+      "spotify_id": "4oIbJdpw8SXinJIZMVSc5p",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Hey Crow"
+    },
+    {
+      "spotify_id": "760NeEtXFMTfUre0f5b2Z8",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Hide the Mirror"
+    },
+    {
+      "spotify_id": "2E7MgjeiDLMq3Faa1Qgh3p",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Broken Finger"
+    },
+    {
+      "spotify_id": "6Th0zqazUn7BInrWQ9eztm",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "My Cloud"
+    },
+    {
+      "spotify_id": "2tHwppCbJC6pwNpm9qtWQ8",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "20th Century Man"
+    },
+    {
+      "spotify_id": "0IgqZPhoBbmUw0P09PitU2",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Kids in Uniform"
+    },
+    {
+      "spotify_id": "7LNGObzu5fAnoYDYfIy2HV",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "My brother Cain"
+    },
+    {
+      "spotify_id": "0eOwzo6AvIXehFlddRNKog",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "She said"
+    },
+    {
+      "spotify_id": "1L3qVSD6MNcFYXzyFdVnms",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Nothing Changes"
+    },
+    {
+      "spotify_id": "1Nbemi2jTe0w56Jwz5MUwp",
+      "artist": "Gibonni",
+      "album": "20TH CENTURY MAN",
+      "album_year": 2013,
+      "track_name": "Ain't bad enough for r'n'r"
+    },
+    {
+      "spotify_id": "5jVRGJKMGIatRDDMHgr3Ax",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Bolje Da Sam Šutio (Ne Bih Te Naljutio)"
+    },
+    {
+      "spotify_id": "587UqJK90NgJSwxY5cZNQz",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ciccolina"
+    },
+    {
+      "spotify_id": "7a6pUQtkzzHVWF6JLZMSkM",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Zrno Radosti"
+    },
+    {
+      "spotify_id": "5tl0PfrX6nhNqVVl91VxbG",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Sve Će Biti K'O Nekada"
+    },
+    {
+      "spotify_id": "2x3WTwhkzF5NOsjyK1cJDe",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "spotify_id": "6m5FUFBslTrt2UwB7QnHll",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Kad Te Spomenem"
+    },
+    {
+      "spotify_id": "0lTpBlaIMCyJlH9ka6gxdD",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "spotify_id": "4s4481DVjFDyvAg6Ey9lcE",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Zar Bih Te Povrijedio"
+    },
+    {
+      "spotify_id": "0n5kMM8fLCWZ7T9VM9VPtA",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "spotify_id": "0H3ZV6X4y3MbgXCsINX050",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Suviše Sam Njen"
+    },
+    {
+      "spotify_id": "2kgZ2WttlsxPtV4stt9lCE",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Noina Arka"
+    },
+    {
+      "spotify_id": "1ArNlrKFAWsYyvZYi7LYSy",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ostat Ću Na Nogama"
+    },
+    {
+      "spotify_id": "5C7D2WPcxNf25zngCDhUyp",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Dobri Judi"
+    },
+    {
+      "spotify_id": "6muHWV4Fmxqvlw31sHuXKL",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "spotify_id": "5CW8xa5EKTIMLD0F2IRSML",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nisi Htjela Siromaha"
+    },
+    {
+      "spotify_id": "1QrBsBw54dJf5neOF5Fgao",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "spotify_id": "5sX7iGeoZMd0O158z9A1nO",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Kaplja Voska"
+    },
+    {
+      "spotify_id": "4Eao2bVbKNo5jMWJYtYydI",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Mi Smo Prvaci"
+    },
+    {
+      "spotify_id": "7szZy15zocZbcHxOmCLrFc",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "spotify_id": "7zhProcJRWDGjX12V2OKwm",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Kruna Od Perja"
+    },
+    {
+      "spotify_id": "6MmdGPDKAw0RhCMzfpow4I",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Dvije Duše"
+    },
+    {
+      "spotify_id": "4y4Ke5lMWsDKF19Br3KzUM",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ozdravi Mi Ti"
+    },
+    {
+      "spotify_id": "5ljLLsZX2UvlmgPPiVcGke",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Predstavi Se, Tko Si"
+    },
+    {
+      "spotify_id": "1EM6P2ToYkHT5hMF6dW9Zb",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Goli Pod Zvijezdama"
+    },
+    {
+      "spotify_id": "6l7XqDj0NkwL6pWB2fb9qr",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ljudi, Drž"
+    },
+    {
+      "spotify_id": "7pKmfh30UrwpPSIioZ8lCS",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Život Me Umorio"
+    },
+    {
+      "spotify_id": "5ed7dEA6KqOgg9dbq69iHm",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Pjesma Za Bijelu Vranu"
+    },
+    {
+      "spotify_id": "6VKU4TIx6yI5eddvjYVZNj",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Lipa Moja"
+    },
+    {
+      "spotify_id": "7aiohtqFiaClayPhZjZL1m",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ozdravi Mi Ti - Instrumental"
+    },
+    {
+      "spotify_id": "0ojbJMRL22yHDEyQH8ybuZ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nije Vrime Od Nedije Za U Poje Poći - Live"
+    },
+    {
+      "spotify_id": "4HyXNcZS8CFiGlTUeAvdMi",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Život Me Umorio - Live"
+    },
+    {
+      "spotify_id": "75WdmJ9oW2VAOjLLhJ8MRL",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Što Je Meni Tvoja Nevjera? - Live"
+    },
+    {
+      "spotify_id": "2xgl1aFxnRHuA2BUHUKh43",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Dobri Judi - Live"
+    },
+    {
+      "spotify_id": "1nByhBJDRk0LLQZKK9ukm0",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Tebe Nisam Bio Vrijedan - Live"
+    },
+    {
+      "spotify_id": "18S1sTOJWf4sgFsVRZzbLJ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Noina Arka - Live"
+    },
+    {
+      "spotify_id": "5XHxeL5GVALJ8mQwxp0n0s",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Zlatne Godine - Live"
+    },
+    {
+      "spotify_id": "6UtikeIxP5IoOpiE7KpFpB",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Sa Mnom Ili Bez Mene - Live"
+    },
+    {
+      "spotify_id": "5eMZp7O2pXbX30YcfEGsuD",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Da Mi Je Biti Morski Pas - Live"
+    },
+    {
+      "spotify_id": "0cc5dhhNLE8CHDNsNtJXzc",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "spotify_id": "5svRk1MewKLKsYWD4qi9Wf",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Lipa Moja - Live"
+    },
+    {
+      "spotify_id": "4mGGEHrNIXFQn5I6oHAwq8",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "spotify_id": "2ihnuvyn2FMCfTmsKONQPg",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "spotify_id": "1aY7yttXv3eO7C0Eu2UAwY",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Dvije Duše - Live"
+    },
+    {
+      "spotify_id": "0r28YPgTG2PIdwuJ4xsyvJ",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ovo Mi Je Škola"
+    },
+    {
+      "spotify_id": "5bguL1xqlI61ESEZaQTi6C",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Crno Ili Bijelo"
+    },
+    {
+      "spotify_id": "6Pud1qIn0aeUUliGwvV0xY",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Loše Vino"
+    },
+    {
+      "spotify_id": "5IrXuFFLiNs20qrfYO68nX",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Nepobjediva"
+    },
+    {
+      "spotify_id": "0BQ4GqOZi4D7559y0SOy7B",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Što Je Meni Tvoja Nevjera"
+    },
+    {
+      "spotify_id": "3gcNLB2dTZlmERflq8gyDh",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "spotify_id": "0ronUWHHiDNoXDLAZgXbHi",
+      "artist": "Gibonni",
+      "album": "Kolekcija",
+      "album_year": 2012,
+      "track_name": "Mogu Se Kladit U Bilo Što (Bez Tebe...)"
+    },
+    {
+      "spotify_id": "3sxp3y8zXgTvmLxeUT2y55",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "spotify_id": "35w0WRZ5q8ZNfh01YXXUdn",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "spotify_id": "0IGVDrcFM0OxiAAFfNBUAU",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "spotify_id": "21fXwKEEpbCeI2vh1sdYZb",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Zrno Radosti"
+    },
+    {
+      "spotify_id": "7s6mpek9l9wRCQrENY7jCk",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Zlatne Godine"
+    },
+    {
+      "spotify_id": "7mPIYnvQC0fGsSWPFyG2pZ",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ostat Ću Na Nogama"
+    },
+    {
+      "spotify_id": "0eor0Nq31WJW1YdRQ8JJ1t",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Kad Te Spomenem"
+    },
+    {
+      "spotify_id": "0o7RNekGNKLsuYkMG8roJN",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Dobri Judi"
+    },
+    {
+      "spotify_id": "0YVWHBQBnbhjfMMSCRu4eD",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ozdravi Mi Ti"
+    },
+    {
+      "spotify_id": "3UTfZkyGrcpIbtWUMJBLkx",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Dvije Duše"
+    },
+    {
+      "spotify_id": "3Oq0t8w1E8uH2jEPwD1XYK",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "U Ljubav Vjere Nemam"
+    },
+    {
+      "spotify_id": "59Nhf6aMJLs3G9LbR7rZSF",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Kruna Od Perja"
+    },
+    {
+      "spotify_id": "1KQeHhY3Y1WNbPp822UxGJ",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Lipa Moja"
+    },
+    {
+      "spotify_id": "00xhYMdVYmvfm87kZYfkrg",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Život Me Umorio"
+    },
+    {
+      "spotify_id": "1Soxpf6eozRizxjPBCntRG",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "spotify_id": "2Rl9eoh7dtejpRovkfdna9",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Dvije Duše - Live"
+    },
+    {
+      "spotify_id": "5O4gYvdQ6touTxGxkHlZE3",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "spotify_id": "2b5MQO92pO5KjeD8fK8lqN",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Judi, Zviri I Beštimje"
+    },
+    {
+      "spotify_id": "4wMgH24SBRTU0wIVD9bpZr",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Oprosti"
+    },
+    {
+      "spotify_id": "0utms9nTwovAKJqomTGMCR",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Anđeo U Tebi"
+    },
+    {
+      "spotify_id": "4UhC1L71kZaIUvB1pM8CD9",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ovo Mi Je Škola"
+    },
+    {
+      "spotify_id": "7scE55gLp3HWKG2tRPTxf1",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Činim Pravu Stvar"
+    },
+    {
+      "spotify_id": "4z2HPRiYXHSS9OVpglaiAH",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Nepobjediva"
+    },
+    {
+      "spotify_id": "1wF42P3moZFST7v96AnNYW",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ej, Vapore"
+    },
+    {
+      "spotify_id": "6AAhL3DxCXmy8gG0OC8GU8",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "spotify_id": "4rGpPSj5R7knqsviZqmoSY",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "spotify_id": "1FZXG9LPWXugDL9rgx8Nw1",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ja Ću Budan Sanjati"
+    },
+    {
+      "spotify_id": "2zEaVotbQePn9IprMQCOnS",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Projdi Vilo"
+    },
+    {
+      "spotify_id": "53TQbbsZKDjau8S2rPf7Ji",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Crno Ili Bijelo"
+    },
+    {
+      "spotify_id": "4vGFqEIvpkSgJRMakZ5Kkp",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Loše Vino"
+    },
+    {
+      "spotify_id": "2yLOOUMcS0PqZxY4mLF59N",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "spotify_id": "1wDe4A48UBhqKwcswmEIIp",
+      "artist": "Gibonni",
+      "album": "The Platinum Collection",
+      "album_year": 2011,
+      "track_name": "Što Je Meni Tvoja Nevjera - Live"
+    },
+    {
+      "spotify_id": "5I0VRaRPnJyO3lEMDu6fDb",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Lipa Moja"
+    },
+    {
+      "spotify_id": "6QEbWxYfUfnj2qmW92RsTq",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "spotify_id": "16TUXbUBB1JxdrRX8nD4QW",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "spotify_id": "3X3B0MuF4HuJ8w20IaYdC4",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "spotify_id": "6wdcU7skbEIRvDZ7w1b53z",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Suviše Sam Njen"
+    },
+    {
+      "spotify_id": "2OFd7JxymRwErNnQHwJHkG",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "spotify_id": "1FPKRlaZTUm5QOEs3XVfn4",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Ja Ću Budna Sanjati"
+    },
+    {
+      "spotify_id": "7h1jtuT9XRWnX1KmJR1Ady",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Kad Te Spomenem"
+    },
+    {
+      "spotify_id": "0nSALZtjTm5W52P9dJXS3B",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Ej, Vapore"
+    },
+    {
+      "spotify_id": "3zoynGOsA6QpdPUVfnd5IX",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Dobri Judi"
+    },
+    {
+      "spotify_id": "0Tnf8k6CkUf8y6UGnsxDd1",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Dvije Duše"
+    },
+    {
+      "spotify_id": "2SrzWifgpwFacn3Al8WCur",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Kruna Od Perja"
+    },
+    {
+      "spotify_id": "1C4hauFK2ZzwfA011SsL09",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Noina Arka"
+    },
+    {
+      "spotify_id": "34yfpiKPZ1TQxFnOewf3z5",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Zrno Radosti"
+    },
+    {
+      "spotify_id": "6ybpGNTc277CDq3BvhTHoW",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "spotify_id": "5MXdLP7jgq1rOsyUYFJITn",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Život Me Umorio"
+    },
+    {
+      "spotify_id": "73vWJd7JyrVEyqPK6qbKSP",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Ovo Mi Je Škola"
+    },
+    {
+      "spotify_id": "0mzKSjOjam0BAvlmp3eGsB",
+      "artist": "Gibonni",
+      "album": "Najljepše Ljubavne Pjesme",
+      "album_year": 2011,
+      "track_name": "Rušila Sam Mostove Od Sna - Live At Bačvice"
+    },
+    {
+      "spotify_id": "7sBHUVPcMrV9oA7uJx3Gu0",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Nije Vrime Od Nedije Za U Poje Poći - Live"
+    },
+    {
+      "spotify_id": "0NBUb7ed0mJTn5uMATih53",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Život Me Umorio - Live"
+    },
+    {
+      "spotify_id": "00roJ7GzYhN3vrQXYzAK1l",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Što Je Meni Tvoja Nevjera? - Live"
+    },
+    {
+      "spotify_id": "0ThzCDAWuXLEOaIet0f5st",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Dobri Judi - Live"
+    },
+    {
+      "spotify_id": "1vIZkj8zgvYKwnhkhsnIKK",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Tebe Nisam Bio Vrijedan - Live"
+    },
+    {
+      "spotify_id": "39WfC3veuEt7sW2nkr6DFK",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Noina Arka - Live"
+    },
+    {
+      "spotify_id": "0vcWodwk5yEiKC09vPLPh7",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Zlatne Godine - Live"
+    },
+    {
+      "spotify_id": "1jCs2AY2KrDuvW0TPd1X5K",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Sa Mnom Ili Bez Mene - Live"
+    },
+    {
+      "spotify_id": "7d7J5EuoUJmo4FM02UI68P",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Da Mi Je Biti Morski Pas - Live"
+    },
+    {
+      "spotify_id": "5EjRgQgSc7toeMlm9YE5pR",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "U Ljubav Vjere Nemam - Live"
+    },
+    {
+      "spotify_id": "6jfJW1jut58Cjkf7rbWAN2",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Lipa Moja - Live"
+    },
+    {
+      "spotify_id": "6hhlr3OY4sChnsxWo89lKr",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Ozdravi Mi Ti - Live"
+    },
+    {
+      "spotify_id": "12BjBUp8WlnUTMOsTc6dv1",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Nek' Se (Djete Zove Kao Ja) - Live"
+    },
+    {
+      "spotify_id": "1gctkD2Xn8tvzmj84cJ2bV",
+      "artist": "Gibonni",
+      "album": "Koncert",
+      "album_year": 2006,
+      "track_name": "Dvije Duše - Live"
+    },
+    {
+      "spotify_id": "5NXqggzMZ5sjvDaAZekIcZ",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Činim pravu stvar"
+    },
+    {
+      "spotify_id": "3CejpDRSYbm3LnwD9KZjbc",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Miss Croatia"
+    },
+    {
+      "spotify_id": "46idU2b95KeAtOCnUMIHO1",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Projdi Vilo - A Capella"
+    },
+    {
+      "spotify_id": "5b2pdLRIfQq915hPANOWsr",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Judi, zviri i beštimje"
+    },
+    {
+      "spotify_id": "6D2m3IJR0VVljR88HXmzN6",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Divji Cvit"
+    },
+    {
+      "spotify_id": "4PJcJPQ0c00GFG64VlkrWP",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Nije Tajna"
+    },
+    {
+      "spotify_id": "4syJRehvazcT8D4Ho1Bqgf",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "I ja ću budan sanjati"
+    },
+    {
+      "spotify_id": "0ARUNEXrdmvwm5My8kHoSO",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Šuti, umukni"
+    },
+    {
+      "spotify_id": "4Xtp5bckMWFKT2Bmiojhf3",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Ne Znam Plesat"
+    },
+    {
+      "spotify_id": "7yqaOH3LzeZDsUU0xi66qm",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Posoljeni Zrak I Razlivena Tinta"
+    },
+    {
+      "spotify_id": "0MTEiRmpyZRxd9It0X4Ro9",
+      "artist": "Gibonni",
+      "album": "Judi, zviri i beštimje",
+      "album_year": 1999,
+      "track_name": "Projdi Vilo"
+    },
+    {
+      "spotify_id": "5CFH9Tx02LQQQNkYC76N5R",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "spotify_id": "1QUfd9EZ6PU70x01FMBvaY",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "spotify_id": "5oaPHJ2goO8FTw8pNjmJ3e",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Kad Te Spomenem"
+    },
+    {
+      "spotify_id": "0FYZwQKx4NZfDcgxXTalDn",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Tebe Nisam Bio Vrijedan"
+    },
+    {
+      "spotify_id": "2uqkP3zQq9bXx1P6LvNvra",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Zlatne Godine - Unplugged Verzija"
+    },
+    {
+      "spotify_id": "3oibwCae19n8aQzwS3dKMO",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Nek Se Dijete Zove Kao Ja"
+    },
+    {
+      "spotify_id": "32LllJf2qjM9lWvJLFZE8p",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Dobri Judi"
+    },
+    {
+      "spotify_id": "6U2sRL4H7QaSS7lz8LOXYC",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Život Me Umorio"
+    },
+    {
+      "spotify_id": "7ADGi130GjpMPvuZLL5HcJ",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Dvije Duše"
+    },
+    {
+      "spotify_id": "1WtkJ9GevhwDiVOaDfmCsY",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Lipa Moja"
+    },
+    {
+      "spotify_id": "1Ee3PZAQtDhKKP3EVNxIK3",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Nije Vrime Od Nedije Za U Poje Poći"
+    },
+    {
+      "spotify_id": "2nEDplnTpo0fUWSHob1Xoe",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Ozdravi Mi Ti"
+    },
+    {
+      "spotify_id": "0rcLUQMV9qpRR8W7iGzP13",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Ej, Vapore"
+    },
+    {
+      "spotify_id": "5lpwDnsxurM7SNnLzcJc86",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Što Je Meni Tvoja Nevjera"
+    },
+    {
+      "spotify_id": "492ftO1Us4RH4CWyLqAPDo",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Ovo Mi Je Škola"
+    },
+    {
+      "spotify_id": "3mc0zeraA5lngj1eTPTz0E",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Ako Me Nosiš Na Duši"
+    },
+    {
+      "spotify_id": "2FamBKIFU1yrsMEEqxlmjU",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Ispod Moga Pramca (Tempera)"
+    },
+    {
+      "spotify_id": "3noBkQdtPjhTDplDWSe00O",
+      "artist": "Gibonni",
+      "album": "Gibonni - 24 Karata ! 18 Velikih",
+      "album_year": 1999,
+      "track_name": "Projdi Vilo"
+    },
+    {
+      "spotify_id": "6cRtl7tE2djUy0KTLUdr4m",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Ovo mi je škola - Remaster 2025"
+    },
+    {
+      "spotify_id": "3UbQLh7w82ygSMYT4Dn8tB",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Crno ili bijelo - Remaster 2025"
+    },
+    {
+      "spotify_id": "7yoOszX5VKJiBTCJQlrI5B",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Loše vino - Remaster 2025"
+    },
+    {
+      "spotify_id": "4W3EiITebBBDucVRdlYUy9",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Nepobjediva - Remaster 2025"
+    },
+    {
+      "spotify_id": "6Oqx9UtnovyhvL87x1y5PQ",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Što je meni tvoja nevjera - Remaster 2025"
+    },
+    {
+      "spotify_id": "6HxUCZlGWtCsoqgZR6GDtX",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Ispod moga pramca (Tempera) - Remaster 2025"
+    },
+    {
+      "spotify_id": "6IwMfjt6DMO7QmFSTiYzAJ",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Mogu se kladit u bilo što (Bez tebe...) - Remaster 2025"
+    },
+    {
+      "spotify_id": "2bz2Bt1DmosQ3QWSoUmFxx",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Ako me nosiš na duši - Remaster 2025"
+    },
+    {
+      "spotify_id": "1CGDI1O5UWoYkDV0pCWCqG",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Ej, vapore - Remaster 2025"
+    },
+    {
+      "spotify_id": "0Jm9y42z5nORcdIhpiSRwH",
+      "artist": "Gibonni",
+      "album": "Ruža vjetrova (Remaster 2025)",
+      "album_year": 1996,
+      "track_name": "Ruža vjetrova - Remaster 2025"
+    },
+    {
+      "spotify_id": "3ZB0JkaulJYF0zwtyjSqvV",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Nije vrime od nedije za u poje poći - Remaster 2025"
+    },
+    {
+      "spotify_id": "2ZT5G7n10b3kO2ndCPrn70",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Kruna od perja - Remaster 2025"
+    },
+    {
+      "spotify_id": "6U8ACi3HxNPe3poDpuY3yf",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Dvije duše - Remaster 2025"
+    },
+    {
+      "spotify_id": "56ZHebVWnyYcCgUhvJhagr",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Ozdravi mi ti - Remaster 2025"
+    },
+    {
+      "spotify_id": "7vkbxnU4xj2TEbN0kuCzmk",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Predstavi se, tko si - Remaster 2025"
+    },
+    {
+      "spotify_id": "3NR7JpuACX6tAnrLPbI4Yd",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Goli pod zvijezdama - Remaster 2025"
+    },
+    {
+      "spotify_id": "1AoiwzgFs4iantgjwaHRyy",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Ljudi, drž'te lopova - Remaster 2025"
+    },
+    {
+      "spotify_id": "4ljzyAXnCYOEFvNkWQaJKz",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Život me umorio - Remaster 2025"
+    },
+    {
+      "spotify_id": "0KN5iSXL9xVtNaD1AdxptR",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Pjesma za bijelu vranu - Remaster 2025"
+    },
+    {
+      "spotify_id": "0ngioUw2Oc214XvW6Jnrxk",
+      "artist": "Gibonni",
+      "album": "Kruna od perja (Remaster 2025)",
+      "album_year": 1994,
+      "track_name": "Lipa moja - Remaster 2025"
+    },
+    {
+      "spotify_id": "180MLFx7bl5hWdycCAGUaz",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Bolje Da Sam Šutio (Ne Bih Te Naljutio)"
+    },
+    {
+      "spotify_id": "1TfOxUQ0UQp4YQXhPyLEVm",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Ciccolina"
+    },
+    {
+      "spotify_id": "1pEWJbrzEFTVuNNuPq6DhU",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Zrno Radosti"
+    },
+    {
+      "spotify_id": "4LI3dtJRWb08XCVghH5UqX",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Sve Će Biti K'O Nekada"
+    },
+    {
+      "spotify_id": "404BNB1QfI0fAXgob08I1O",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Sa Mnom Ili Bez Mene"
+    },
+    {
+      "spotify_id": "2q6k9h9j5mPgTPqDPoFBdr",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Kad Te Spomenem"
+    },
+    {
+      "spotify_id": "5xLiiZVeeFcUMY8WUtfnOs",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Cijelu Noć Molio Sam Nebo"
+    },
+    {
+      "spotify_id": "4cWqJtOxn67jybM1xs2OiJ",
+      "artist": "Gibonni",
+      "album": "Sa Mnom Ili Bez Mene",
+      "album_year": 1991,
+      "track_name": "Zar Bih Te Povrijedio"
+    }
+  ]
+}

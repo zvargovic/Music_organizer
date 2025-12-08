@@ -1,9 +1,0 @@
-2025-12-06 12:41:22,938 [INFO] Downloader start
-2025-12-06 12:41:22,938 [INFO] Log file: /Users/khlm/ML/logs/download/download_20251206_124122.log
-2025-12-06 12:41:22,938 [INFO] Base path (CLI): /Volumes/HDD2/Music_TEST_EMPTY
-2025-12-06 12:41:22,938 [INFO] [BATCH] mode
-2025-12-06 12:41:22,938 [INFO]   batch JSON: data/download_batches/test_batch.json
-2025-12-06 12:41:22,938 [INFO]   base_path: /Volumes/HDD2/Music_TEST_EMPTY
-2025-12-06 12:41:22,938 [INFO] Planirano taskova: 1, max-tracks limit: 1
-2025-12-06 12:41:22,938 [INFO] [TASK 1/1] Matt Marshak - Shake It Again → /Volumes/HDD2/Music_TEST_EMPTY/Matt Marshak/2004/This Time Around/Matt Marshak - Shake It Again (spotify_id=1zWU8xqh32lGNz2lVElNL1)
-2025-12-06 12:41:22,938 [INFO]   [DRY-RUN] AUDIO NE POSTOJI → ovdje bi išao download.

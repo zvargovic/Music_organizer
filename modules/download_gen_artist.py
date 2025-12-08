@@ -91,7 +91,22 @@ def resolve_output_path(out_arg: Optional[str], suffix: str) -> Path:
 
 
 def write_batch(tasks: List[TrackTask], out_path: Path, info: bool = False) -> None:
-    data = {"tasks": [t.to_json() for t in tasks]}
+    # Generiraj JSON kompatibilan i s našim generatorom i s postojećim downloaderom.
+    # "tasks"  -> naš visoko-razinski format (type/spotify_id/artist/album/year/title)
+    # "tracks" -> format koji očekuje modules.download (spotify_id, artist, album, album_year, track_name, ...)
+    data = {
+        "tasks": [t.to_json() for t in tasks],
+        "tracks": [
+            {
+                "spotify_id": t.spotify_id,
+                "artist": t.artist,
+                "album": t.album,
+                "album_year": t.year or None,
+                "track_name": t.title,
+            }
+            for t in tasks
+        ],
+    }
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8") as f:
@@ -106,33 +121,21 @@ def write_batch(tasks: List[TrackTask], out_path: Path, info: bool = False) -> N
 
 
 def _resolve_token_path() -> Path:
-    """Pokušaj pronaći Spotify token JSON na više mogućih lokacija."""
-    # 1) eksplicitno iz configa, ako postoji
-    if config is not None:
-        for attr in ("SPOTIFY_TOKEN_PATH", "SPOTIFY_TOKEN_FILE", "SPOTIFY_TOKEN_JSON"):
-            if hasattr(config, attr):
-                p = Path(getattr(config, attr))
-                if p.is_file():
-                    return p
+    """Vrati gdje se nalazi Spotify token JSON za ovaj projekt.
 
-        # 2) ako postoji DATA_DIR, probaj unutar njega
-        if hasattr(config, "DATA_DIR"):
-            data_dir = Path(getattr(config, "DATA_DIR"))
-            for cand in ("spotify_token.json", "spotify/token.json"):
-                p = data_dir / cand
-                if p.is_file():
-                    return p
+    Primarni izvor istine je config.get_spotify_token_path().
+    Ne koristimo više nikakve legacy fallbackove tipa data/spotify/token.json.
+    """
+    if config is not None and hasattr(config, "get_spotify_token_path"):
+        try:
+            p = Path(config.get_spotify_token_path())
+            return p
+        except Exception:
+            pass
 
-    # 3) fallback relativno na projekt
-    for cand in (
-        Path("data/spotify/token.json"),
-        Path("data/spotify_token.json"),
-    ):
-        if cand.is_file():
-            return cand
+    # Minimalni fallback: očekuj hidden token u rootu projekta
+    return Path(".spotify_oauth_token.json")
 
-    # ako još uvijek nismo našli, vratimo default (možda ne postoji)
-    return Path("data/spotify/token.json")
 
 
 def load_spotify_token() -> Dict[str, Any]:
